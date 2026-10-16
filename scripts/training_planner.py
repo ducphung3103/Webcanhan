@@ -1083,6 +1083,14 @@ def run_pipeline():
     out_path = PROJECT_ROOT / "ICPC_OLP_Training_Deruck.xlsx"
     manager.generate_full_workbook(out_path)
 
+    # Also save copy in web/ for direct download from web dashboard
+    web_excel = PROJECT_ROOT / "web" / "ICPC_OLP_Training_Deruck.xlsx"
+    try:
+        import shutil
+        shutil.copy2(out_path, web_excel)
+    except Exception:
+        pass
+
     json_path = PROJECT_ROOT / "web" / "data" / "data.json"
     manager.export_frontend_json(json_path)
 
