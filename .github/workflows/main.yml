@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add master_cp_data.xlsx web/data/data.json
+          git add master_cp_data.xlsx ICPC_OLP_Training_Deruck.xlsx web/ICPC_OLP_Training_Deruck.xlsx web/data/data.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
           else
