@@ -1,0 +1,38 @@
+# ROLE
+You are an Expert Full-Stack Developer and Data Engineer. Your task is to build an automated Competitive Programming (CP) learning management system and portfolio website.
+
+# TECH STACK
+- Crawler & Data Processing: Python (BeautifulSoup, Pandas, gspread, openpyxl)
+- Database: Firebase Firestore
+- Hosting & Automation: GitHub Pages, GitHub Actions
+- Frontend: Vanilla JS / HTML / TailwindCSS (or React, keep it lightweight)
+
+# PROJECT ARCHITECTURE & WORKFLOW
+I need to automate the flow of my CP materials without relying on expensive LLM API calls.
+Workflow: Web/Sheets -> Python Crawler -> Categorization -> .xlsx file -> Google Sheets (Master) + Firebase Firestore -> GitHub Pages Frontend.
+
+# TASKS TO IMPLEMENT
+
+1. DATA CRAWLER & PROCESSOR (Python)
+- Write a modular Python script to crawl data from specified CP websites and read existing data from a Google Sheet using `gspread`.
+- Implement a rule-based tagging system to categorize exercises and lectures by topics (e.g., Graph, DP, Data Structures).
+- Export the cleaned and categorized data into a single `.xlsx` file using `pandas`.
+
+2. SYNC SCRIPT (Python -> Sheets & Firebase)
+- Write a script that reads the generated `.xlsx` file.
+- Update this data to a Master Google Sheet using Google Sheets API.
+- Simultaneously, initialize `firebase-admin` and push/sync this data to Firebase Firestore collections (e.g., `exercises`, `materials`, `projects`).
+
+3. FRONTEND (GitHub Pages)
+- Create a clean, static frontend application.
+- Integrate Firebase Client SDK to fetch data from Firestore.
+- Implement UI features: search, filter by topic/tags, and display project links/CP materials.
+
+4. AUTOMATION
+- Provide a `.github/workflows/main.yml` file to run the Python data pipeline automatically on a cron schedule (e.g., weekly or on push) and deploy the frontend to GitHub Pages.
+
+# OUTPUT REQUIREMENTS
+- Provide the complete folder structure.
+- Write robust, production-ready code for `scraper.py`, `sync_firebase.py`, and the web app files.
+- Include a `requirements.txt`.
+- Add comments explaining how to set up the Firebase service account JSON and Google Sheets credentials in GitHub Secrets.

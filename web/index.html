@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICPC & Olympic Tin Học Sinh Viên | Progress Tracker & Knowledge Hub</title>
+  <meta name="description" content="Trang web theo dõi tiến độ luyện tập ICPC & Olympic Tin học Sinh viên, A2OJ Ladder 16, và 137 bài tập khó cần ôn tập cho handle DeruckLoveNewTechnology.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#1e1b4b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Firebase Compat SDKs (Non-blocking) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="min-h-screen bg-[#0b0f19] text-slate-100 flex flex-col justify-between">
+
+  <!-- ========================================== -->
+  <!-- TOP NAVIGATION BAR                         -->
+  <!-- ========================================== -->
+  <header class="sticky top-0 z-50 bg-[#0b0f19]/80 backdrop-blur-xl border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Brand & Profile -->
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 via-indigo-600 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/25">
+          <span class="text-xl">🏆</span>
+        </div>
+        <div>
+          <span class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+            ICPC & OLP Tracker
+            <span class="text-xs px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-mono font-medium">Deruck</span>
+          </span>
+          <span class="block text-xs text-slate-400 font-mono">CF: DeruckLoveNewTechnology (Max: 2800)</span>
+        </div>
+      </div>
+
+      <!-- Sync Status & Links -->
+      <div class="flex items-center space-x-3">
+        <div id="sync-badge" class="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-xs font-mono border bg-slate-900 border-slate-800">
+          <span class="w-2 h-2 mr-2 rounded-full bg-slate-400"></span> Initializing...
+        </div>
+        <button onclick="resetCache()" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:border-slate-700 transition-colors gap-1.5 cursor-pointer" title="Xóa cache và tải lại dữ liệu mới nhất từ hệ thống">
+          <span>🔄</span> <span>Reset Cache</span>
+        </button>
+        <a id="excel-download-btn" href="../ICPC_OLP_Training_Deruck.xlsx" download class="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/80 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/60 transition-colors gap-1.5" title="Tải xuống Master Excel Workbook">
+          <span>📊</span> <span>Excel Sheet</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- HERO & DASHBOARD OVERVIEW                  -->
+  <!-- ========================================== -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
+    
+    <!-- Hero Banner with Countdown -->
+    <div class="glass-card rounded-3xl p-6 sm:p-8 mb-8 border border-slate-800/80 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-indigo-950/50 relative overflow-hidden">
+      <div class="relative z-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+        <div class="max-w-2xl">
+          <div class="flex items-center gap-2 mb-3 flex-wrap">
+            <span class="px-3 py-1 rounded-full text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+              ⚡ ICPC Vietnam & Olympic Tin Học Sinh Viên 2026
+            </span>
+            <span class="px-3 py-1 rounded-full text-xs font-mono bg-amber-500/10 text-amber-400 border border-amber-500/20">
+              🎯 Mục tiêu: Huy Chương Vàng & Slot World Finals
+            </span>
+          </div>
+          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight mb-2">
+            Trung Tâm Theo Dõi Huấn Luyện & Ôn Tập Thuật Toán
+          </h1>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Hệ thống tự động theo dõi lịch trình 7 tuần, 6 đợt Mock Contest 5 giờ, kiểm soát 100 bài A2OJ Ladder 16 và phục hồi kiến thức cho 137 bài khó (1600 – 2800) đã làm từ lâu.
+          </p>
+        </div>
+
+        <!-- Target Contest Countdown Widget -->
+        <div class="flex flex-col sm:flex-row gap-3">
+          <div class="bg-slate-950/80 border border-amber-500/30 p-4 rounded-2xl flex flex-col items-center justify-center min-w-[150px]">
+            <span class="text-xs text-amber-400 font-mono font-medium">Olympic Tin Học SV</span>
+            <span id="countdown-olp" class="text-2xl font-black font-mono text-white mt-1">45 Ngày</span>
+            <span class="text-[10px] text-slate-500 mt-0.5">Khối Chuyên Tin / Siêu Cúp</span>
+          </div>
+          <div class="bg-slate-950/80 border border-indigo-500/30 p-4 rounded-2xl flex flex-col items-center justify-center min-w-[150px]">
+            <span class="text-xs text-indigo-400 font-mono font-medium">ICPC Asia Regional</span>
+            <span id="countdown-icpc" class="text-2xl font-black font-mono text-white mt-1">46 Ngày</span>
+            <span class="text-[10px] text-slate-500 mt-0.5">Team 3 Người / 5 Giờ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick KPI Cards Row -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 pt-6 border-t border-slate-800/80">
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 font-medium">Codeforces Đã Giải</span>
+          <div id="stat-solved-cf" class="text-2xl font-black font-mono text-emerald-400 mt-1">614</div>
+          <span class="text-[11px] text-slate-500">Max: 2800 | Avg: 1487</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 font-medium">Ladder 16 (1700-1799)</span>
+          <div id="stat-ladder-progress" class="text-2xl font-black font-mono text-amber-400 mt-1">69 / 100</div>
+          <span class="text-[11px] text-amber-500/90 font-medium">⚠️ 8 bài cần ôn lại ngay</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 font-medium">Bài Khó Cần Ôn Tập</span>
+          <div id="stat-hard-review" class="text-2xl font-black font-mono text-rose-400 mt-1">137</div>
+          <span class="text-[11px] text-slate-500">Rating 1600 - 2800 (&ge;2 tháng)</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 font-medium">Tiến Độ Huấn Luyện</span>
+          <div id="stat-schedule-progress" class="text-2xl font-black font-mono text-indigo-400 mt-1">0 / 49</div>
+          <span id="stat-schedule-pct" class="text-[11px] text-indigo-400 font-medium">0% hoàn thành</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- NAVIGATION TABS                            -->
+    <!-- ========================================== -->
+    <div class="flex items-center space-x-2 border-b border-slate-800 mb-6 overflow-x-auto pb-2 scrollbar-none">
+      <button class="tab-btn active px-4 py-2.5 rounded-xl text-sm font-semibold transition-all whitespace-nowrap" data-tab="schedule">
+        📅 Lịch Huấn Luyện & Mock Tests (7 Tuần)
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="ladder16">
+        🧗 Ladder 16 Tracker (1700 - 1799)
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="hard">
+        🧠 137 Bài Khó Cần Ôn Lại (Rating 1600-2800)
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="tricks">
+        ⚡ Trick Lỏ & Template Note
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="roadmap">
+        🗺️ Curriculum Roadmap (VOI/ICPC)
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="exercises">
+        🎯 Tất Cả Bài Tập (700+)
+      </button>
+      <button class="tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap" data-tab="stats">
+        📊 Thống Kê & Analytics
+      </button>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB PANES                                  -->
+    <!-- ========================================== -->
+
+    <!-- Pane 1: Lịch Huấn Luyện (Schedule) -->
+    <section id="tab-pane-schedule">
+      <div id="schedule-container">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Pane 2: Ladder 16 Tracker -->
+    <section id="tab-pane-ladder16" style="display: none;">
+      <div id="ladder16-container">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Pane 3: 137 Hard Forgotten Problems -->
+    <section id="tab-pane-hard" style="display: none;">
+      <div id="hard-container">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Pane 4: Trick Lỏ & Template Note -->
+    <section id="tab-pane-tricks" style="display: none;">
+      <div id="tricks-container">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Pane 5: Roadmap -->
+    <section id="tab-pane-roadmap" style="display: none;">
+      <div id="roadmap-container">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Pane 6: Exercises (Existing Filterable Library) -->
+    <section id="tab-pane-exercises" style="display: none;">
+      <div id="filter-toolbar" class="space-y-4 mb-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3">
+          <div class="lg:col-span-6 relative">
+            <input type="text" id="search-input" placeholder="Tìm theo tên bài, ID (e.g. CF-1416D), tag, hoặc ghi chú..." 
+                   class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors">
+            <svg class="w-4 h-4 text-slate-500 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <div class="lg:col-span-2">
+            <select id="platform-select" class="w-full px-3 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm text-slate-300 focus:outline-none focus:border-indigo-500">
+              <option value="ALL">Tất cả Nền tảng</option>
+            </select>
+          </div>
+          <div class="lg:col-span-2">
+            <select id="difficulty-select" class="w-full px-3 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm text-slate-300 focus:outline-none focus:border-indigo-500">
+              <option value="ALL">Tất cả Độ khó</option>
+              <option value="Easy">Easy (&lt; 1400)</option>
+              <option value="Medium">Medium (1400 - 1899)</option>
+              <option value="Hard">Hard (1900 - 2399)</option>
+              <option value="Master / VOI">Master / VOI (2400+)</option>
+              <option value="Grandmaster / TST">Grandmaster / TST (2800+)</option>
+            </select>
+          </div>
+          <div class="lg:col-span-2">
+            <select id="sort-select" class="w-full px-3 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm text-slate-300 focus:outline-none focus:border-indigo-500">
+              <option value="rating-desc">Rating: Cao → Thấp</option>
+              <option value="rating-asc">Rating: Thấp → Cao</option>
+              <option value="title">Tên bài (A-Z)</option>
+            </select>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none" id="topic-chips"></div>
+        <div class="text-xs text-slate-400 font-mono" id="problem-count-text">Đang tải danh sách bài tập...</div>
+      </div>
+      <div id="exercises-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+      <div id="pagination-container" class="mt-6"></div>
+    </section>
+
+    <!-- Pane 7: Stats -->
+    <section id="tab-pane-stats" style="display: none;">
+      <div id="stats-container"></div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer class="border-t border-slate-800/80 bg-[#080c14] py-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
+      <p class="font-medium text-slate-400">🏆 ICPC & Olympic Tin Học Sinh Viên Training Management System</p>
+      <p class="text-slate-600">
+        Handle: <span class="text-amber-400 font-mono font-medium">DeruckLoveNewTechnology</span> &bull; 
+        Dữ liệu đồng bộ trực tiếp từ Codeforces API, A2OJ Ladder 16 và Workbooks ICPC.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

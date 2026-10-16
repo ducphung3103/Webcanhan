@@ -1,0 +1,16 @@
+# Core Data Processing & Crawler
+pandas>=2.2.0
+openpyxl>=3.1.2
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+
+# Google Sheets & Cloud Services
+gspread>=6.1.0
+google-auth>=2.29.0
+google-api-python-client>=2.120.0
+
+# Firebase Firestore Sync
+firebase-admin>=6.5.0
+
+# Environment Configuration
+python-dotenv>=1.0.1
