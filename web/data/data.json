@@ -1,15 +1,20 @@
 {
-  "updated_at": "2026-10-16T09:16:50.190588",
+  "updated_at": "2026-10-16T18:25:59.674312",
   "user_handle": "DeruckLoveNewTechnology",
   "stats": {
     "total_cf_submissions": 662,
     "total_cf_solved": 615,
+    "cf_max_rating": 2107,
+    "cf_rank": "Master",
+    "cf_peak_velocity": "138 bài/tuần",
     "ladder16_total": 100,
     "ladder16_solved": 70,
     "ladder16_review_needed": 8,
     "ladder16_unsolved": 30,
     "hard_review_count": 137,
     "schedule_total_days": 56,
+    "schedule_total_problems": 224,
+    "daily_target": "4 - 5 bài/ngày (Lực Master 2107)",
     "accounts": {
       "Codeforces": "DeruckLoveNewTechnology"
     }
@@ -17,675 +22,2915 @@
   "schedule": [
     {
       "date": "2026-10-17",
+      "date_str": "2026-10-17",
       "day_name": "Thứ Bảy",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-      "activity": "Thử máy Vòng thi ICPC Miền Nam 2026 (ĐH KHTN TP.HCM)",
-      "link": "https://codeforces.com/gyms",
-      "problem_name": "ICPC Miền Nam 2026 - Practice Session",
-      "rating": "ICPC Team",
-      "session_type": "THỬ MÁY",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
+      "activity": "Thử máy Vòng thi ICPC Miền Nam 2026 (ĐH KHTN TP.HCM) & Speed Warm-up",
+      "session_type": "THỬ MÁY & WARM-UP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 217A - Ice Skating",
+          "url": "https://codeforces.com/problemset/problem/217/A",
+          "rating": 1400,
+          "tag": "Graph / DSU components",
+          "time_est": "15m",
+          "id": "2026-10-17_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 295B - Greg and Graph",
+          "url": "https://codeforces.com/contest/295/problem/B",
+          "rating": 1700,
+          "tag": "Floyd-Warshall reverse trick - Ladder 16",
+          "time_est": "25m",
+          "id": "2026-10-17_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1746D - Paths on the Tree",
+          "url": "https://codeforces.com/problemset/problem/1746/D",
+          "rating": 2200,
+          "tag": "Tree DP, Divide and Conquer",
+          "time_est": "40m",
+          "id": "2026-10-17_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1416D - DSU-Tree and Queries",
+          "url": "https://codeforces.com/contest/1416/problem/D",
+          "rating": 2600,
+          "tag": "DSU Tree, Small to Large - Re-solve bài cũ",
+          "time_est": "55m",
+          "id": "2026-10-17_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/217/A",
+      "problem_name": "Bộ 4 bài: Codeforces 217A, Codeforces 295B, Codeforces 1746D, Codeforces 1416D",
+      "rating": "1400 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-18",
+      "date_str": "2026-10-18",
       "day_name": "Chủ Nhật",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
       "activity": "CHÍNH THỨC THI ICPC MIỀN NAM 2026 (5 GIỜ)",
+      "session_type": "OFFICIAL CONTEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OFFICIAL CONTEST (5H)",
+          "name": "ICPC Southern Vietnam Regional Contest 2026",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2200,
+          "tag": "5h Live Contest - ĐH KHTN TP.HCM",
+          "time_est": "300m",
+          "id": "2026-10-18_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Đồ thị / Cây mức trung bình trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 1900,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "45m",
+          "id": "2026-10-18_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Quy hoạch động phân hóa trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2200,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-10-18_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài khó nhất trong tầm với (Hard Decisive)",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2400,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-10-18_p4"
+        }
+      ],
       "link": "https://codeforces.com/gyms",
-      "problem_name": "ICPC Southern Vietnam Regional Contest 2026",
-      "rating": "ICPC Team",
-      "session_type": "OFFICIAL CONTEST",
+      "problem_name": "Bộ 4 bài: ICPC Southern Vietnam Regional Contest 2026, Upsolve Bài Đồ thị / Cây mức trung bình trong đề, Upsolve Bài Quy hoạch động phân hóa trong đề, Upsolve Bài khó nhất trong tầm với (Hard Decisive)",
+      "rating": "1900 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-19",
+      "date_str": "2026-10-19",
       "day_name": "Thứ Hai",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-      "activity": "Upsolving đề ICPC Miền Nam & Phân tích lỗi kỹ thuật phòng thi",
-      "link": "https://codeforces.com/gyms",
-      "problem_name": "Upsolve ICPC Miền Nam",
-      "rating": "Hard",
-      "session_type": "Upsolving",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
+      "activity": "Mổ xẻ chiến thuật đề Miền Nam & Rerooting Tree DP",
+      "session_type": "UPSOLVING & TREE DP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1338A - Powered Addition",
+          "url": "https://codeforces.com/problemset/problem/1338/A",
+          "rating": 1500,
+          "tag": "Greedy / Bitwise speed",
+          "time_est": "15m",
+          "id": "2026-10-19_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1187E - Tree Painting",
+          "url": "https://codeforces.com/problemset/problem/1187/E",
+          "rating": 2100,
+          "tag": "Rerooting DP trên Cây - Coản Coản sheet",
+          "time_est": "30m",
+          "id": "2026-10-19_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 375D - Tree and Queries",
+          "url": "https://codeforces.com/problemset/problem/375/D",
+          "rating": 2400,
+          "tag": "Mo on Tree, DSU on Tree - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-19_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1707C - DFS Trees",
+          "url": "https://codeforces.com/problemset/problem/1707/C",
+          "rating": 2600,
+          "tag": "DFS Tree, Euler Tour - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-10-19_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1338/A",
+      "problem_name": "Bộ 4 bài: Codeforces 1338A, Codeforces 1187E, Codeforces 375D, Codeforces 1707C",
+      "rating": "1500 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-20",
+      "date_str": "2026-10-20",
       "day_name": "Thứ Ba",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-      "activity": "Re-solve bài cũ: DSU Tree & Small to Large",
-      "link": "https://codeforces.com/contest/1416/problem/D",
-      "problem_name": "Codeforces 1416D - DSU Tree",
-      "rating": "2600",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
+      "activity": "Đường đi ngắn nhất & Dijkstra trạng thái nâng cao",
+      "session_type": "SHORTEST PATH & GRAPH",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 126B - Password",
+          "url": "https://codeforces.com/problemset/problem/126/B",
+          "rating": 1700,
+          "tag": "KMP / Z-algo prefix-suffix - Ladder 16",
+          "time_est": "20m",
+          "id": "2026-10-20_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1442C - Graph Coloring and Shortest Path",
+          "url": "https://codeforces.com/contest/1442/problem/C",
+          "rating": 2400,
+          "tag": "Dijkstra 2 chiều trạng thái - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-20_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1697E - Transparent Graph",
+          "url": "https://codeforces.com/contest/1697/problem/E",
+          "rating": 2400,
+          "tag": "Graph, DP, Tổ hợp - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-20_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1856E2 - PermuTree (hard version)",
+          "url": "https://codeforces.com/problemset/problem/1856/E2",
+          "rating": 2700,
+          "tag": "Tree, Knapsack, Bitset - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-10-20_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/126/B",
+      "problem_name": "Bộ 4 bài: Codeforces 126B, Codeforces 1442C, Codeforces 1697E, Codeforces 1856E2",
+      "rating": "1700 - 2700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-21",
+      "date_str": "2026-10-21",
       "day_name": "Thứ Tư",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-      "activity": "Ladder 16 Re-solve: Graph & Shortest Paths (Floyd trick)",
-      "link": "https://codeforces.com/contest/295/problem/B",
-      "problem_name": "Codeforces 295B - Greg and Graph",
-      "rating": "1700",
-      "session_type": "Ladder 16 Re-solve",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
+      "activity": "Cây khung nhỏ nhất (MST) & DSU Rollback",
+      "session_type": "MST & DSU ROLLBACK",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 161D - Distance in Tree",
+          "url": "https://codeforces.com/problemset/problem/161/D",
+          "rating": 1800,
+          "tag": "Tree DP cơ bản - Ladder 16",
+          "time_est": "20m",
+          "id": "2026-10-21_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1633E - Spanning Tree Queries",
+          "url": "https://codeforces.com/problemset/problem/1633/E",
+          "rating": 2100,
+          "tag": "MST, Sweepline ternary - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-21_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1761E - Make It Connected",
+          "url": "https://codeforces.com/problemset/problem/1761/E",
+          "rating": 2400,
+          "tag": "Graph, Connected components - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-21_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 613D - Kingdom and its Cities",
+          "url": "https://codeforces.com/problemset/problem/613/D",
+          "rating": 2800,
+          "tag": "Virtual Tree / Auxiliary Tree - Re-solve bài cũ",
+          "time_est": "70m",
+          "id": "2026-10-21_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/161/D",
+      "problem_name": "Bộ 4 bài: Codeforces 161D, Codeforces 1633E, Codeforces 1761E, Codeforces 613D",
+      "rating": "1800 - 2800",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-22",
+      "date_str": "2026-10-22",
       "day_name": "Thứ Năm",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-      "activity": "Re-solve bài cũ: Mo on Tree & Rerooting",
-      "link": "https://codeforces.com/problemset/problem/375/D",
-      "problem_name": "Codeforces 375D - Mo on tree",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
+      "activity": "Heavy-Light Decomposition & Cây phân đoạn trên Cây",
+      "session_type": "HLD & TREE QUERIES",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1365D - Solve The Maze",
+          "url": "https://codeforces.com/problemset/problem/1365/D",
+          "rating": 1700,
+          "tag": "BFS / Constructive graph - Ladder 16",
+          "time_est": "15m",
+          "id": "2026-10-22_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1709E - XOR Tree",
+          "url": "https://codeforces.com/problemset/problem/1709/E",
+          "rating": 2300,
+          "tag": "DSU on Tree, Trie XOR - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-10-22_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1774F1 - Magician and Pigs (Easy)",
+          "url": "https://codeforces.com/problemset/problem/1774/F1",
+          "rating": 2400,
+          "tag": "Tree / DP Observation - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-22_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1858E1 - Rollbacks (Easy Version)",
+          "url": "https://codeforces.com/problemset/problem/1858/E1",
+          "rating": 2500,
+          "tag": "Tree, DSU Rollback - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-10-22_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1365/D",
+      "problem_name": "Bộ 4 bài: Codeforces 1365D, Codeforces 1709E, Codeforces 1774F1, Codeforces 1858E1",
+      "rating": "1700 - 2500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-23",
+      "date_str": "2026-10-23",
       "day_name": "Thứ Sáu",
       "week_num": 1,
-      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU, Shortest Path",
       "activity": "Rà soát Template & Chuẩn bị chiến thuật Vòng Miền Trung",
-      "link": "https://codeforces.com/problemset/problem/217/A",
-      "problem_name": "Codeforces 217A - Ice Skating",
-      "rating": "1400",
-      "session_type": "Review Template",
+      "session_type": "TEMPLATE REVIEW",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 118D - Caesar's Legions",
+          "url": "https://codeforces.com/problemset/problem/118/D",
+          "rating": 1600,
+          "tag": "DP cơ bản lấy nhịp tay",
+          "time_est": "15m",
+          "id": "2026-10-23_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1691E - Number of Groups",
+          "url": "https://codeforces.com/problemset/problem/1691/E",
+          "rating": 2200,
+          "tag": "Segment Tree + DSU - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-23_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1689E - AND-OR-MAX",
+          "url": "https://codeforces.com/problemset/problem/1689/E",
+          "rating": 2400,
+          "tag": "Graph, Connectedness, Bitwise - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-23_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Checklist",
+          "name": "In ấn & Rà soát Template HLD, DSU Rollback, Euler Tour",
+          "url": "https://codeforces.com",
+          "rating": 2000,
+          "tag": "Team Notebook checklist",
+          "time_est": "30m",
+          "id": "2026-10-23_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/118/D",
+      "problem_name": "Bộ 4 bài: Codeforces 118D, Codeforces 1691E, Codeforces 1689E, In ấn & Rà soát Template HLD, DSU Rollback, Euler Tour",
+      "rating": "1600 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-24",
+      "date_str": "2026-10-24",
       "day_name": "Thứ Bảy",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Thử máy Vòng thi ICPC Miền Trung 2026 (ĐH Khoa học - ĐH Huế)",
-      "link": "https://codeforces.com/gyms",
-      "problem_name": "ICPC Miền Trung 2026 - Practice Session",
-      "rating": "ICPC Team",
-      "session_type": "THỬ MÁY",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "Thử máy Vòng thi ICPC Miền Trung 2026 (ĐH Khoa học Huế) & Speed Warm-up",
+      "session_type": "THỬ MÁY & WARM-UP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 471D - MUH and Cube Walls",
+          "url": "https://codeforces.com/problemset/problem/471/D",
+          "rating": 1800,
+          "tag": "Differencing + KMP - Ladder 16 review",
+          "time_est": "20m",
+          "id": "2026-10-24_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "CSES 1654 - SOS DP",
+          "url": "https://cses.fi/problemset/task/1654",
+          "rating": 2100,
+          "tag": "Sum Over Subsets DP kinh điển",
+          "time_est": "30m",
+          "id": "2026-10-24_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1743E - FTL",
+          "url": "https://codeforces.com/problemset/problem/1743/E",
+          "rating": 2100,
+          "tag": "Knapsack DP - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-10-24_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 449D - Jzzhu and Numbers",
+          "url": "https://codeforces.com/problemset/problem/449/D",
+          "rating": 2400,
+          "tag": "SOS DP + Bao hàm loại trừ - Re-solve bài cũ",
+          "time_est": "50m",
+          "id": "2026-10-24_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/471/D",
+      "problem_name": "Bộ 4 bài: Codeforces 471D, CSES 1654, Codeforces 1743E, Codeforces 449D",
+      "rating": "1800 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-25",
+      "date_str": "2026-10-25",
       "day_name": "Chủ Nhật",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
       "activity": "CHÍNH THỨC THI ICPC MIỀN TRUNG 2026 (5 GIỜ)",
+      "session_type": "OFFICIAL CONTEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OFFICIAL CONTEST (5H)",
+          "name": "ICPC Central Vietnam Regional Contest 2026",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2200,
+          "tag": "5h Live Contest - ĐH Khoa học Huế",
+          "time_est": "300m",
+          "id": "2026-10-25_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Quy hoạch động phân hóa trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2000,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "45m",
+          "id": "2026-10-25_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Cấu trúc dữ liệu trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2200,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-10-25_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài khó quyết định thứ hạng",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2400,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-10-25_p4"
+        }
+      ],
       "link": "https://codeforces.com/gyms",
-      "problem_name": "ICPC Central Vietnam Regional Contest 2026",
-      "rating": "ICPC Team",
-      "session_type": "OFFICIAL CONTEST",
+      "problem_name": "Bộ 4 bài: ICPC Central Vietnam Regional Contest 2026, Upsolve Bài Quy hoạch động phân hóa trong đề, Upsolve Bài Cấu trúc dữ liệu trong đề, Upsolve Bài khó quyết định thứ hạng",
+      "rating": "2000 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-26",
+      "date_str": "2026-10-26",
       "day_name": "Thứ Hai",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Upsolve đề Miền Trung & Củng cố SOS DP",
-      "link": "https://cses.fi/problemset/task/1654",
-      "problem_name": "CSES 1654 - SOS DP",
-      "rating": "2100",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "Mổ xẻ đề Miền Trung & Convex Hull Trick (CHT)",
+      "session_type": "CHT & OPTIMIZATION",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 346B - Lucky Common Subsequence",
+          "url": "https://codeforces.com/problemset/problem/346/B",
+          "rating": 2000,
+          "tag": "DP + KMP Automaton - Ladder 16 review",
+          "time_est": "30m",
+          "id": "2026-10-26_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1661D - Progressions Covering",
+          "url": "https://codeforces.com/problemset/problem/1661/D",
+          "rating": 1900,
+          "tag": "Difference Array DP - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-10-26_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1715E - Long Way Home",
+          "url": "https://codeforces.com/problemset/problem/1715/E",
+          "rating": 2400,
+          "tag": "Dijkstra + CHT - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-26_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1859E - Maximum Monogonosity",
+          "url": "https://codeforces.com/problemset/problem/1859/E",
+          "rating": 2500,
+          "tag": "Dynamic Programming - Re-solve bài cũ",
+          "time_est": "55m",
+          "id": "2026-10-26_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/346/B",
+      "problem_name": "Bộ 4 bài: Codeforces 346B, Codeforces 1661D, Codeforces 1715E, Codeforces 1859E",
+      "rating": "1900 - 2500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-27",
+      "date_str": "2026-10-27",
       "day_name": "Thứ Ba",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Re-solve bài cũ: SOS DP & Bao hàm loại trừ",
-      "link": "https://codeforces.com/problemset/problem/449/D",
-      "problem_name": "Codeforces 449D - Jzzhu and Numbers",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "Li Chao Tree & WQS Binary Search (Alien's Trick)",
+      "session_type": "LI CHAO & ALIEN TRICK",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 319B - Psychos in a Line",
+          "url": "https://codeforces.com/problemset/problem/319/B",
+          "rating": 1800,
+          "tag": "Monotonic Stack - Ladder 16",
+          "time_est": "20m",
+          "id": "2026-10-27_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1638D - Big Brush",
+          "url": "https://codeforces.com/problemset/problem/1638/D",
+          "rating": 2000,
+          "tag": "Reverse DP / Greedy - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-27_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1768D - Lucky Permutation",
+          "url": "https://codeforces.com/problemset/problem/1768/D",
+          "rating": 1900,
+          "tag": "Cycle Decomposition DP - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-27_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1292D - Chaotic V.",
+          "url": "https://codeforces.com/problemset/problem/1292/D",
+          "rating": 2700,
+          "tag": "Number Theory DP on Tree - Re-solve bài cũ",
+          "time_est": "65m",
+          "id": "2026-10-27_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/319/B",
+      "problem_name": "Bộ 4 bài: Codeforces 319B, Codeforces 1638D, Codeforces 1768D, Codeforces 1292D",
+      "rating": "1800 - 2700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-28",
+      "date_str": "2026-10-28",
       "day_name": "Thứ Tư",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Kiểm tra cá nhân OLP Mini-Mock Contest (2.5h - CF Div.2)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "Mini-Mock OLP Contest (2.5h) & Bitmask DP",
+      "session_type": "OLP MINI TEST (2.5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OLP Mini Contest (2.5h)",
+          "name": "Codeforces Round 955 (Div. 2/1)",
+          "url": "https://codeforces.com/contest/1987",
+          "rating": 1900,
+          "tag": "Simulation 4 bài thi cá nhân",
+          "time_est": "150m",
+          "id": "2026-10-28_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1779D - Boris and His Amazing Haircut",
+          "url": "https://codeforces.com/problemset/problem/1779/D",
+          "rating": 1900,
+          "tag": "Monotonic Stack + SegTree - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-10-28_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1801C - Music Festival",
+          "url": "https://codeforces.com/problemset/problem/1801/C",
+          "rating": 1900,
+          "tag": "LIS / Coordinate compression - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-28_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1736C2 - Good Subarrays (Hard)",
+          "url": "https://codeforces.com/problemset/problem/1736/C2",
+          "rating": 2000,
+          "tag": "DP Prefix Max SegTree - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-10-28_p4"
+        }
+      ],
       "link": "https://codeforces.com/contest/1987",
-      "problem_name": "Codeforces Round 955 (Div. 2/1)",
-      "rating": "1500-2200",
-      "session_type": "OLP Mini Test",
+      "problem_name": "Bộ 4 bài: Codeforces Round 955 (Div. 2/1), Codeforces 1779D, Codeforces 1801C, Codeforces 1736C2",
+      "rating": "1900 - 2000",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-29",
+      "date_str": "2026-10-29",
       "day_name": "Thứ Năm",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Convex Hull Trick & Li Chao Tree / Alien's Trick",
-      "link": "https://codeforces.com/problemset/problem/1715/E",
-      "problem_name": "Codeforces 1715E - Long Way Home (Dijkstra + CHT)",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "DP Digit & DP kết hợp Cấu trúc dữ liệu",
+      "session_type": "DP ON DATA STRUCTURES",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 189A - Cut Ribbon",
+          "url": "https://codeforces.com/problemset/problem/189/A",
+          "rating": 1300,
+          "tag": "Knapsack speed warm-up",
+          "time_est": "10m",
+          "id": "2026-10-29_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1765K - Torus Path",
+          "url": "https://codeforces.com/problemset/problem/1765/K",
+          "rating": 1900,
+          "tag": "Matrix / Adhoc DP - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-10-29_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1733D2 - Zero-One (Hard Version)",
+          "url": "https://codeforces.com/problemset/problem/1733/D2",
+          "rating": 2000,
+          "tag": "Dynamic Programming - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-10-29_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1974G - Money Buys Less Happiness Now",
+          "url": "https://codeforces.com/problemset/problem/1974/G",
+          "rating": 2600,
+          "tag": "Priority Queue DP - Re-solve bài cũ",
+          "time_est": "50m",
+          "id": "2026-10-29_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/189/A",
+      "problem_name": "Bộ 4 bài: Codeforces 189A, Codeforces 1765K, Codeforces 1733D2, Codeforces 1974G",
+      "rating": "1300 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-30",
+      "date_str": "2026-10-30",
       "day_name": "Thứ Sáu",
       "week_num": 2,
-      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-      "activity": "Ladder 16 Re-solve: KMP + DP",
-      "link": "https://codeforces.com/problemset/problem/346/B",
-      "problem_name": "Codeforces 346B - Lucky Common Subsequence",
-      "rating": "2000",
-      "session_type": "Ladder 16 Re-solve",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT, Bitmask)",
+      "activity": "DP Chia để trị (Divide and Conquer Optimization) & Knuth DP",
+      "session_type": "DNC OPTIMIZATION",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 432D - Prefixes and Suffixes",
+          "url": "https://codeforces.com/problemset/problem/432/D",
+          "rating": 2000,
+          "tag": "Z-function + DP - Ladder 16 review",
+          "time_est": "25m",
+          "id": "2026-10-30_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1718B - Fibonacci Strings",
+          "url": "https://codeforces.com/problemset/problem/1718/B",
+          "rating": 1900,
+          "tag": "Greedy / DP - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-10-30_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1737D - Ela and the Crickets",
+          "url": "https://codeforces.com/problemset/problem/1737/D",
+          "rating": 2000,
+          "tag": "Shortest Path / Floyd DP - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-10-30_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Checklist",
+          "name": "Review Template CHT, Li Chao, Alien Trick, SOS DP",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "DP Optimization Notebook",
+          "time_est": "30m",
+          "id": "2026-10-30_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/432/D",
+      "problem_name": "Bộ 4 bài: Codeforces 432D, Codeforces 1718B, Codeforces 1737D, Review Template CHT, Li Chao, Alien Trick, SOS DP",
+      "rating": "1900 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-31",
+      "date_str": "2026-10-31",
       "day_name": "Thứ Bảy",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-      "activity": "Chia căn & Sqrt Decomposition: Re-solve bài cũ",
-      "link": "https://codeforces.com/problemset/problem/13/E",
-      "problem_name": "Codeforces 13E - Holes (Chia căn)",
-      "rating": "2700",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
+      "activity": "Chia căn (Sqrt Decomposition) & Mo's Algorithm nâng cao",
+      "session_type": "SQRT DECOMPOSITION",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 220B - Little Elephant and Array",
+          "url": "https://codeforces.com/problemset/problem/220/B",
+          "rating": 1800,
+          "tag": "Mo's Algorithm cơ bản - Ladder 16",
+          "time_est": "25m",
+          "id": "2026-10-31_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 438D - The Child and Sequence",
+          "url": "https://codeforces.com/problemset/problem/438/D",
+          "rating": 2300,
+          "tag": "Segment Tree Modulo - Ladder 16 review",
+          "time_est": "35m",
+          "id": "2026-10-31_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 13E - Holes",
+          "url": "https://codeforces.com/problemset/problem/13/E",
+          "rating": 2700,
+          "tag": "Chia căn mảng nảy - Re-solve bài cũ",
+          "time_est": "50m",
+          "id": "2026-10-31_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1957F1 - Frequency Mismatch (Easy)",
+          "url": "https://codeforces.com/problemset/problem/1957/F1",
+          "rating": 2600,
+          "tag": "Randomized / Hashing / Sqrt - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-10-31_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/220/B",
+      "problem_name": "Bộ 4 bài: Codeforces 220B, Codeforces 438D, Codeforces 13E, Codeforces 1957F1",
+      "rating": "1800 - 2700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-01",
+      "date_str": "2026-11-01",
       "day_name": "Chủ Nhật",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
       "activity": "MOCK TEST QUỐC GIA 5H: Giả lập ICPC Vietnam National 2023",
+      "session_type": "FULL MOCK TEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 FULL MOCK TEST (5H)",
+          "name": "2023 ICPC Vietnam National Contest",
+          "url": "https://codeforces.com/gym/104725",
+          "rating": 2200,
+          "tag": "Giả lập 5h Vòng Quốc Gia",
+          "time_est": "300m",
+          "id": "2026-11-01_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Segment Tree / CTDL phân hóa trong đề",
+          "url": "https://codeforces.com/gym/104725",
+          "rating": 2100,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "45m",
+          "id": "2026-11-01_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Đồ thị / Chia căn trong đề",
+          "url": "https://codeforces.com/gym/104725",
+          "rating": 2300,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-11-01_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài quyết định top 5 toàn quốc",
+          "url": "https://codeforces.com/gym/104725",
+          "rating": 2500,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-11-01_p4"
+        }
+      ],
       "link": "https://codeforces.com/gym/104725",
-      "problem_name": "2023 ICPC Vietnam National Contest",
-      "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
+      "problem_name": "Bộ 4 bài: 2023 ICPC Vietnam National Contest, Upsolve Bài Segment Tree / CTDL phân hóa trong đề, Upsolve Bài Đồ thị / Chia căn trong đề, Upsolve Bài quyết định top 5 toàn quốc",
+      "rating": "2100 - 2500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-02",
+      "date_str": "2026-11-02",
       "day_name": "Thứ Hai",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-      "activity": "Upsolve đề Mock Test Quốc Gia & Tối ưu hóa phân chia bài",
-      "link": "https://codeforces.com/problemset/problem/438/D",
-      "problem_name": "Codeforces 438D - The Child and Sequence (SegTree Modulo)",
-      "rating": "2300",
-      "session_type": "Upsolving",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
+      "activity": "Upsolve Mock Quốc Gia & Segment Tree nâng cao (Beats, Lazy)",
+      "session_type": "SEGTREE & UPSOLVE",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 380C - Sereja and Brackets",
+          "url": "https://codeforces.com/problemset/problem/380/C",
+          "rating": 1700,
+          "tag": "SegTree kết hợp ngoặc - Ladder 16",
+          "time_est": "20m",
+          "id": "2026-11-02_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 786B - Legacy",
+          "url": "https://codeforces.com/contest/786/problem/B",
+          "rating": 2200,
+          "tag": "Segment Tree trên đồ thị - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-02_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1476E - Pattern Matching",
+          "url": "https://codeforces.com/problemset/problem/1476/E",
+          "rating": 2200,
+          "tag": "Trie + Topo Sort - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-02_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 375C - Circling Round Treasures",
+          "url": "https://codeforces.com/problemset/problem/375/C",
+          "rating": 2600,
+          "tag": "BFS + Bitmask - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-11-02_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/380/C",
+      "problem_name": "Bộ 4 bài: Codeforces 380C, Codeforces 786B, Codeforces 1476E, Codeforces 375C",
+      "rating": "1700 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-03",
+      "date_str": "2026-11-03",
       "day_name": "Thứ Ba",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-      "activity": "Kiểm tra và in ấn Team Notebook bản chuẩn cho kỳ thi Quốc Gia",
-      "link": "https://codeforces.com",
-      "problem_name": "ICPC Team Notebook - 25 Trang",
-      "rating": "Teamwork",
-      "session_type": "Checklist",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
+      "activity": "Persistent Data Structures (SegTree, Treap)",
+      "session_type": "PERSISTENT DS",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 354C - Vasya and Beautiful Arrays",
+          "url": "https://codeforces.com/problemset/problem/354/C",
+          "rating": 2100,
+          "tag": "Prefix sums / Divisors - Ladder 16 review",
+          "time_est": "30m",
+          "id": "2026-11-03_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1768E - Partial Sorting",
+          "url": "https://codeforces.com/problemset/problem/1768/E",
+          "rating": 2300,
+          "tag": "Permutations / Math - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-03_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "In ấn & Rà soát Team Notebook chuẩn cho vòng Quốc Gia",
+          "url": "https://codeforces.com",
+          "rating": 2000,
+          "tag": "Notebook checklist",
+          "time_est": "30m",
+          "id": "2026-11-03_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 986E - Prince's Problem",
+          "url": "https://codeforces.com/contest/986/problem/E",
+          "rating": 2800,
+          "tag": "Persistent SegTree + Prime - Re-solve bài cũ",
+          "time_est": "70m",
+          "id": "2026-11-03_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/354/C",
+      "problem_name": "Bộ 4 bài: Codeforces 354C, Codeforces 1768E, In ấn & Rà soát Team Notebook chuẩn cho vòng Quốc Gia, Codeforces 986E",
+      "rating": "2000 - 2800",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-04",
+      "date_str": "2026-11-04",
       "day_name": "Thứ Tư",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-      "activity": "Rà soát bẫy tràn số (MOD, 64-bit, fast I/O) & Viết test generator",
-      "link": "https://codeforces.com/contest/786/problem/B",
-      "problem_name": "Codeforces 786B - Segment Tree trên đồ thị",
-      "rating": "2200",
-      "session_type": "Stress Test Lab",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
+      "activity": "Chia căn truy vấn & Stress Testing phòng thi",
+      "session_type": "STRESS TESTING LAB",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 570D - Tree Requests",
+          "url": "https://codeforces.com/problemset/problem/570/D",
+          "rating": 2200,
+          "tag": "DSU on Tree / Euler Tour - Ladder 16 review",
+          "time_est": "30m",
+          "id": "2026-11-04_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "APIO19_bridges - Bridges",
+          "url": "https://oj.uz/problem/view/APIO19_bridges",
+          "rating": 2400,
+          "tag": "Chia căn truy vấn & DSU rollback",
+          "time_est": "45m",
+          "id": "2026-11-04_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1783E - Game of the Year",
+          "url": "https://codeforces.com/problemset/problem/1783/E",
+          "rating": 2300,
+          "tag": "Prefix sum / Math - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-04_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Stress Test Lab",
+          "name": "Rà soát bẫy tràn số (MOD, 64-bit) & Viết test generator",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Stress testing script lab",
+          "time_est": "40m",
+          "id": "2026-11-04_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/570/D",
+      "problem_name": "Bộ 4 bài: Codeforces 570D, APIO19_bridges, Codeforces 1783E, Rà soát bẫy tràn số (MOD, 64-bit) & Viết test generator",
+      "rating": "2200 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-05",
+      "date_str": "2026-11-05",
       "day_name": "Thứ Năm",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
       "activity": "Chiến thuật tâm lý thi đấu 3 người 1 máy vòng Quốc Gia",
-      "link": "https://codeforces.com",
-      "problem_name": "Họp chiến thuật Team ICPC",
-      "rating": "Strategy",
-      "session_type": "Team Meeting",
+      "session_type": "TEAM STRATEGY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 476B - Dreamoon and WiFi",
+          "url": "https://codeforces.com/problemset/problem/476/B",
+          "rating": 1300,
+          "tag": "Bitwise speed warm-up",
+          "time_est": "10m",
+          "id": "2026-11-05_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1730C - Minimum Notation",
+          "url": "https://codeforces.com/problemset/problem/1730/C",
+          "rating": 1900,
+          "tag": "Greedy / String - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-05_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1749D - Counting Arrays",
+          "url": "https://codeforces.com/problemset/problem/1749/D",
+          "rating": 1900,
+          "tag": "Number Theory / Modulo - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-05_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Team Meeting",
+          "name": "Họp chiến thuật Team ICPC: Phân vai đọc đề, code, trace bug",
+          "url": "https://codeforces.com",
+          "rating": 2000,
+          "tag": "Team coordination meeting",
+          "time_est": "30m",
+          "id": "2026-11-05_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/476/B",
+      "problem_name": "Bộ 4 bài: Codeforces 476B, Codeforces 1730C, Codeforces 1749D, Họp chiến thuật Team ICPC: Phân vai đọc đề, code, trace bug",
+      "rating": "1300 - 2000",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-06",
+      "date_str": "2026-11-06",
       "day_name": "Thứ Sáu",
       "week_num": 3,
-      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-      "activity": "Thư giãn, ngủ đủ giấc, chuẩn bị tài khoản và máy thi",
-      "link": "https://codeforces.com",
-      "problem_name": "Nghỉ ngơi nạp năng lượng trước Vòng Quốc Gia",
-      "rating": "Rest",
-      "session_type": "Rest & Recharge",
-      "status": "Hoàn thành"
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026 & Chia căn, Cấu trúc dữ liệu",
+      "activity": "Thư giãn, nạp năng lượng & sẵn sàng cho Vòng Quốc Gia",
+      "session_type": "REST & RECHARGE",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up",
+          "name": "Gõ nhẹ 1 bài template cơ bản lấy nhịp tay",
+          "url": "https://codeforces.com/problemset/problem/71/A",
+          "rating": 1000,
+          "tag": "Warm-up nhẹ nhàng",
+          "time_est": "5m",
+          "id": "2026-11-06_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Verification",
+          "name": "Kiểm tra tài khoản, thông tin đội và điểm thi tập trung",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Checklist hành chính",
+          "time_est": "15m",
+          "id": "2026-11-06_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Rest",
+          "name": "Nghỉ ngơi, ngủ đủ giấc, chuẩn bị tinh thần thi đấu",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Giữ gìn thể lực",
+          "time_est": "0m",
+          "id": "2026-11-06_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Ready",
+          "name": "Sẵn sàng 100% bước vào Kỳ thi ICPC Quốc gia 2026",
+          "url": "https://olp.vn",
+          "rating": 2400,
+          "tag": "Tâm lý tự tin vững vàng",
+          "time_est": "0m",
+          "id": "2026-11-06_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/71/A",
+      "problem_name": "Bộ 4 bài: Gõ nhẹ 1 bài template cơ bản lấy nhịp tay, Kiểm tra tài khoản, thông tin đội và điểm thi tập trung, Nghỉ ngơi, ngủ đủ giấc, chuẩn bị tinh thần thi đấu, Sẵn sàng 100% bước vào Kỳ thi ICPC Quốc gia 2026",
+      "rating": "1000 - 2400",
+      "status": "Chưa làm"
     },
     {
       "date": "2026-11-07",
+      "date_str": "2026-11-07",
       "day_name": "Thứ Bảy",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
       "activity": "Thử máy Kỳ thi ICPC Quốc gia 2026 tại điểm thi tập trung",
+      "session_type": "THỬ MÁY & WARM-UP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Thử máy tập trung (2h)",
+          "name": "ICPC Vietnam National 2026 - Practice Session",
+          "url": "https://codeforces.com/gyms",
+          "rating": 1800,
+          "tag": "Thử máy thi đấu thực tế",
+          "time_est": "120m",
+          "id": "2026-11-07_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Speed Warm-up 1",
+          "name": "Codeforces 126B - Password",
+          "url": "https://codeforces.com/problemset/problem/126/B",
+          "rating": 1700,
+          "tag": "String speed check",
+          "time_est": "15m",
+          "id": "2026-11-07_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Speed Warm-up 2",
+          "name": "Codeforces 295B - Greg and Graph",
+          "url": "https://codeforces.com/contest/295/problem/B",
+          "rating": 1700,
+          "tag": "Graph speed check",
+          "time_est": "15m",
+          "id": "2026-11-07_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Checklist",
+          "name": "Kiểm tra bàn phím, compiler, hệ điều hành điểm thi",
+          "url": "https://olp.vn",
+          "rating": 1600,
+          "tag": "Hardware & environment check",
+          "time_est": "20m",
+          "id": "2026-11-07_p4"
+        }
+      ],
       "link": "https://codeforces.com/gyms",
-      "problem_name": "ICPC Vietnam National 2026 - Practice Session",
-      "rating": "ICPC Team",
-      "session_type": "THỬ MÁY",
+      "problem_name": "Bộ 4 bài: ICPC Vietnam National 2026, Codeforces 126B, Codeforces 295B, Kiểm tra bàn phím, compiler, hệ điều hành điểm thi",
+      "rating": "1600 - 1800",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-08",
+      "date_str": "2026-11-08",
       "day_name": "Chủ Nhật",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
       "activity": "CHÍNH THỨC THI ICPC QUỐC GIA 2026 (VIETNAM NATIONAL - 5 GIỜ)",
+      "session_type": "OFFICIAL CONTEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OFFICIAL CONTEST (5H)",
+          "name": "2026 ICPC Vietnam National Contest",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2300,
+          "tag": "5h Thi tập trung toàn quốc",
+          "time_est": "300m",
+          "id": "2026-11-08_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Toán học / Tổ hợp trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2000,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "45m",
+          "id": "2026-11-08_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Cấu trúc dữ liệu trong đề",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2200,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-11-08_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài phân hóa xác định vé Regional Đà Nẵng",
+          "url": "https://codeforces.com/gyms",
+          "rating": 2400,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-11-08_p4"
+        }
+      ],
       "link": "https://codeforces.com/gyms",
-      "problem_name": "2026 ICPC Vietnam National Contest",
-      "rating": "ICPC Team",
-      "session_type": "OFFICIAL CONTEST",
+      "problem_name": "Bộ 4 bài: 2026 ICPC Vietnam National Contest, Upsolve Bài Toán học / Tổ hợp trong đề, Upsolve Bài Cấu trúc dữ liệu trong đề, Upsolve Bài phân hóa xác định vé Regional Đà Nẵng",
+      "rating": "2000 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-09",
+      "date_str": "2026-11-09",
       "day_name": "Thứ Hai",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-      "activity": "Tổng kết kết quả vòng Quốc gia & Xác định slot dự Regional Đà Nẵng",
-      "link": "https://olp.vn",
-      "problem_name": "Bảng điểm ICPC Quốc Gia 2026",
-      "rating": "Review",
-      "session_type": "Debrief",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
+      "activity": "Tổng kết kết quả vòng Quốc gia & Khởi động giai đoạn OLP",
+      "session_type": "DEBRIEF & OLP TRANSITION",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 264B - Good Sequences",
+          "url": "https://codeforces.com/problemset/problem/264/B",
+          "rating": 1600,
+          "tag": "Sieve / DP",
+          "time_est": "20m",
+          "id": "2026-11-09_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1043F - Make It One",
+          "url": "https://codeforces.com/contest/1043/problem/F",
+          "rating": 2400,
+          "tag": "Bao hàm loại trừ / Mobius - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-09_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1924D - Balanced Subsequences",
+          "url": "https://codeforces.com/problemset/problem/1924/D",
+          "rating": 2700,
+          "tag": "Catalan, Tổ hợp, DP - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-11-09_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Debrief",
+          "name": "Tổng kết kết quả vòng Quốc Gia & Lập danh sách trọng tâm OLP",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "National Contest Debrief",
+          "time_est": "30m",
+          "id": "2026-11-09_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/264/B",
+      "problem_name": "Bộ 4 bài: Codeforces 264B, Codeforces 1043F, Codeforces 1924D, Tổng kết kết quả vòng Quốc Gia & Lập danh sách trọng tâm OLP",
+      "rating": "1600 - 2700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-10",
+      "date_str": "2026-11-10",
       "day_name": "Thứ Ba",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-      "activity": "Upsolving toàn bộ các bài trong tầm với đề ICPC Quốc Gia 2026",
-      "link": "https://codeforces.com/contest/1043/problem/F",
-      "problem_name": "Codeforces 1043F - Make It One (Bao hàm loại trừ)",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
+      "activity": "Toán học & Số học: Bao hàm loại trừ, Phi hàm Euler, Nghịch đảo",
+      "session_type": "MATH & NUMBER THEORY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 474D - Flowers",
+          "url": "https://codeforces.com/problemset/problem/474/D",
+          "rating": 1700,
+          "tag": "DP + Prefix sums - Ladder 16",
+          "time_est": "20m",
+          "id": "2026-11-10_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "VNOI c11tct - Chia kẹo Euler & Lucas",
+          "url": "https://oj.vnoi.info/problem/c11tct",
+          "rating": 2100,
+          "tag": "Toán tổ hợp nâng cao",
+          "time_est": "35m",
+          "id": "2026-11-10_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "VNOI fc090_divcan - Bao hàm, Lucas",
+          "url": "https://oj.vnoi.info/problem/fc090_divcan",
+          "rating": 2200,
+          "tag": "Tổ hợp, Nghịch đảo modulo",
+          "time_est": "40m",
+          "id": "2026-11-10_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1989F - Simultaneous Coloring",
+          "url": "https://codeforces.com/problemset/problem/1989/F",
+          "rating": 2700,
+          "tag": "2-SAT / Math - Re-solve bài cũ",
+          "time_est": "65m",
+          "id": "2026-11-10_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/474/D",
+      "problem_name": "Bộ 4 bài: Codeforces 474D, VNOI c11tct, VNOI fc090_divcan, Codeforces 1989F",
+      "rating": "1700 - 2700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-11",
+      "date_str": "2026-11-11",
       "day_name": "Thứ Tư",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-      "activity": "Khởi động giai đoạn 2: Ôn luyện cá nhân Olympic Tin học SV",
-      "link": "https://oj.vnoi.info/problem/c11tct",
-      "problem_name": "VNOI c11tct - Chia kẹo Euler & Lucas",
-      "rating": "Hard",
-      "session_type": "OLP Practice",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
+      "activity": "Tổ hợp nâng cao, Hệ số nhị thức & Đa thức (FFT/NTT)",
+      "session_type": "COMBINATORICS & POLYNOMIALS",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1856E1 - PermuTree (Easy Version)",
+          "url": "https://codeforces.com/problemset/problem/1856/E1",
+          "rating": 2100,
+          "tag": "Tree Knapsack DP - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-11_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1700E - Sereja and Arrangement of Numbers",
+          "url": "https://codeforces.com/problemset/problem/1700/E",
+          "rating": 2400,
+          "tag": "Math / Greedy - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-11_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1710B - Rain",
+          "url": "https://codeforces.com/problemset/problem/1710/B",
+          "rating": 2200,
+          "tag": "Difference array / Math - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-11_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Rà soát Template NTT, FFT, Inverse Modulo, Pascal Triangle",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Polynomials Notebook",
+          "time_est": "30m",
+          "id": "2026-11-11_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1856/E1",
+      "problem_name": "Bộ 4 bài: Codeforces 1856E1, Codeforces 1700E, Codeforces 1710B, Rà soát Template NTT, FFT, Inverse Modulo, Pascal Triangle",
+      "rating": "2100 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-12",
+      "date_str": "2026-11-12",
       "day_name": "Thứ Năm",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-      "activity": "Toán học & Tổ hợp: Re-solve các bài toán chia kẹo, nghịch đảo",
-      "link": "https://oj.vnoi.info/problem/fc090_divcan",
-      "problem_name": "VNOI fc090_divcan - Bao hàm, Lucas",
-      "rating": "Hard",
-      "session_type": "Re-solve",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
+      "activity": "Lý thuyết trò chơi (Game Theory): Nim, Sprague-Grundy",
+      "session_type": "GAME THEORY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 2181F - Fragmented Nim",
+          "url": "https://codeforces.com/contest/2181/problem/F",
+          "rating": 1600,
+          "tag": "Game Nim - Re-solve bài cũ",
+          "time_est": "20m",
+          "id": "2026-11-12_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 944F - CTDL, Game",
+          "url": "https://codeforces.com/contest/944/problem/F",
+          "rating": 2400,
+          "tag": "Game Theory / Graph - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-12_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1705E - Mark and Professor Koro",
+          "url": "https://codeforces.com/problemset/problem/1705/E",
+          "rating": 2200,
+          "tag": "Bitwise / SegTree - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-12_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1823E - Removing Graph",
+          "url": "https://codeforces.com/problemset/problem/1823/E",
+          "rating": 2400,
+          "tag": "Game Theory / Grundy on Graph - Re-solve",
+          "time_est": "50m",
+          "id": "2026-11-12_p4"
+        }
+      ],
+      "link": "https://codeforces.com/contest/2181/problem/F",
+      "problem_name": "Bộ 4 bài: Codeforces 2181F, Codeforces 944F, Codeforces 1705E, Codeforces 1823E",
+      "rating": "1600 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-13",
+      "date_str": "2026-11-13",
       "day_name": "Thứ Sáu",
       "week_num": 4,
-      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-      "activity": "Ladder 16: Math & Number Theory",
-      "link": "https://codeforces.com/problemset/problem/354/C",
-      "problem_name": "Codeforces 354C - Vasya and Beautiful Arrays",
-      "rating": "2100",
-      "session_type": "Ladder 16 Re-solve",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & Bước ngoặt chuyển giao sang Olympic",
+      "activity": "Nhân ma trận (Matrix Exponentiation) & Khử Gauss",
+      "session_type": "MATRIX & GAUSS",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 166E - Tetrahedron",
+          "url": "https://codeforces.com/problemset/problem/166/E",
+          "rating": 1600,
+          "tag": "Matrix DP cơ bản",
+          "time_est": "15m",
+          "id": "2026-11-13_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1667B - Optimal Partition",
+          "url": "https://codeforces.com/problemset/problem/1667/B",
+          "rating": 2000,
+          "tag": "Fenwick Tree + DP - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-11-13_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1672F1 - Array Shuffling",
+          "url": "https://codeforces.com/problemset/problem/1672/F1",
+          "rating": 2000,
+          "tag": "Constructive / Cycles - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-13_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Template Nhân ma trận nhị phân & Khử Gauss modulo 2",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Linear Algebra Notebook",
+          "time_est": "30m",
+          "id": "2026-11-13_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/166/E",
+      "problem_name": "Bộ 4 bài: Codeforces 166E, Codeforces 1667B, Codeforces 1672F1, Template Nhân ma trận nhị phân & Khử Gauss modulo 2",
+      "rating": "1600 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-14",
+      "date_str": "2026-11-14",
       "day_name": "Thứ Bảy",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
       "activity": "Hình học tính toán: Bao lồi (Monotone Chain / Graham Scan)",
-      "link": "https://oj.vnoi.info/problem/cavli",
-      "problem_name": "VNOI cavli - Hình học, Bao lồi",
-      "rating": "Hard",
-      "session_type": "Geometry",
+      "session_type": "CONVEX HULL & GEOMETRY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 166A - Rank List",
+          "url": "https://codeforces.com/problemset/problem/166/A",
+          "rating": 1200,
+          "tag": "Custom comparator speed check",
+          "time_est": "10m",
+          "id": "2026-11-14_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "VNOI cavli - Bao lồi & Hình học tính toán",
+          "url": "https://oj.vnoi.info/problem/cavli",
+          "rating": 2100,
+          "tag": "Bao lồi Monotone Chain - Coản Coản sheet",
+          "time_est": "35m",
+          "id": "2026-11-14_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1468G - Hình học, Tầm nhìn đỉnh núi",
+          "url": "https://codeforces.com/contest/1468/problem/G",
+          "rating": 2200,
+          "tag": "Hình học tính toán, Giao điểm tia",
+          "time_est": "40m",
+          "id": "2026-11-14_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 2004F - Make a Palindrome",
+          "url": "https://codeforces.com/problemset/problem/2004/F",
+          "rating": 2600,
+          "tag": "Hash / Palindrome - Re-solve bài cũ",
+          "time_est": "60m",
+          "id": "2026-11-14_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/166/A",
+      "problem_name": "Bộ 4 bài: Codeforces 166A, VNOI cavli, Codeforces 1468G, Codeforces 2004F",
+      "rating": "1200 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-15",
+      "date_str": "2026-11-15",
       "day_name": "Chủ Nhật",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-      "activity": "MOCK TEST OLP #1: Đề thi Siêu Cúp / Chuyên Tin các năm (3.5 giờ)",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
+      "activity": "MOCK TEST OLP #1: Đề thi Siêu Cúp / Chuyên Tin các năm (3.5 Giờ)",
+      "session_type": "OLP MOCK TEST (3.5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OLP MOCK TEST (3.5H)",
+          "name": "JOI Spring Camp 2023 Contest 1",
+          "url": "https://cms.ioi-jp.org/joi2023-sp1-open",
+          "rating": 2300,
+          "tag": "Giả lập 3.5h Kỳ thi Cá nhân OLP",
+          "time_est": "210m",
+          "id": "2026-11-15_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Hình học / Sweepline trong đề",
+          "url": "https://cms.ioi-jp.org/joi2023-sp1-open",
+          "rating": 2100,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "45m",
+          "id": "2026-11-15_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Quy hoạch động phân hóa trong đề",
+          "url": "https://cms.ioi-jp.org/joi2023-sp1-open",
+          "rating": 2300,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "50m",
+          "id": "2026-11-15_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài Cấu trúc dữ liệu nâng cao",
+          "url": "https://cms.ioi-jp.org/joi2023-sp1-open",
+          "rating": 2500,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "60m",
+          "id": "2026-11-15_p4"
+        }
+      ],
       "link": "https://cms.ioi-jp.org/joi2023-sp1-open",
-      "problem_name": "JOI Spring Camp 2023 Contest 1",
-      "rating": "JOI",
-      "session_type": "OLP Mock Test",
+      "problem_name": "Bộ 4 bài: JOI Spring Camp 2023 Contest 1, Upsolve Bài Hình học / Sweepline trong đề, Upsolve Bài Quy hoạch động phân hóa trong đề, Upsolve Bài Cấu trúc dữ liệu nâng cao",
+      "rating": "2100 - 2500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-16",
+      "date_str": "2026-11-16",
       "day_name": "Thứ Hai",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
       "activity": "Sweepline quét tọa độ X kết hợp Segment Tree",
-      "link": "https://codeforces.com/contest/529/problem/C",
-      "problem_name": "Codeforces 529C - Sweepline (Rooks Defender)",
-      "rating": "2200",
-      "session_type": "Re-solve bài cũ",
+      "session_type": "SWEEPLINE & SEGTREE",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1666C - Connect the Points",
+          "url": "https://codeforces.com/problemset/problem/1666/C",
+          "rating": 1800,
+          "tag": "Geometry / Manhattan - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-16_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 529C - Sweepline (Rooks Defender)",
+          "url": "https://codeforces.com/contest/529/problem/C",
+          "rating": 2200,
+          "tag": "Sweepline + SegTree - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-16_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1698E - Permutation Shift",
+          "url": "https://codeforces.com/problemset/problem/1698/E",
+          "rating": 2200,
+          "tag": "Sweepline / Greedy - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-16_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1704E - Count Seconds",
+          "url": "https://codeforces.com/problemset/problem/1704/E",
+          "rating": 2200,
+          "tag": "DAG / Modulo Simulation - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-16_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1666/C",
+      "problem_name": "Bộ 4 bài: Codeforces 1666C, Codeforces 529C, Codeforces 1698E, Codeforces 1704E",
+      "rating": "1800 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-17",
+      "date_str": "2026-11-17",
       "day_name": "Thứ Ba",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-      "activity": "Persistent Segment Tree & Treap: Re-solve bài cũ",
-      "link": "https://codeforces.com/contest/986/problem/E",
-      "problem_name": "Codeforces 986E - Prince's Problem (Tree, DS, Math)",
-      "rating": "2800",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
+      "activity": "Giao điểm đoạn thẳng, Điểm trong đa giác, Nửa mặt phẳng",
+      "session_type": "GEOMETRY PRIMITIVES",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 280B - Maximum Xor Secondary",
+          "url": "https://codeforces.com/problemset/problem/280/B",
+          "rating": 1800,
+          "tag": "Monotonic Stack - Ladder 16",
+          "time_est": "25m",
+          "id": "2026-11-17_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1699D - Almost Triple Deletions",
+          "url": "https://codeforces.com/problemset/problem/1699/D",
+          "rating": 2200,
+          "tag": "DP + Observation - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-17_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1713E - Cross Swapping",
+          "url": "https://codeforces.com/problemset/problem/1713/E",
+          "rating": 2300,
+          "tag": "2-SAT / DSU - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-17_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Template Cross product, Line intersection, Point in Polygon",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Geometry Core Notebook",
+          "time_est": "30m",
+          "id": "2026-11-17_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/280/B",
+      "problem_name": "Bộ 4 bài: Codeforces 280B, Codeforces 1699D, Codeforces 1713E, Template Cross product, Line intersection, Point in Polygon",
+      "rating": "1800 - 2300",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-18",
+      "date_str": "2026-11-18",
       "day_name": "Thứ Tư",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-      "activity": "Kỹ thuật Chia căn lớn bé & DSU",
-      "link": "https://oj.vnoi.info/problem/coci1920_o_paint",
-      "problem_name": "COCI 1920 Paint - Chia căn lớn bé & DSU",
-      "rating": "Hard",
-      "session_type": "Data Structures",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
+      "activity": "Kỹ thuật Chia căn lớn bé & Cấu trúc dữ liệu trên lưới 2D",
+      "session_type": "SQRT HEAVY-LIGHT",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 368B - Sereja and Suffixes",
+          "url": "https://codeforces.com/problemset/problem/368/B",
+          "rating": 1300,
+          "tag": "Prefix distinct speed check",
+          "time_est": "10m",
+          "id": "2026-11-18_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "COCI 1920 Paint - Chia căn lớn bé & DSU",
+          "url": "https://oj.vnoi.info/problem/coci1920_o_paint",
+          "rating": 2200,
+          "tag": "Chia căn lớn bé & DSU",
+          "time_est": "40m",
+          "id": "2026-11-18_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1726D - Edge Split",
+          "url": "https://codeforces.com/problemset/problem/1726/D",
+          "rating": 2100,
+          "tag": "Spanning Tree / Cycles - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-18_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1738E - Balance Addicts",
+          "url": "https://codeforces.com/problemset/problem/1738/E",
+          "rating": 2300,
+          "tag": "Combinatorics / Two Pointers - Re-solve bài cũ",
+          "time_est": "50m",
+          "id": "2026-11-18_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/368/B",
+      "problem_name": "Bộ 4 bài: Codeforces 368B, COCI 1920 Paint, Codeforces 1726D, Codeforces 1738E",
+      "rating": "1300 - 2300",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-19",
+      "date_str": "2026-11-19",
       "day_name": "Thứ Năm",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-      "activity": "Ladder 16: KMP Differencing",
-      "link": "https://codeforces.com/problemset/problem/471/D",
-      "problem_name": "Codeforces 471D - MUH and Cube Walls",
-      "rating": "1800",
-      "session_type": "Ladder 16 Re-solve",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
+      "activity": "Fenwick 2D, Segment Tree 2D & Quadtree",
+      "session_type": "2D DATA STRUCTURES",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 339D - Xenia and Bit Operations",
+          "url": "https://codeforces.com/problemset/problem/339/D",
+          "rating": 1400,
+          "tag": "SegTree bitwise speed check",
+          "time_est": "10m",
+          "id": "2026-11-19_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "VNOI ITTEQ1 - Segment Tree nâng cao",
+          "url": "https://oj.vnoi.info/problem/segtree_itteq1",
+          "rating": 2100,
+          "tag": "Segment Tree nâng cao",
+          "time_est": "35m",
+          "id": "2026-11-19_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1740E - Hanging Hearts",
+          "url": "https://codeforces.com/problemset/problem/1740/E",
+          "rating": 2000,
+          "tag": "Tree DP - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-11-19_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1748D - ConstructOR",
+          "url": "https://codeforces.com/problemset/problem/1748/D",
+          "rating": 2300,
+          "tag": "Bitwise / Number Theory - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-19_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/339/D",
+      "problem_name": "Bộ 4 bài: Codeforces 339D, VNOI ITTEQ1, Codeforces 1740E, Codeforces 1748D",
+      "rating": "1400 - 2300",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-20",
+      "date_str": "2026-11-20",
       "day_name": "Thứ Sáu",
       "week_num": 5,
-      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-      "activity": "Review Template SegTree Lazy & Fenwick 2D",
-      "link": "https://oj.vnoi.info/problem/segtree_itteq1",
-      "problem_name": "VNOI ITTEQ1 - Segment Tree nâng cao",
-      "rating": "Hard",
-      "session_type": "Review Template",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học tính toán, Sweepline & Cấu trúc dữ liệu nâng cao",
+      "activity": "Rà soát kho bài tập Hình học & Sweepline",
+      "session_type": "GEOMETRY REVIEW",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1753B - Factorial Divisibility",
+          "url": "https://codeforces.com/problemset/problem/1753/B",
+          "rating": 1900,
+          "tag": "Number theory simulation - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-20_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1750D - Count GCD",
+          "url": "https://codeforces.com/problemset/problem/1750/D",
+          "rating": 2000,
+          "tag": "Number Theory / Inclusion-Exclusion",
+          "time_est": "35m",
+          "id": "2026-11-20_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1762D - GCD Queries",
+          "url": "https://codeforces.com/problemset/problem/1762/D",
+          "rating": 2100,
+          "tag": "Interactive / Number Theory - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-20_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Tổng hợp template Hình học: Monotone chain, Convex polygon",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Geometry & Sweepline Notebook",
+          "time_est": "30m",
+          "id": "2026-11-20_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1753/B",
+      "problem_name": "Bộ 4 bài: Codeforces 1753B, Codeforces 1750D, Codeforces 1762D, Tổng hợp template Hình học: Monotone chain, Convex polygon",
+      "rating": "1900 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-21",
+      "date_str": "2026-11-21",
       "day_name": "Thứ Bảy",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "KMP, Z-function & Hash 2D: Re-solve bài cũ",
+      "activity": "Xâu ký tự (Strings): KMP, Z-function & 2D Hashing",
+      "session_type": "STRING ALGORITHMS",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 432D - Prefixes and Suffixes",
+          "url": "https://codeforces.com/problemset/problem/432/D",
+          "rating": 2000,
+          "tag": "Z-algo + DP - Ladder 16 review",
+          "time_est": "25m",
+          "id": "2026-11-21_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "DMOJ coci06c1p6 - Hash 2D",
+          "url": "https://dmoj.ca/problem/coci06c1p6",
+          "rating": 2100,
+          "tag": "2D Hashing - Coản Coản sheet",
+          "time_est": "35m",
+          "id": "2026-11-21_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1758D - Range = √Sum",
+          "url": "https://codeforces.com/problemset/problem/1758/D",
+          "rating": 1900,
+          "tag": "Constructive / Math - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-21_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1764D - Doremy's Pegging Game",
+          "url": "https://codeforces.com/problemset/problem/1764/D",
+          "rating": 2200,
+          "tag": "Combinatorics / Circle - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-21_p4"
+        }
+      ],
       "link": "https://codeforces.com/problemset/problem/432/D",
-      "problem_name": "Codeforces 432D - Prefixes and Suffixes",
-      "rating": "2000",
-      "session_type": "Ladder 16 Re-solve",
+      "problem_name": "Bộ 4 bài: Codeforces 432D, DMOJ coci06c1p6, Codeforces 1758D, Codeforces 1764D",
+      "rating": "1900 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-22",
+      "date_str": "2026-11-22",
       "day_name": "Chủ Nhật",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "MOCK TEST REGIONAL #4: 2023-2024 ICPC Asia Hue Regional Contest (5h)",
+      "activity": "MOCK TEST REGIONAL #4: 2023-2024 ICPC Asia Hue Regional Contest (5H)",
+      "session_type": "FULL MOCK TEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 FULL MOCK TEST (5H)",
+          "name": "2023-2024 ICPC Asia Hue Regional Contest",
+          "url": "https://codeforces.com/gym/104639",
+          "rating": 2200,
+          "tag": "5h Đấu tập Đội tuyển Regional",
+          "time_est": "300m",
+          "id": "2026-11-22_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Xâu ký tự / Aho-Corasick trong đề",
+          "url": "https://codeforces.com/gym/104639",
+          "rating": 2100,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "45m",
+          "id": "2026-11-22_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Luồng cực đại / Cặp ghép trong đề",
+          "url": "https://codeforces.com/gym/104639",
+          "rating": 2300,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-11-22_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài quyết định top 3 Regional",
+          "url": "https://codeforces.com/gym/104639",
+          "rating": 2500,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-11-22_p4"
+        }
+      ],
       "link": "https://codeforces.com/gym/104639",
-      "problem_name": "2023-2024 ICPC Asia Hue Regional Contest",
-      "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
+      "problem_name": "Bộ 4 bài: 2023-2024 ICPC Asia Hue Regional Contest, Upsolve Bài Xâu ký tự / Aho-Corasick trong đề, Upsolve Bài Luồng cực đại / Cặp ghép trong đề, Upsolve Bài quyết định top 3 Regional",
+      "rating": "2100 - 2500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-23",
+      "date_str": "2026-11-23",
       "day_name": "Thứ Hai",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Aho-Corasick & DP trên Trie",
-      "link": "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind",
-      "problem_name": "LQDOJ ugpalind - DP + Aho-Corasick",
-      "rating": "Hard",
-      "session_type": "LQDOJ String",
+      "activity": "Aho-Corasick Automaton & Dynamic Programming trên Trie",
+      "session_type": "AHO-CORASICK & TRIE DP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1767D - Playoff",
+          "url": "https://codeforces.com/problemset/problem/1767/D",
+          "rating": 1800,
+          "tag": "Binary tree / Greedy - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-23_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "LQDOJ ugpalind - DP + Aho-Corasick",
+          "url": "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind",
+          "rating": 2200,
+          "tag": "DP + Aho-Corasick Automaton",
+          "time_est": "40m",
+          "id": "2026-11-23_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1770D - Koxia and Game",
+          "url": "https://codeforces.com/problemset/problem/1770/D",
+          "rating": 2200,
+          "tag": "Graph / Components - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-23_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1774E - Two Paths",
+          "url": "https://codeforces.com/problemset/problem/1774/E",
+          "rating": 2200,
+          "tag": "Tree / LCA / Greedy - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-23_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1767/D",
+      "problem_name": "Bộ 4 bài: Codeforces 1767D, LQDOJ ugpalind, Codeforces 1770D, Codeforces 1774E",
+      "rating": "1800 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-24",
+      "date_str": "2026-11-24",
       "day_name": "Thứ Ba",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Luồng cực đại (Dinic) & Cặp ghép hai phía",
-      "link": "https://codeforces.com/contest/944/problem/F",
-      "problem_name": "Codeforces 944F - CTDL, Game",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "activity": "Luồng cực đại (Max Flow - Dinic) & Cắt hẹp nhất (Min Cut)",
+      "session_type": "MAX FLOW & MIN CUT",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1772E - Permutation Game",
+          "url": "https://codeforces.com/problemset/problem/1772/E",
+          "rating": 1800,
+          "tag": "Game Theory / Adhoc - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-24_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1780D - Bit Guessing Game",
+          "url": "https://codeforces.com/problemset/problem/1780/D",
+          "rating": 1900,
+          "tag": "Interactive / Bitwise - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-11-24_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1787D - Game on Axis",
+          "url": "https://codeforces.com/problemset/problem/1787/D",
+          "rating": 2200,
+          "tag": "Tree / DFS / Counting - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-24_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Template Dinic Algorithm O(V^2 E) & Các mô hình Min Cut",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Max Flow Notebook",
+          "time_est": "30m",
+          "id": "2026-11-24_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1772/E",
+      "problem_name": "Bộ 4 bài: Codeforces 1772E, Codeforces 1780D, Codeforces 1787D, Template Dinic Algorithm O(V^2 E) & Các mô hình Min Cut",
+      "rating": "1800 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-25",
+      "date_str": "2026-11-25",
       "day_name": "Thứ Tư",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc",
-      "link": "https://codeforces.com/contest/2181/problem/F",
-      "problem_name": "Codeforces 2181F - Fragmented Nim",
-      "rating": "1600",
-      "session_type": "Re-solve bài cũ",
+      "activity": "Cặp ghép hai phía cực đại & Luồng chi phí cực tiểu (MCMF)",
+      "session_type": "BIPARTITE MATCHING & MCMF",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1787C - Remove the Bracket",
+          "url": "https://codeforces.com/problemset/problem/1787/C",
+          "rating": 1800,
+          "tag": "DP / Greedy - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-25_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1792D - Fixed Prefix Permutations",
+          "url": "https://codeforces.com/problemset/problem/1792/D",
+          "rating": 1800,
+          "tag": "Trie / Permutations - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-25_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1799D2 - Hot Start Up (Hard)",
+          "url": "https://codeforces.com/problemset/problem/1799/D2",
+          "rating": 2200,
+          "tag": "SegTree + DP - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-11-25_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Template Hopcroft-Karp & MCMF with Dijkstra Potentials",
+          "url": "https://codeforces.com",
+          "rating": 2300,
+          "tag": "Min Cost Max Flow Notebook",
+          "time_est": "35m",
+          "id": "2026-11-25_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1787/C",
+      "problem_name": "Bộ 4 bài: Codeforces 1787C, Codeforces 1792D, Codeforces 1799D2, Template Hopcroft-Karp & MCMF with Dijkstra Potentials",
+      "rating": "1800 - 2300",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-26",
+      "date_str": "2026-11-26",
       "day_name": "Thứ Năm",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "DSU on tree (Small to large) kết hợp Bitmask",
-      "link": "https://codeforces.com/problemset/problem/570/D",
-      "problem_name": "Codeforces 570D - Tree Requests",
-      "rating": "2200",
-      "session_type": "Ladder 16 Re-solve",
+      "activity": "Suffix Automaton (SAM) & Suffix Array (SA)",
+      "session_type": "SUFFIX AUTOMATON",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1799D1 - Hot Start Up (Easy)",
+          "url": "https://codeforces.com/problemset/problem/1799/D1",
+          "rating": 1800,
+          "tag": "DP cơ bản - Re-solve bài cũ",
+          "time_est": "20m",
+          "id": "2026-11-26_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core OLP Topic (25-35m)",
+          "name": "Codeforces 1795E - Explosions?",
+          "url": "https://codeforces.com/problemset/problem/1795/E",
+          "rating": 2000,
+          "tag": "Monotonic Stack / DP - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-11-26_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1805D - A Wide, Wide Graph",
+          "url": "https://codeforces.com/problemset/problem/1805/D",
+          "rating": 1900,
+          "tag": "Tree Diameter - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-26_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Template",
+          "name": "Template Suffix Automaton: Đếm xâu con phân biệt, K-th substring",
+          "url": "https://codeforces.com",
+          "rating": 2400,
+          "tag": "Suffix Structures Notebook",
+          "time_est": "35m",
+          "id": "2026-11-26_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1799/D1",
+      "problem_name": "Bộ 4 bài: Codeforces 1799D1, Codeforces 1795E, Codeforces 1805D, Template Suffix Automaton: Đếm xâu con phân biệt, K-th substring",
+      "rating": "1800 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-27",
+      "date_str": "2026-11-27",
       "day_name": "Thứ Sáu",
       "week_num": 6,
       "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Kiểm tra tiến độ 137 bài khó đã re-solve được bao nhiêu bài",
-      "link": "https://codeforces.com/contest/1442/problem/C",
-      "problem_name": "Codeforces 1442C - Graph, Shortest Path",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "activity": "Kiểm tra tiến độ hoàn thành kho bài tập đã giải từ lâu",
+      "session_type": "HARD REVIEW DEBRIEF",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1815B - Sum Graph",
+          "url": "https://codeforces.com/problemset/problem/1815/B",
+          "rating": 2100,
+          "tag": "Interactive / Graph - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-11-27_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1821E - Rearrange Brackets",
+          "url": "https://codeforces.com/problemset/problem/1821/E",
+          "rating": 2000,
+          "tag": "Greedy / Brackets - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-27_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1806E - Tree Master",
+          "url": "https://codeforces.com/problemset/problem/1806/E",
+          "rating": 2400,
+          "tag": "Sqrt on Tree / DP - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-27_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Debrief",
+          "name": "Kiểm tra thống kê: Đã re-solve được bao nhiêu trong 137 bài cũ!",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Review progress report",
+          "time_est": "25m",
+          "id": "2026-11-27_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1815/B",
+      "problem_name": "Bộ 4 bài: Codeforces 1815B, Codeforces 1821E, Codeforces 1806E, Kiểm tra thống kê: Đã re-solve được bao nhiêu trong 137 bài cũ!",
+      "rating": "2000 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-28",
+      "date_str": "2026-11-28",
       "day_name": "Thứ Bảy",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
-      "activity": "FINAL MOCK TEST: 2022-2023 ICPC Asia Yokohama Regional (5 Giờ)",
+      "activity": "FINAL MOCK TEST ICPC: 2022-2023 ICPC Asia Yokohama Regional (5 Giờ)",
+      "session_type": "FINAL MOCK TEST (5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 FINAL MOCK TEST (5H)",
+          "name": "2022-2023 ICPC Asia Yokohama Regional",
+          "url": "https://codeforces.com/gym/104021",
+          "rating": 2300,
+          "tag": "5h Final Simulation",
+          "time_est": "300m",
+          "id": "2026-11-28_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài phân hóa mức trung bình trong đề",
+          "url": "https://codeforces.com/gym/104021",
+          "rating": 2100,
+          "tag": "Upsolving đề thi Yokohama",
+          "time_est": "45m",
+          "id": "2026-11-28_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài phân hóa mức cao trong đề",
+          "url": "https://codeforces.com/gym/104021",
+          "rating": 2300,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "50m",
+          "id": "2026-11-28_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài thử thách World Finals trong đề",
+          "url": "https://codeforces.com/gym/104021",
+          "rating": 2600,
+          "tag": "Upsolving đề thi thật",
+          "time_est": "60m",
+          "id": "2026-11-28_p4"
+        }
+      ],
       "link": "https://codeforces.com/gym/104021",
-      "problem_name": "2022-2023 ICPC Asia Yokohama Regional",
-      "rating": "ICPC Team",
-      "session_type": "FINAL MOCK TEST",
+      "problem_name": "Bộ 4 bài: 2022-2023 ICPC Asia Yokohama Regional, Upsolve Bài phân hóa mức trung bình trong đề, Upsolve Bài phân hóa mức cao trong đề, Upsolve Bài thử thách World Finals trong đề",
+      "rating": "2100 - 2600",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-29",
+      "date_str": "2026-11-29",
       "day_name": "Chủ Nhật",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "MOCK TEST OLP #2: Đề Olympic Tin học Sinh viên Toàn quốc (3.5 Giờ)",
+      "session_type": "FINAL OLP MOCK (3.5H)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 FINAL OLP MOCK (3.5H)",
+          "name": "VOI 2021 RMAT - Observation & Matrix",
+          "url": "https://oj.vnoi.info/problem/voi21_rmat",
+          "rating": 2300,
+          "tag": "Giả lập 3.5h Đề thi Olympic SV",
+          "time_est": "210m",
+          "id": "2026-11-29_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve Bài Toán học / Ma trận trong đề",
+          "url": "https://oj.vnoi.info/problem/voi21_rmat",
+          "rating": 2100,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "45m",
+          "id": "2026-11-29_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Upsolve Bài Quy hoạch động phân hóa trong đề",
+          "url": "https://oj.vnoi.info/problem/voi21_rmat",
+          "rating": 2300,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "50m",
+          "id": "2026-11-29_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Target Upsolve 3",
+          "name": "Upsolve Bài Cấu trúc dữ liệu trong đề",
+          "url": "https://oj.vnoi.info/problem/voi21_rmat",
+          "rating": 2400,
+          "tag": "Upsolving đề thi OLP",
+          "time_est": "60m",
+          "id": "2026-11-29_p4"
+        }
+      ],
       "link": "https://oj.vnoi.info/problem/voi21_rmat",
-      "problem_name": "VOI 2021 RMAT - Observation & Matrix",
-      "rating": "VOI",
-      "session_type": "OLP Mock Test",
+      "problem_name": "Bộ 4 bài: VOI 2021 RMAT, Upsolve Bài Toán học / Ma trận trong đề, Upsolve Bài Quy hoạch động phân hóa trong đề, Upsolve Bài Cấu trúc dữ liệu trong đề",
+      "rating": "2100 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-30",
+      "date_str": "2026-11-30",
       "day_name": "Thứ Hai",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "Upsolve bài khó Mock Test & Đóng gói toàn bộ code mẫu",
-      "link": "https://codeforces.com/contest/1697/problem/E",
-      "problem_name": "Codeforces 1697E - Graph, DP, Tổ hợp",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "session_type": "FINAL UPSOLVE & CODE PACK",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1824B1 - LuoTianyi and Floating Islands (Easy)",
+          "url": "https://codeforces.com/problemset/problem/1824/B1",
+          "rating": 1900,
+          "tag": "Tree / Combinatorics - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-11-30_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1827B1 - Range Sorting (Easy)",
+          "url": "https://codeforces.com/problemset/problem/1827/B1",
+          "rating": 1900,
+          "tag": "Monotonic Stack - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-11-30_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1824B2 - LuoTianyi and Floating Islands (Hard)",
+          "url": "https://codeforces.com/problemset/problem/1824/B2",
+          "rating": 2300,
+          "tag": "Tree / Math - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-11-30_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mastery Re-solve (45-60m)",
+          "name": "Codeforces 1827B2 - Range Sorting (Hard)",
+          "url": "https://codeforces.com/problemset/problem/1827/B2",
+          "rating": 2300,
+          "tag": "Fenwick / Cartesian Tree - Re-solve bài cũ",
+          "time_est": "50m",
+          "id": "2026-11-30_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1824/B1",
+      "problem_name": "Bộ 4 bài: Codeforces 1824B1, Codeforces 1827B1, Codeforces 1824B2, Codeforces 1827B2",
+      "rating": "1900 - 2300",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-01",
+      "date_str": "2026-12-01",
       "day_name": "Thứ Ba",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "In ấn Team Notebook bản cứng (25 trang chuẩn ICPC quốc tế)",
-      "link": "https://codeforces.com",
-      "problem_name": "In ấn Team Notebook",
-      "rating": "Preparation",
-      "session_type": "Checklist",
+      "session_type": "NOTEBOOK PRINTING",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1830B - Theofanis' Nightmare",
+          "url": "https://codeforces.com/problemset/problem/1830/B",
+          "rating": 1900,
+          "tag": "Sqrt / Pairs - Re-solve bài cũ",
+          "time_est": "25m",
+          "id": "2026-12-01_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1841E - Fill in the Matrix",
+          "url": "https://codeforces.com/problemset/problem/1841/E",
+          "rating": 2000,
+          "tag": "Cartesian Tree / Greedy - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-12-01_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1832D2 - Red-Blue Operations (Hard)",
+          "url": "https://codeforces.com/problemset/problem/1832/D2",
+          "rating": 2400,
+          "tag": "Greedy / Math - Re-solve bài cũ",
+          "time_est": "45m",
+          "id": "2026-12-01_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Printing Task",
+          "name": "In ấn 3 bản cứng Team Notebook (đúng quy định 25 trang)",
+          "url": "https://codeforces.com",
+          "rating": 2000,
+          "tag": "ICPC Team Notebook",
+          "time_est": "30m",
+          "id": "2026-12-01_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1830/B",
+      "problem_name": "Bộ 4 bài: Codeforces 1830B, Codeforces 1841E, Codeforces 1832D2, In ấn 3 bản cứng Team Notebook (đúng quy định 25 trang)",
+      "rating": "1900 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-02",
+      "date_str": "2026-12-02",
       "day_name": "Thứ Tư",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "Kiểm tra compiler flags (-O2, -fsanitize=undefined) & máy chấm",
-      "link": "https://codeforces.com",
-      "problem_name": "Kiểm tra môi trường thi",
-      "rating": "Preparation",
-      "session_type": "Checklist",
+      "session_type": "COMPILER ENVIRONMENT CHECK",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1844E - Great Grids",
+          "url": "https://codeforces.com/problemset/problem/1844/E",
+          "rating": 2200,
+          "tag": "2-SAT / Bipartite - Re-solve bài cũ",
+          "time_est": "35m",
+          "id": "2026-12-02_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1842E - Tenzing and Triangle",
+          "url": "https://codeforces.com/problemset/problem/1842/E",
+          "rating": 2300,
+          "tag": "SegTree + DP - Re-solve bài cũ",
+          "time_est": "40m",
+          "id": "2026-12-02_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1837F - Editorial for Two",
+          "url": "https://codeforces.com/problemset/problem/1837/F",
+          "rating": 2400,
+          "tag": "Binary Search / Priority Queue - Re-solve",
+          "time_est": "45m",
+          "id": "2026-12-02_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Flags Check",
+          "name": "Thử nghiệm cờ biên dịch: -O2 -fsanitize=undefined,address",
+          "url": "https://codeforces.com",
+          "rating": 2100,
+          "tag": "Compiler flags verification",
+          "time_est": "25m",
+          "id": "2026-12-02_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1844/E",
+      "problem_name": "Bộ 4 bài: Codeforces 1844E, Codeforces 1842E, Codeforces 1837F, Thử nghiệm cờ biên dịch: -O2 -fsanitize=undefined,address",
+      "rating": "2100 - 2400",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-03",
+      "date_str": "2026-12-03",
       "day_name": "Thứ Năm",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "Họp chiến thuật team 3 người 1 máy lần cuối trước khi bay",
-      "link": "https://codeforces.com",
-      "problem_name": "Họp chiến thuật Team ICPC",
-      "rating": "Strategy",
-      "session_type": "Team Meeting",
+      "session_type": "FINAL TEAM STRATEGY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Speed Warm-up (10-15m)",
+          "name": "Codeforces 1850H - The Third Letter",
+          "url": "https://codeforces.com/problemset/problem/1850/H",
+          "rating": 1700,
+          "tag": "Weighted DSU speed check",
+          "time_est": "15m",
+          "id": "2026-12-03_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Core ICPC Topic (25-35m)",
+          "name": "Codeforces 1851G - Vlad and the Mountains",
+          "url": "https://codeforces.com/problemset/problem/1851/G",
+          "rating": 1900,
+          "tag": "Offline queries + DSU - Re-solve bài cũ",
+          "time_est": "30m",
+          "id": "2026-12-03_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 OLP Decisive (35-45m)",
+          "name": "Codeforces 1856C - To Become Max",
+          "url": "https://codeforces.com/problemset/problem/1856/C",
+          "rating": 1600,
+          "tag": "Binary search on answer speed check",
+          "time_est": "20m",
+          "id": "2026-12-03_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Final Team Meeting",
+          "name": "Họp chiến thuật Team ICPC: Phân chia máy và xử lý áp lực",
+          "url": "https://codeforces.com",
+          "rating": 2200,
+          "tag": "Team mindset and strategy",
+          "time_est": "30m",
+          "id": "2026-12-03_p4"
+        }
+      ],
+      "link": "https://codeforces.com/problemset/problem/1850/H",
+      "problem_name": "Bộ 4 bài: Codeforces 1850H, Codeforces 1851G, Codeforces 1856C, Họp chiến thuật Team ICPC: Phân chia máy và xử lý áp lực",
+      "rating": "1600 - 2200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-04",
+      "date_str": "2026-12-04",
       "day_name": "Thứ Sáu",
       "week_num": 7,
       "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
       "activity": "Nghỉ ngơi, chuẩn bị hành lý, giấy tờ tùy thân và vé đi Đà Nẵng",
-      "link": "https://codeforces.com",
-      "problem_name": "Nghỉ ngơi và chuẩn bị lên đường",
-      "rating": "Rest",
-      "session_type": "Rest & Recharge",
-      "status": "Hoàn thành"
+      "session_type": "PACKING & TRAVEL PREP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Travel Prep",
+          "name": "Kiểm tra CCCD/CMND, thẻ sinh viên, giấy cử đoàn của trường",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Travel documents checklist",
+          "time_est": "15m",
+          "id": "2026-12-04_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Gear Check",
+          "name": "Chuẩn bị bàn phím cơ dự phòng (nếu BTC cho phép) & áo ấm",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Hardware & clothing checklist",
+          "time_est": "15m",
+          "id": "2026-12-04_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Mental Rest",
+          "name": "Thư giãn, nghe nhạc, nạp năng lượng tinh thần",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Mental relaxation",
+          "time_est": "0m",
+          "id": "2026-12-04_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Ready to Fly",
+          "name": "Hoàn tất chuẩn bị để cất cánh đến TP. Đà Nẵng!",
+          "url": "https://olp.vn",
+          "rating": 2400,
+          "tag": "Flight to Da Nang",
+          "time_est": "0m",
+          "id": "2026-12-04_p4"
+        }
+      ],
+      "link": "https://olp.vn",
+      "problem_name": "Bộ 4 bài: Kiểm tra CCCD/CMND, thẻ sinh viên, giấy cử đoàn của trường, Chuẩn bị bàn phím cơ dự phòng (nếu BTC cho phép) & áo ấm, Thư giãn, nghe nhạc, nạp năng lượng tinh thần, Hoàn tất chuẩn bị để cất cánh đến TP. Đà Nẵng!",
+      "rating": "1500 - 2400",
+      "status": "Chưa làm"
     },
     {
       "date": "2026-12-05",
+      "date_str": "2026-12-05",
       "day_name": "Thứ Bảy",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "Di chuyển đến TP. Đà Nẵng, nhận phòng & ổn định nơi lưu trú",
+      "session_type": "ARRIVE IN DA NANG",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Check-in",
+          "name": "Di chuyển đến Đà Nẵng, nhận phòng khách sạn",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Arrival & Check-in",
+          "time_est": "0m",
+          "id": "2026-12-05_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Team Gathering",
+          "name": "Họp mặt toàn đội, ăn uống nhẹ nhàng",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Team dinner & bonding",
+          "time_est": "0m",
+          "id": "2026-12-05_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Climate Adapt",
+          "name": "Làm quen với thời tiết, khí hậu Đà Nẵng",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Adaptation",
+          "time_est": "0m",
+          "id": "2026-12-05_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Rest",
+          "name": "Nghỉ ngơi sớm sau chuyến bay/xe",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Good night sleep",
+          "time_est": "0m",
+          "id": "2026-12-05_p4"
+        }
+      ],
       "link": "https://olp.vn",
-      "problem_name": "Có mặt tại Đà Nẵng",
-      "rating": "Travel",
-      "session_type": "Check-in",
+      "problem_name": "Bộ 4 bài: Di chuyển đến Đà Nẵng, nhận phòng khách sạn, Họp mặt toàn đội, ăn uống nhẹ nhàng, Làm quen với thời tiết, khí hậu Đà Nẵng, Nghỉ ngơi sớm sau chuyến bay/xe",
+      "rating": "1200 - 1200",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-06",
+      "date_str": "2026-12-06",
       "day_name": "Chủ Nhật",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "Tham quan Trường ĐH CNTT và Truyền thông Việt - Hàn (VKU Đà Nẵng)",
+      "session_type": "SITE VISIT (VKU)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Venue Tour",
+          "name": "Thăm quan khuôn viên trường VKU Đà Nẵng",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Site inspection",
+          "time_est": "0m",
+          "id": "2026-12-06_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Hall Inspection",
+          "name": "Định vị phòng thi, khu vực cách ly, hội trường khai mạc",
+          "url": "https://olp.vn",
+          "rating": 1200,
+          "tag": "Logistics check",
+          "time_est": "0m",
+          "id": "2026-12-06_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Friendly Chat",
+          "name": "Giao lưu với các đoàn đội tuyển bạn toàn quốc",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Community networking",
+          "time_est": "0m",
+          "id": "2026-12-06_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Mental Prep",
+          "name": "Chuẩn bị tâm lý thi đấu tự tin",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Focus & calm",
+          "time_est": "0m",
+          "id": "2026-12-06_p4"
+        }
+      ],
       "link": "https://olp.vn",
-      "problem_name": "Thăm quan địa điểm thi VKU Đà Nẵng",
-      "rating": "Site Visit",
-      "session_type": "Venue Tour",
+      "problem_name": "Bộ 4 bài: Thăm quan khuôn viên trường VKU Đà Nẵng, Định vị phòng thi, khu vực cách ly, hội trường khai mạc, Giao lưu với các đoàn đội tuyển bạn toàn quốc, Chuẩn bị tâm lý thi đấu tự tin",
+      "rating": "1200 - 1500",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-07",
+      "date_str": "2026-12-07",
       "day_name": "Thứ Hai",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "Gõ code nhẹ nhàng vài bài cơ bản lấy cảm giác phím mượt mà",
+      "session_type": "LIGHT KEYBOARD WARM-UP",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Warm-up 1",
+          "name": "Codeforces 476B - Dreamoon and WiFi",
+          "url": "https://codeforces.com/problemset/problem/476/B",
+          "rating": 1300,
+          "tag": "Light warm-up",
+          "time_est": "10m",
+          "id": "2026-12-07_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Warm-up 2",
+          "name": "Codeforces 217A - Ice Skating",
+          "url": "https://codeforces.com/problemset/problem/217/A",
+          "rating": 1400,
+          "tag": "DSU warm-up",
+          "time_est": "15m",
+          "id": "2026-12-07_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Warm-up 3",
+          "name": "Codeforces 295B - Greg and Graph",
+          "url": "https://codeforces.com/contest/295/problem/B",
+          "rating": 1700,
+          "tag": "Floyd trick warm-up",
+          "time_est": "20m",
+          "id": "2026-12-07_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Rest",
+          "name": "Nghỉ ngơi, giữ đầu óc thông thoáng cho ngày thi cá nhân OLP",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Mental freshness",
+          "time_est": "0m",
+          "id": "2026-12-07_p4"
+        }
+      ],
       "link": "https://codeforces.com/problemset/problem/476/B",
-      "problem_name": "Codeforces 476B - Dreamoon and WiFi",
-      "rating": "1300",
-      "session_type": "Warm-up",
+      "problem_name": "Bộ 4 bài: Codeforces 476B, Codeforces 217A, Codeforces 295B, Nghỉ ngơi, giữ đầu óc thông thoáng cho ngày thi cá nhân OLP",
+      "rating": "1300 - 1700",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-08",
+      "date_str": "2026-12-08",
       "day_name": "Thứ Ba",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "ĐĂNG KÝ THAM GIA OLP & ICPC ASIA DANANG TẠI VKU; CHUNG KẾT OLYMPIC AI",
+      "session_type": "REGISTRATION & CEREMONY",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Check-in",
+          "name": "Đăng ký OLP'26 & ICPC Asia Danang tại VKU Đà Nẵng",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Official Registration",
+          "time_est": "30m",
+          "id": "2026-12-08_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Badge & Kit",
+          "name": "Nhận thẻ thi, áo đấu, quà lưu niệm Ban tổ chức",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Kit Collection",
+          "time_est": "20m",
+          "id": "2026-12-08_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Opening Ceremony",
+          "name": "Dự Lễ Khai Mạc Olympic Tin học Sinh viên Toàn quốc 2026",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Ceremony",
+          "time_est": "60m",
+          "id": "2026-12-08_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Early Sleep",
+          "name": "Ngủ sớm chuẩn bị cho buổi sáng thi đấu cá nhân OLP",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "Recharge for Game Day",
+          "time_est": "0m",
+          "id": "2026-12-08_p4"
+        }
+      ],
       "link": "https://olp.vn",
-      "problem_name": "Đăng ký OLP'26 & ICPC Asia Danang (08/12/2026)",
-      "rating": "Registration",
-      "session_type": "OFFICIAL EVENT",
+      "problem_name": "Bộ 4 bài: Đăng ký OLP'26 & ICPC Asia Danang tại VKU Đà Nẵng, Nhận thẻ thi, áo đấu, quà lưu niệm Ban tổ chức, Dự Lễ Khai Mạc Olympic Tin học Sinh viên Toàn quốc 2026, Ngủ sớm chuẩn bị cho buổi sáng thi đấu cá nhân OLP",
+      "rating": "1500 - 2000",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-09",
+      "date_str": "2026-12-09",
       "day_name": "Thứ Tư",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "CHÍNH THỨC THI OLYMPIC TIN HỌC SINH VIÊN (OLP'26) - KHỐI CHUYÊN TIN & SIÊU CÚP",
+      "session_type": "OFFICIAL CONTEST (OLP'26)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OFFICIAL CONTEST (3-4H)",
+          "name": "Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026)",
+          "url": "https://olp.vn",
+          "rating": 2400,
+          "tag": "Tranh giải Nhất / Cúp Vàng OLP",
+          "time_est": "240m",
+          "id": "2026-12-09_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Target Upsolve 1",
+          "name": "Upsolve & Thảo luận bài thi cá nhân OLP",
+          "url": "https://olp.vn",
+          "rating": 2100,
+          "tag": "Debrief OLP",
+          "time_est": "45m",
+          "id": "2026-12-09_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Target Upsolve 2",
+          "name": "Chuyển trạng thái tâm lý từ Cá nhân sang Đồng đội 3 người",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "Team mode activation",
+          "time_est": "30m",
+          "id": "2026-12-09_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Ready for Asia",
+          "name": "Sẵn sàng cho trận chung kết cao nhất: ICPC Asia Danang!",
+          "url": "https://olp.vn",
+          "rating": 2400,
+          "tag": "Asia Regional readiness",
+          "time_est": "0m",
+          "id": "2026-12-09_p4"
+        }
+      ],
       "link": "https://olp.vn",
-      "problem_name": "Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026)",
-      "rating": "CONTEST",
-      "session_type": "OFFICIAL CONTEST",
-      "status": "Đến giờ G!"
+      "problem_name": "Bộ 4 bài: Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026), Upsolve & Thảo luận bài thi cá nhân OLP, Chuyển trạng thái tâm lý từ Cá nhân sang Đồng đội 3 người, Sẵn sàng cho trận chung kết cao nhất: ICPC Asia Danang!",
+      "rating": "2000 - 2400",
+      "status": "Chưa làm"
     },
     {
       "date": "2026-12-10",
+      "date_str": "2026-12-10",
       "day_name": "Thứ Năm",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "KHAI MẠC ICPC ASIA DANANG 2026; THỬ MÁY (PRACTICE SESSION 2H) & NỘP NOTEBOOK",
+      "session_type": "PRACTICE & NOTEBOOK CHECK",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: ⚡ Practice Session (2h)",
+          "name": "Khai mạc & Thử máy ICPC Asia Danang (10/12/2026)",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "Practice Session 2h chính thức",
+          "time_est": "120m",
+          "id": "2026-12-10_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Notebook Submission",
+          "name": "Nộp Team Notebook 25 trang cho Ban Giám Khảo kiểm duyệt",
+          "url": "https://olp.vn",
+          "rating": 1800,
+          "tag": "Notebook Verification",
+          "time_est": "20m",
+          "id": "2026-12-10_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Final Team Meeting",
+          "name": "Họp chiến thuật xuất trận lần cuối: Săn giải Nhất & Vé World Finals!",
+          "url": "https://olp.vn",
+          "rating": 2200,
+          "tag": "Final War Room",
+          "time_est": "30m",
+          "id": "2026-12-10_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Rest",
+          "name": "Nghỉ ngơi, ngủ đủ giấc, chuẩn bị 5 tiếng thi đấu lịch sử",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "Pre-battle rest",
+          "time_est": "0m",
+          "id": "2026-12-10_p4"
+        }
+      ],
       "link": "https://olp.vn",
-      "problem_name": "Khai mạc & Thử máy ICPC Asia Danang (10/12/2026)",
-      "rating": "Practice",
-      "session_type": "OFFICIAL EVENT",
-      "status": "Đến giờ G!"
+      "problem_name": "Bộ 4 bài: Khai mạc & Thử máy ICPC Asia Danang (10/12/2026), Nộp Team Notebook 25 trang cho Ban Giám Khảo kiểm duyệt, Họp chiến thuật xuất trận lần cuối: Săn giải Nhất & Vé World Finals!, Nghỉ ngơi, ngủ đủ giấc, chuẩn bị 5 tiếng thi đấu lịch sử",
+      "rating": "1800 - 2200",
+      "status": "Chưa làm"
     },
     {
       "date": "2026-12-11",
+      "date_str": "2026-12-11",
       "day_name": "Thứ Sáu",
       "week_num": 8,
       "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
       "activity": "CHÍNH THỨC THI LẬP TRÌNH QUỐC TẾ ICPC ASIA DANANG 2026 (5 TIẾNG: 08:00 - 13:00)",
+      "session_type": "OFFICIAL CONTEST (5H ASIA)",
+      "target_count": 4,
+      "problems": [
+        {
+          "slot": "Slot 1: 🏆 OFFICIAL CONTEST (5H)",
+          "name": "Chính thức thi ICPC Asia Danang 2026 (11/12/2026: 08:00 - 13:00)",
+          "url": "https://icpc.global",
+          "rating": 2600,
+          "tag": "5h Đấu đỉnh cao Châu Á",
+          "time_est": "300m",
+          "id": "2026-12-11_p1"
+        },
+        {
+          "slot": "Slot 2: 🎯 Closing Ceremony",
+          "name": "Dự Lễ Bế mạc & Trao giải Olympic Tin học SV và ICPC Asia Danang",
+          "url": "https://olp.vn",
+          "rating": 2000,
+          "tag": "Award Ceremony",
+          "time_est": "120m",
+          "id": "2026-12-11_p2"
+        },
+        {
+          "slot": "Slot 3: 🏆 Gala Dinner",
+          "name": "Gala Dinner tổng kết mùa giải & Giao lưu cộng đồng CP",
+          "url": "https://olp.vn",
+          "rating": 1500,
+          "tag": "Celebration",
+          "time_est": "120m",
+          "id": "2026-12-11_p3"
+        },
+        {
+          "slot": "Slot 4: 🧗 Champion",
+          "name": "Hoàn thành mỹ mãn mùa giải ICPC & Olympic Tin học SV 2026!",
+          "url": "https://olp.vn",
+          "rating": 2800,
+          "tag": "Mission Accomplished",
+          "time_est": "0m",
+          "id": "2026-12-11_p4"
+        }
+      ],
       "link": "https://icpc.global",
-      "problem_name": "Chính thức thi ICPC Asia Danang 2026 (11/12/2026)",
-      "rating": "CONTEST",
-      "session_type": "OFFICIAL CONTEST",
-      "status": "Đến giờ G!"
+      "problem_name": "Bộ 4 bài: Chính thức thi ICPC Asia Danang 2026 (11/12/2026: 08:00, Dự Lễ Bế mạc & Trao giải Olympic Tin học SV và ICPC Asia Danang, Gala Dinner tổng kết mùa giải & Giao lưu cộng đồng CP, Hoàn thành mỹ mãn mùa giải ICPC & Olympic Tin học SV 2026!",
+      "rating": "1500 - 2800",
+      "status": "Chưa làm"
     }
   ],
   "ladder16": [
@@ -699,7 +2944,7 @@
       "pidx": "A",
       "key": "334A",
       "solved": true,
-      "last_sub": "2026-09-05 02:58:28",
+      "last_sub": "2026-09-05 09:58:28",
       "rating": 1000,
       "tags": [
         "implementation"
@@ -716,7 +2961,7 @@
       "pidx": "A",
       "key": "59A",
       "solved": true,
-      "last_sub": "2026-09-01 07:04:58",
+      "last_sub": "2026-09-01 14:04:58",
       "rating": 800,
       "tags": [
         "implementation",
@@ -734,7 +2979,7 @@
       "pidx": "A",
       "key": "476A",
       "solved": true,
-      "last_sub": "2026-10-15 08:15:41",
+      "last_sub": "2026-10-15 15:15:41",
       "rating": 1000,
       "tags": [
         "implementation",
@@ -752,7 +2997,7 @@
       "pidx": "A",
       "key": "189A",
       "solved": true,
-      "last_sub": "2026-09-04 09:05:40",
+      "last_sub": "2026-09-04 16:05:40",
       "rating": 1300,
       "tags": [
         "brute force",
@@ -770,7 +3015,7 @@
       "pidx": "B",
       "key": "230B",
       "solved": true,
-      "last_sub": "2026-09-04 09:30:21",
+      "last_sub": "2026-09-04 16:30:21",
       "rating": 1300,
       "tags": [
         "binary search",
@@ -790,7 +3035,7 @@
       "pidx": "A",
       "key": "217A",
       "solved": true,
-      "last_sub": "2026-09-10 06:40:41",
+      "last_sub": "2026-09-10 13:40:41",
       "rating": 1200,
       "tags": [
         "brute force",
@@ -810,7 +3055,7 @@
       "pidx": "A",
       "key": "258A",
       "solved": true,
-      "last_sub": "2026-09-04 07:51:50",
+      "last_sub": "2026-09-04 14:51:50",
       "rating": 1100,
       "tags": [
         "greedy",
@@ -828,7 +3073,7 @@
       "pidx": "B",
       "key": "476B",
       "solved": true,
-      "last_sub": "2026-09-06 10:18:52",
+      "last_sub": "2026-09-06 17:18:52",
       "rating": 1300,
       "tags": [
         "bitmasks",
@@ -850,7 +3095,7 @@
       "pidx": "A",
       "key": "115A",
       "solved": true,
-      "last_sub": "2026-09-17 09:58:00",
+      "last_sub": "2026-09-17 16:58:00",
       "rating": 900,
       "tags": [
         "dfs and similar",
@@ -869,7 +3114,7 @@
       "pidx": "A",
       "key": "295A",
       "solved": true,
-      "last_sub": "2026-09-22 12:58:54",
+      "last_sub": "2026-09-22 19:58:54",
       "rating": 1400,
       "tags": [
         "data structures",
@@ -887,7 +3132,7 @@
       "pidx": "C",
       "key": "478C",
       "solved": true,
-      "last_sub": "2026-09-19 16:14:10",
+      "last_sub": "2026-09-19 23:14:10",
       "rating": 1800,
       "tags": [
         "greedy"
@@ -904,7 +3149,7 @@
       "pidx": "C",
       "key": "427C",
       "solved": true,
-      "last_sub": "2026-09-18 13:41:15",
+      "last_sub": "2026-09-18 20:41:15",
       "rating": 1700,
       "tags": [
         "dfs and similar",
@@ -923,7 +3168,7 @@
       "pidx": "C",
       "key": "369C",
       "solved": true,
-      "last_sub": "2026-09-19 15:59:23",
+      "last_sub": "2026-09-19 22:59:23",
       "rating": 1600,
       "tags": [
         "dfs and similar",
@@ -942,7 +3187,7 @@
       "pidx": "B",
       "key": "319B",
       "solved": true,
-      "last_sub": "2026-10-15 08:34:34",
+      "last_sub": "2026-10-15 15:34:34",
       "rating": 1900,
       "tags": [
         "data structures",
@@ -960,7 +3205,7 @@
       "pidx": "B",
       "key": "372B",
       "solved": true,
-      "last_sub": "2026-10-15 08:46:53",
+      "last_sub": "2026-10-15 15:46:53",
       "rating": 1900,
       "tags": [
         "brute force",
@@ -979,7 +3224,7 @@
       "pidx": "B",
       "key": "295B",
       "solved": true,
-      "last_sub": "2023-11-28 01:03:33",
+      "last_sub": "2023-11-28 08:03:33",
       "rating": 1700,
       "tags": [
         "dp",
@@ -998,7 +3243,7 @@
       "pidx": "C",
       "key": "276C",
       "solved": true,
-      "last_sub": "2026-09-09 02:53:34",
+      "last_sub": "2026-09-09 09:53:34",
       "rating": 1500,
       "tags": [
         "data structures",
@@ -1018,7 +3263,7 @@
       "pidx": "D",
       "key": "363D",
       "solved": true,
-      "last_sub": "2026-10-15 09:04:00",
+      "last_sub": "2026-10-15 16:04:00",
       "rating": 1800,
       "tags": [
         "binary search",
@@ -1036,7 +3281,7 @@
       "pidx": "A",
       "key": "494A",
       "solved": true,
-      "last_sub": "2026-10-15 09:26:26",
+      "last_sub": "2026-10-15 16:26:26",
       "rating": 1500,
       "tags": [
         "greedy"
@@ -1053,7 +3298,7 @@
       "pidx": "A",
       "key": "446A",
       "solved": true,
-      "last_sub": "2026-09-23 04:50:12",
+      "last_sub": "2026-09-23 11:50:12",
       "rating": 1600,
       "tags": [
         "dp",
@@ -1072,7 +3317,7 @@
       "pidx": "B",
       "key": "349B",
       "solved": true,
-      "last_sub": "2026-09-17 09:16:24",
+      "last_sub": "2026-09-17 16:16:24",
       "rating": 1700,
       "tags": [
         "data structures",
@@ -1092,7 +3337,7 @@
       "pidx": "D",
       "key": "246D",
       "solved": true,
-      "last_sub": "2026-09-20 04:28:53",
+      "last_sub": "2026-09-20 11:28:53",
       "rating": 1600,
       "tags": [
         "brute force",
@@ -1111,7 +3356,7 @@
       "pidx": "B",
       "key": "274B",
       "solved": true,
-      "last_sub": "2026-09-24 12:18:34",
+      "last_sub": "2026-09-24 19:18:34",
       "rating": 1800,
       "tags": [
         "dfs and similar",
@@ -1131,7 +3376,7 @@
       "pidx": "C",
       "key": "242C",
       "solved": true,
-      "last_sub": "2026-10-15 09:46:22",
+      "last_sub": "2026-10-15 16:46:22",
       "rating": 1800,
       "tags": [
         "dfs and similar",
@@ -1151,7 +3396,7 @@
       "pidx": "B",
       "key": "482B",
       "solved": true,
-      "last_sub": "2026-10-15 12:01:33",
+      "last_sub": "2026-10-15 19:01:33",
       "rating": 1800,
       "tags": [
         "constructive algorithms",
@@ -1170,7 +3415,7 @@
       "pidx": "B",
       "key": "269B",
       "solved": true,
-      "last_sub": "2026-09-29 06:58:20",
+      "last_sub": "2026-09-29 13:58:20",
       "rating": 1700,
       "tags": [
         "dp"
@@ -1187,7 +3432,7 @@
       "pidx": "A",
       "key": "243A",
       "solved": true,
-      "last_sub": "2026-10-15 12:10:38",
+      "last_sub": "2026-10-15 19:10:38",
       "rating": 1600,
       "tags": [
         "bitmasks"
@@ -1204,7 +3449,7 @@
       "pidx": "D",
       "key": "118D",
       "solved": true,
-      "last_sub": "2026-09-10 08:34:06",
+      "last_sub": "2026-09-10 15:34:06",
       "rating": 1700,
       "tags": [
         "dp"
@@ -1221,7 +3466,7 @@
       "pidx": "D",
       "key": "358D",
       "solved": true,
-      "last_sub": "2026-09-29 08:07:06",
+      "last_sub": "2026-09-29 15:07:06",
       "rating": 1800,
       "tags": [
         "dp",
@@ -1239,7 +3484,7 @@
       "pidx": "C",
       "key": "255C",
       "solved": true,
-      "last_sub": "2026-09-23 05:11:42",
+      "last_sub": "2026-09-23 12:11:42",
       "rating": 1500,
       "tags": [
         "brute force",
@@ -1257,7 +3502,7 @@
       "pidx": "C",
       "key": "371C",
       "solved": true,
-      "last_sub": "2026-09-06 14:53:42",
+      "last_sub": "2026-09-06 21:53:42",
       "rating": 1600,
       "tags": [
         "binary search",
@@ -1275,7 +3520,7 @@
       "pidx": "B",
       "key": "111B",
       "solved": true,
-      "last_sub": "2026-10-15 15:03:37",
+      "last_sub": "2026-10-15 22:03:37",
       "rating": 1900,
       "tags": [
         "binary search",
@@ -1294,7 +3539,7 @@
       "pidx": "A",
       "key": "364A",
       "solved": true,
-      "last_sub": "2026-10-15 16:21:03",
+      "last_sub": "2026-10-15 23:21:03",
       "rating": 1600,
       "tags": [
         "combinatorics",
@@ -1313,7 +3558,7 @@
       "pidx": "C",
       "key": "339C",
       "solved": true,
-      "last_sub": "2026-09-17 07:07:17",
+      "last_sub": "2026-09-17 14:07:17",
       "rating": 1700,
       "tags": [
         "constructive algorithms",
@@ -1335,7 +3580,7 @@
       "pidx": "C",
       "key": "225C",
       "solved": true,
-      "last_sub": "2026-09-20 14:01:28",
+      "last_sub": "2026-09-20 21:01:28",
       "rating": 1700,
       "tags": [
         "dp",
@@ -1353,7 +3598,7 @@
       "pidx": "C",
       "key": "219C",
       "solved": true,
-      "last_sub": "2026-09-16 08:36:05",
+      "last_sub": "2026-09-16 15:36:05",
       "rating": 1600,
       "tags": [
         "brute force",
@@ -1372,7 +3617,7 @@
       "pidx": "D",
       "key": "339D",
       "solved": true,
-      "last_sub": "2026-09-10 13:11:29",
+      "last_sub": "2026-09-10 20:11:29",
       "rating": 1700,
       "tags": [
         "data structures",
@@ -1390,7 +3635,7 @@
       "pidx": "A",
       "key": "321A",
       "solved": true,
-      "last_sub": "2026-10-16 04:57:48",
+      "last_sub": "2026-10-16 11:57:48",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1409,7 +3654,7 @@
       "pidx": "A",
       "key": "204A",
       "solved": true,
-      "last_sub": "2026-10-16 05:25:59",
+      "last_sub": "2026-10-16 12:25:59",
       "rating": 1500,
       "tags": [
         "binary search",
@@ -1428,7 +3673,7 @@
       "pidx": "B",
       "key": "204B",
       "solved": true,
-      "last_sub": "2026-10-16 05:39:16",
+      "last_sub": "2026-10-16 12:39:16",
       "rating": 1500,
       "tags": [
         "binary search",
@@ -1446,7 +3691,7 @@
       "pidx": "B",
       "key": "264B",
       "solved": true,
-      "last_sub": "2026-10-01 09:33:57",
+      "last_sub": "2026-10-01 16:33:57",
       "rating": 1500,
       "tags": [
         "dp",
@@ -1464,7 +3709,7 @@
       "pidx": "C",
       "key": "431C",
       "solved": true,
-      "last_sub": "2026-09-08 04:20:01",
+      "last_sub": "2026-09-08 11:20:01",
       "rating": 1600,
       "tags": [
         "dp",
@@ -1483,7 +3728,7 @@
       "pidx": "B",
       "key": "547B",
       "solved": true,
-      "last_sub": "2026-10-16 07:09:07",
+      "last_sub": "2026-10-16 14:09:07",
       "rating": 1900,
       "tags": [
         "binary search",
@@ -1533,7 +3778,7 @@
       "pidx": "B",
       "key": "126B",
       "solved": true,
-      "last_sub": "2024-06-13 14:25:29",
+      "last_sub": "2024-06-13 21:25:29",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1554,7 +3799,7 @@
       "pidx": "D",
       "key": "271D",
       "solved": true,
-      "last_sub": "2026-09-21 06:25:02",
+      "last_sub": "2026-09-21 13:25:02",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1602,7 +3847,7 @@
       "pidx": "D",
       "key": "471D",
       "solved": true,
-      "last_sub": "2024-06-13 14:00:46",
+      "last_sub": "2024-06-13 21:00:46",
       "rating": 1800,
       "tags": [
         "string suffix structures",
@@ -1665,7 +3910,7 @@
       "pidx": "C",
       "key": "463C",
       "solved": true,
-      "last_sub": "2026-09-17 09:36:20",
+      "last_sub": "2026-09-17 16:36:20",
       "rating": 1900,
       "tags": [
         "greedy",
@@ -1759,7 +4004,7 @@
       "pidx": "E",
       "key": "61E",
       "solved": true,
-      "last_sub": "2026-09-13 13:18:56",
+      "last_sub": "2026-09-13 20:18:56",
       "rating": 1900,
       "tags": [
         "data structures",
@@ -1777,7 +4022,7 @@
       "pidx": "D",
       "key": "519D",
       "solved": true,
-      "last_sub": "2026-09-21 02:54:23",
+      "last_sub": "2026-09-21 09:54:23",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1826,7 +4071,7 @@
       "pidx": "D",
       "key": "400D",
       "solved": true,
-      "last_sub": "2026-10-07 02:45:59",
+      "last_sub": "2026-10-07 09:45:59",
       "rating": 2000,
       "tags": [
         "dsu",
@@ -1845,7 +4090,7 @@
       "pidx": "C",
       "key": "460C",
       "solved": true,
-      "last_sub": "2026-09-22 07:32:49",
+      "last_sub": "2026-09-22 14:32:49",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1879,7 +4124,7 @@
       "pidx": "C",
       "key": "459C",
       "solved": true,
-      "last_sub": "2026-10-14 16:21:35",
+      "last_sub": "2026-10-14 23:21:35",
       "rating": 1900,
       "tags": [
         "combinatorics",
@@ -1898,7 +4143,7 @@
       "pidx": "D",
       "key": "459D",
       "solved": true,
-      "last_sub": "2026-10-01 10:20:20",
+      "last_sub": "2026-10-01 17:20:20",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1917,7 +4162,7 @@
       "pidx": "D",
       "key": "451D",
       "solved": true,
-      "last_sub": "2026-10-08 05:57:50",
+      "last_sub": "2026-10-08 12:57:50",
       "rating": 2000,
       "tags": [
         "math"
@@ -1964,7 +4209,7 @@
       "pidx": "C",
       "key": "448C",
       "solved": true,
-      "last_sub": "2026-09-22 10:50:21",
+      "last_sub": "2026-09-22 17:50:21",
       "rating": 1900,
       "tags": [
         "divide and conquer",
@@ -2028,7 +4273,7 @@
       "pidx": "C",
       "key": "514C",
       "solved": true,
-      "last_sub": "2026-10-07 09:04:40",
+      "last_sub": "2026-10-07 16:04:40",
       "rating": 2000,
       "tags": [
         "binary search",
@@ -2049,7 +4294,7 @@
       "pidx": "D",
       "key": "448D",
       "solved": true,
-      "last_sub": "2026-09-22 12:49:47",
+      "last_sub": "2026-09-22 19:49:47",
       "rating": 1800,
       "tags": [
         "binary search",
@@ -2082,7 +4327,7 @@
       "pidx": "B",
       "key": "346B",
       "solved": true,
-      "last_sub": "2024-06-17 14:47:51",
+      "last_sub": "2024-06-17 21:47:51",
       "rating": 2000,
       "tags": [
         "dp",
@@ -2100,7 +4345,7 @@
       "pidx": "D",
       "key": "432D",
       "solved": true,
-      "last_sub": "2024-06-13 14:55:50",
+      "last_sub": "2024-06-13 21:55:50",
       "rating": 2000,
       "tags": [
         "dp",
@@ -2135,7 +4380,7 @@
       "pidx": "E",
       "key": "242E",
       "solved": true,
-      "last_sub": "2026-10-09 15:35:04",
+      "last_sub": "2026-10-09 22:35:04",
       "rating": 2000,
       "tags": [
         "bitmasks",
@@ -2168,7 +4413,7 @@
       "pidx": "D",
       "key": "439D",
       "solved": true,
-      "last_sub": "2026-10-03 01:54:20",
+      "last_sub": "2026-10-03 08:54:20",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -2203,7 +4448,7 @@
       "pidx": "D",
       "key": "478D",
       "solved": true,
-      "last_sub": "2026-10-13 08:20:47",
+      "last_sub": "2026-10-13 15:20:47",
       "rating": 2000,
       "tags": [
         "dp"
@@ -2220,7 +4465,7 @@
       "pidx": "D",
       "key": "219D",
       "solved": true,
-      "last_sub": "2026-10-08 07:49:19",
+      "last_sub": "2026-10-08 14:49:19",
       "rating": 1700,
       "tags": [
         "dfs and similar",
@@ -2240,7 +4485,7 @@
       "pidx": "D",
       "key": "401D",
       "solved": true,
-      "last_sub": "2026-10-08 06:29:56",
+      "last_sub": "2026-10-08 13:29:56",
       "rating": 2000,
       "tags": [
         "bitmasks",
@@ -2261,7 +4506,7 @@
       "pidx": "D",
       "key": "371D",
       "solved": true,
-      "last_sub": "2026-10-13 07:24:02",
+      "last_sub": "2026-10-13 14:24:02",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -2296,7 +4541,7 @@
       "pidx": "D",
       "key": "148D",
       "solved": true,
-      "last_sub": "2026-10-15 03:40:44",
+      "last_sub": "2026-10-15 10:40:44",
       "rating": 1800,
       "tags": [
         "dp",
@@ -2331,7 +4576,7 @@
       "pidx": "D",
       "key": "359D",
       "solved": true,
-      "last_sub": "2026-10-01 10:06:04",
+      "last_sub": "2026-10-01 17:06:04",
       "rating": 2000,
       "tags": [
         "binary search",
@@ -2382,7 +4627,7 @@
       "pidx": "D",
       "key": "438D",
       "solved": true,
-      "last_sub": "2024-08-06 13:21:00",
+      "last_sub": "2024-08-06 20:21:00",
       "rating": 2300,
       "tags": [
         "data structures",
@@ -2400,7 +4645,7 @@
       "pidx": "C",
       "key": "354C",
       "solved": true,
-      "last_sub": "2024-08-06 13:17:04",
+      "last_sub": "2024-08-06 20:17:04",
       "rating": 2100,
       "tags": [
         "brute force",
@@ -2449,7 +4694,7 @@
       "pidx": "D",
       "key": "570D",
       "solved": true,
-      "last_sub": "2024-08-06 13:23:08",
+      "last_sub": "2024-08-06 20:23:08",
       "rating": 2200,
       "tags": [
         "binary search",
@@ -2477,7 +4722,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-05-01 16:16:33",
+      "last_sub": "2024-05-01 23:16:33",
       "days_ago": 897,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2497,7 +4742,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:18:27",
+      "last_sub": "2024-08-06 20:18:27",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2513,7 +4758,7 @@
         "dsu"
       ],
       "topic": "Data Structures",
-      "last_sub": "2024-08-06 13:19:38",
+      "last_sub": "2024-08-06 20:19:38",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2533,7 +4778,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-21 14:09:02",
+      "last_sub": "2024-08-21 21:09:02",
       "days_ago": 785,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2555,7 +4800,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-02 11:22:23",
+      "last_sub": "2024-09-02 18:22:23",
       "days_ago": 773,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2574,7 +4819,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-17 13:01:42",
+      "last_sub": "2024-08-17 20:01:42",
       "days_ago": 789,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2594,7 +4839,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-09-04 14:32:29",
+      "last_sub": "2024-09-04 21:32:29",
       "days_ago": 771,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2610,7 +4855,7 @@
         "shortest paths"
       ],
       "topic": "General CP",
-      "last_sub": "2024-11-03 03:28:28",
+      "last_sub": "2024-11-03 10:28:28",
       "days_ago": 711,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2627,7 +4872,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-08-16 16:42:01",
+      "last_sub": "2023-08-16 23:42:01",
       "days_ago": 1156,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2645,7 +4890,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-08-20 11:27:25",
+      "last_sub": "2023-08-20 18:27:25",
       "days_ago": 1152,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2664,7 +4909,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-28 14:54:34",
+      "last_sub": "2024-06-28 21:54:34",
       "days_ago": 839,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2681,7 +4926,7 @@
         "graphs"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 14:34:14",
+      "last_sub": "2024-08-06 21:34:14",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2697,7 +4942,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:11:23",
+      "last_sub": "2024-08-06 20:11:23",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2714,7 +4959,7 @@
         "probabilities"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:08:53",
+      "last_sub": "2024-08-06 20:08:53",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2734,7 +4979,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-18 03:57:10",
+      "last_sub": "2024-08-18 10:57:10",
       "days_ago": 788,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2750,7 +4995,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-09-10 01:11:16",
+      "last_sub": "2024-09-10 08:11:16",
       "days_ago": 765,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2767,7 +5012,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-08-01 03:26:35",
+      "last_sub": "2023-08-01 10:26:35",
       "days_ago": 1171,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2784,7 +5029,7 @@
         "trees"
       ],
       "topic": "General CP",
-      "last_sub": "2023-08-08 08:24:35",
+      "last_sub": "2023-08-08 15:24:35",
       "days_ago": 1164,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2801,7 +5046,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2023-12-07 01:14:39",
+      "last_sub": "2023-12-07 08:14:39",
       "days_ago": 1043,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2817,7 +5062,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2024-02-19 16:32:28",
+      "last_sub": "2024-02-19 23:32:28",
       "days_ago": 969,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2836,7 +5081,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:14:20",
+      "last_sub": "2024-08-06 22:14:20",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2854,7 +5099,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:09:40",
+      "last_sub": "2024-08-06 22:09:40",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2871,7 +5116,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:13:09",
+      "last_sub": "2024-08-06 20:13:09",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2887,7 +5132,7 @@
         "divide and conquer"
       ],
       "topic": "General CP",
-      "last_sub": "2024-08-06 13:12:37",
+      "last_sub": "2024-08-06 20:12:37",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2905,7 +5150,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2024-08-06 13:11:04",
+      "last_sub": "2024-08-06 20:11:04",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2925,7 +5170,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:09:58",
+      "last_sub": "2024-08-06 20:09:58",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2943,7 +5188,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-20 15:50:43",
+      "last_sub": "2024-08-20 22:50:43",
       "days_ago": 786,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2960,7 +5205,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-03-18 15:10:34",
+      "last_sub": "2023-03-18 22:10:34",
       "days_ago": 1307,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2977,7 +5222,7 @@
         "shortest paths"
       ],
       "topic": "General CP",
-      "last_sub": "2023-07-31 02:47:24",
+      "last_sub": "2023-07-31 09:47:24",
       "days_ago": 1172,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2994,7 +5239,7 @@
         "data structures"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-11-26 04:22:38",
+      "last_sub": "2023-11-26 11:22:38",
       "days_ago": 1054,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3012,7 +5257,7 @@
         "greedy"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-12-09 14:43:38",
+      "last_sub": "2023-12-09 21:43:38",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3027,7 +5272,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-09 12:28:36",
+      "last_sub": "2023-12-09 19:28:36",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3044,7 +5289,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-09 12:08:13",
+      "last_sub": "2023-12-09 19:08:13",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3061,7 +5306,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-12-26 14:32:18",
+      "last_sub": "2023-12-26 21:32:18",
       "days_ago": 1024,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3077,7 +5322,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 13:41:46",
+      "last_sub": "2024-06-13 20:41:46",
       "days_ago": 854,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3096,7 +5341,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:21:03",
+      "last_sub": "2024-08-06 22:21:03",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3114,7 +5359,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:15:34",
+      "last_sub": "2024-08-06 22:15:34",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3132,7 +5377,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 14:49:51",
+      "last_sub": "2024-08-06 21:49:51",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3150,7 +5395,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 14:49:34",
+      "last_sub": "2024-08-06 21:49:34",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3166,7 +5411,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:21:00",
+      "last_sub": "2024-08-06 20:21:00",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3183,7 +5428,7 @@
         "strings"
       ],
       "topic": "General CP",
-      "last_sub": "2024-08-06 13:19:57",
+      "last_sub": "2024-08-06 20:19:57",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3201,7 +5446,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:01:18",
+      "last_sub": "2024-08-06 20:01:18",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3220,7 +5465,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-12 03:24:04",
+      "last_sub": "2024-08-12 10:24:04",
       "days_ago": 794,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3241,7 +5486,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-20 01:56:54",
+      "last_sub": "2024-08-20 08:56:54",
       "days_ago": 786,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3259,7 +5504,7 @@
         "sortings"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-05-04 08:23:35",
+      "last_sub": "2025-05-04 15:23:35",
       "days_ago": 529,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3276,8 +5521,8 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-11-19 19:49:55",
-      "days_ago": 330,
+      "last_sub": "2025-11-20 02:49:55",
+      "days_ago": 329,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3297,7 +5542,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-12-03 08:53:02",
+      "last_sub": "2025-12-03 15:53:02",
       "days_ago": 316,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3315,7 +5560,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-08-01 02:13:26",
+      "last_sub": "2023-08-01 09:13:26",
       "days_ago": 1171,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3330,7 +5575,7 @@
         "data structures"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-08-01 02:01:22",
+      "last_sub": "2023-08-01 09:01:22",
       "days_ago": 1171,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3348,7 +5593,7 @@
         "dp"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-12-28 04:53:31",
+      "last_sub": "2023-12-28 11:53:31",
       "days_ago": 1022,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3373,7 +5618,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-04 08:21:20",
+      "last_sub": "2024-06-04 15:21:20",
       "days_ago": 863,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3390,7 +5635,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-04 16:05:49",
+      "last_sub": "2024-08-04 23:05:49",
       "days_ago": 802,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3410,7 +5655,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:23:08",
+      "last_sub": "2024-08-06 20:23:08",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3429,7 +5674,7 @@
         "greedy"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-10 16:09:39",
+      "last_sub": "2024-08-10 23:09:39",
       "days_ago": 796,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3445,7 +5690,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-04-04 08:17:49",
+      "last_sub": "2025-04-04 15:17:49",
       "days_ago": 559,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3462,7 +5707,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2025-10-11 07:25:40",
+      "last_sub": "2025-10-11 14:25:40",
       "days_ago": 369,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3480,8 +5725,8 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-10-22 18:29:55",
-      "days_ago": 358,
+      "last_sub": "2025-10-23 01:29:55",
+      "days_ago": 357,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3500,7 +5745,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-11-26 16:57:15",
+      "last_sub": "2025-11-26 23:57:15",
       "days_ago": 323,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3518,7 +5763,7 @@
         "graphs"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-02-27 15:50:20",
+      "last_sub": "2023-02-27 22:50:20",
       "days_ago": 1326,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3536,7 +5781,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-23 10:32:57",
+      "last_sub": "2023-12-23 17:32:57",
       "days_ago": 1027,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3554,7 +5799,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:17:00",
+      "last_sub": "2024-08-06 22:17:00",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3570,7 +5815,7 @@
         "geometry"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:07:55",
+      "last_sub": "2024-08-06 22:07:55",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3587,7 +5832,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:25:03",
+      "last_sub": "2024-08-06 20:25:03",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3604,7 +5849,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:17:04",
+      "last_sub": "2024-08-06 20:17:04",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3623,7 +5868,7 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:11:44",
+      "last_sub": "2024-08-06 20:11:44",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3642,7 +5887,7 @@
         "shortest paths"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-10 15:38:10",
+      "last_sub": "2024-08-10 22:38:10",
       "days_ago": 796,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3660,7 +5905,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-15 15:47:44",
+      "last_sub": "2024-08-15 22:47:44",
       "days_ago": 791,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3675,7 +5920,7 @@
         "data structures"
       ],
       "topic": "General CP",
-      "last_sub": "2025-10-22 15:23:42",
+      "last_sub": "2025-10-22 22:23:42",
       "days_ago": 358,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3691,8 +5936,8 @@
         "sortings"
       ],
       "topic": "General CP",
-      "last_sub": "2025-10-23 18:48:00",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:48:00",
+      "days_ago": 356,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3707,7 +5952,7 @@
         "strings"
       ],
       "topic": "General CP",
-      "last_sub": "2026-07-19 04:17:07",
+      "last_sub": "2026-07-19 11:17:07",
       "days_ago": 88,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3723,7 +5968,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2022-11-14 04:17:21",
+      "last_sub": "2022-11-14 11:17:21",
       "days_ago": 1431,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3744,7 +5989,7 @@
         "trees"
       ],
       "topic": "Data Structures",
-      "last_sub": "2023-08-12 04:28:39",
+      "last_sub": "2023-08-12 11:28:39",
       "days_ago": 1160,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3764,7 +6009,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-05-30 16:19:35",
+      "last_sub": "2024-05-30 23:19:35",
       "days_ago": 868,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3782,7 +6027,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 14:55:50",
+      "last_sub": "2024-06-13 21:55:50",
       "days_ago": 854,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3798,7 +6043,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-17 14:47:51",
+      "last_sub": "2024-06-17 21:47:51",
       "days_ago": 850,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3818,7 +6063,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:17:38",
+      "last_sub": "2024-08-06 22:17:38",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3834,7 +6079,7 @@
         "data structures"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:09:17",
+      "last_sub": "2024-08-06 22:09:17",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3851,7 +6096,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 14:50:07",
+      "last_sub": "2024-08-06 21:50:07",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3871,7 +6116,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:00:44",
+      "last_sub": "2024-08-06 20:00:44",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3890,7 +6135,7 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-10 08:18:33",
+      "last_sub": "2024-09-10 15:18:33",
       "days_ago": 765,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3906,7 +6151,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-10-22 16:52:25",
+      "last_sub": "2025-10-22 23:52:25",
       "days_ago": 358,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3921,8 +6166,25 @@
         "geometry"
       ],
       "topic": "Geometry & Sweepline",
-      "last_sub": "2025-11-17 21:27:05",
-      "days_ago": 332,
+      "last_sub": "2025-11-18 04:27:05",
+      "days_ago": 331,
+      "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
+      "source": "Codeforces Submissions"
+    },
+    {
+      "key": "2041C",
+      "name": "Cube",
+      "url": "https://codeforces.com/problemset/problem/2041/C",
+      "rating": 2000,
+      "platform": "Codeforces",
+      "tags": [
+        "bitmasks",
+        "dfs and similar",
+        "dp"
+      ],
+      "topic": "Graph Theory",
+      "last_sub": "2025-11-19 23:44:07",
+      "days_ago": 330,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3939,25 +6201,8 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-11-19 18:05:06",
-      "days_ago": 330,
-      "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
-      "source": "Codeforces Submissions"
-    },
-    {
-      "key": "2041C",
-      "name": "Cube",
-      "url": "https://codeforces.com/problemset/problem/2041/C",
-      "rating": 2000,
-      "platform": "Codeforces",
-      "tags": [
-        "bitmasks",
-        "dfs and similar",
-        "dp"
-      ],
-      "topic": "Graph Theory",
-      "last_sub": "2025-11-19 16:44:07",
-      "days_ago": 330,
+      "last_sub": "2025-11-20 01:05:06",
+      "days_ago": 329,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3973,7 +6218,7 @@
         "sortings"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-08-06 08:26:04",
+      "last_sub": "2026-08-06 15:26:04",
       "days_ago": 70,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3991,7 +6236,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2022-11-11 15:32:53",
+      "last_sub": "2022-11-11 22:32:53",
       "days_ago": 1434,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4008,7 +6253,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-10-31 06:11:13",
+      "last_sub": "2023-10-31 13:11:13",
       "days_ago": 1080,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4025,7 +6270,7 @@
         "trees"
       ],
       "topic": "General CP",
-      "last_sub": "2023-12-04 03:10:33",
+      "last_sub": "2023-12-04 10:10:33",
       "days_ago": 1046,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4043,7 +6288,7 @@
         "implementation"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-14 09:11:52",
+      "last_sub": "2023-12-14 16:11:52",
       "days_ago": 1036,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4064,7 +6309,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-05-26 15:43:21",
+      "last_sub": "2024-05-26 22:43:21",
       "days_ago": 872,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4081,8 +6326,8 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-06-23 17:28:32",
-      "days_ago": 844,
+      "last_sub": "2024-06-24 00:28:32",
+      "days_ago": 843,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4102,28 +6347,8 @@
         "trees"
       ],
       "topic": "Data Structures",
-      "last_sub": "2024-07-18 16:13:37",
+      "last_sub": "2024-07-18 23:13:37",
       "days_ago": 819,
-      "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
-      "source": "Codeforces Submissions"
-    },
-    {
-      "key": "1991E",
-      "name": "Coloring Game",
-      "url": "https://codeforces.com/problemset/problem/1991/E",
-      "rating": 1900,
-      "platform": "Codeforces",
-      "tags": [
-        "constructive algorithms",
-        "dfs and similar",
-        "games",
-        "graphs",
-        "greedy",
-        "interactive"
-      ],
-      "topic": "Graph Theory",
-      "last_sub": "2024-07-28 17:22:41",
-      "days_ago": 809,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4142,8 +6367,28 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-28 15:51:05",
+      "last_sub": "2024-07-28 22:51:05",
       "days_ago": 809,
+      "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
+      "source": "Codeforces Submissions"
+    },
+    {
+      "key": "1991E",
+      "name": "Coloring Game",
+      "url": "https://codeforces.com/problemset/problem/1991/E",
+      "rating": 1900,
+      "platform": "Codeforces",
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "games",
+        "graphs",
+        "greedy",
+        "interactive"
+      ],
+      "topic": "Graph Theory",
+      "last_sub": "2024-07-29 00:22:41",
+      "days_ago": 808,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4162,7 +6407,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:22:13",
+      "last_sub": "2024-08-06 20:22:13",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4183,7 +6428,7 @@
         "two pointers"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:20:37",
+      "last_sub": "2024-08-06 20:20:37",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4202,7 +6447,7 @@
         "implementation"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-10 16:00:30",
+      "last_sub": "2024-08-10 23:00:30",
       "days_ago": 796,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4220,7 +6465,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-13 15:46:53",
+      "last_sub": "2024-08-13 22:46:53",
       "days_ago": 793,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4239,7 +6484,7 @@
         "implementation"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-21 03:31:22",
+      "last_sub": "2024-08-21 10:31:22",
       "days_ago": 785,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4255,8 +6500,8 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-10-23 18:57:47",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:57:47",
+      "days_ago": 356,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4273,7 +6518,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-05-27 03:22:54",
+      "last_sub": "2026-05-27 10:22:54",
       "days_ago": 141,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4288,7 +6533,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2022-10-17 08:38:40",
+      "last_sub": "2022-10-17 15:38:40",
       "days_ago": 1459,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4303,7 +6548,7 @@
         "data structures"
       ],
       "topic": "General CP",
-      "last_sub": "2023-08-01 01:17:48",
+      "last_sub": "2023-08-01 08:17:48",
       "days_ago": 1171,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4323,7 +6568,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-08-17 10:43:31",
+      "last_sub": "2023-08-17 17:43:31",
       "days_ago": 1155,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4341,7 +6586,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-04-27 16:09:00",
+      "last_sub": "2024-04-27 23:09:00",
       "days_ago": 901,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4357,7 +6602,7 @@
         "strings"
       ],
       "topic": "Strings",
-      "last_sub": "2024-06-13 14:00:46",
+      "last_sub": "2024-06-13 21:00:46",
       "days_ago": 854,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4374,7 +6619,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-18 13:25:42",
+      "last_sub": "2024-06-18 20:25:42",
       "days_ago": 849,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4393,7 +6638,7 @@
         "implementation"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-07-20 16:08:28",
+      "last_sub": "2024-07-20 23:08:28",
       "days_ago": 817,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4413,7 +6658,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-23 15:50:51",
+      "last_sub": "2024-07-23 22:50:51",
       "days_ago": 814,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4431,7 +6676,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:16:09",
+      "last_sub": "2024-08-06 22:16:09",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4449,7 +6694,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:15:17",
+      "last_sub": "2024-08-06 22:15:17",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4466,7 +6711,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-02 11:25:19",
+      "last_sub": "2024-09-02 18:25:19",
       "days_ago": 773,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4484,8 +6729,8 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-10-22 17:32:44",
-      "days_ago": 358,
+      "last_sub": "2025-10-23 00:32:44",
+      "days_ago": 357,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4500,7 +6745,7 @@
         "sortings"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-07-19 06:00:47",
+      "last_sub": "2026-07-19 13:00:47",
       "days_ago": 88,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4518,7 +6763,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2023-11-07 16:28:10",
+      "last_sub": "2023-11-07 23:28:10",
       "days_ago": 1073,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4535,7 +6780,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-11-28 01:03:33",
+      "last_sub": "2023-11-28 08:03:33",
       "days_ago": 1052,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4548,7 +6793,7 @@
       "platform": "Codeforces",
       "tags": [],
       "topic": "General CP",
-      "last_sub": "2024-05-04 14:34:49",
+      "last_sub": "2024-05-04 21:34:49",
       "days_ago": 894,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4568,7 +6813,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-05-26 02:39:06",
+      "last_sub": "2024-05-26 09:39:06",
       "days_ago": 872,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4587,7 +6832,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 14:25:29",
+      "last_sub": "2024-06-13 21:25:29",
       "days_ago": 854,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4605,8 +6850,8 @@
         "sortings"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-23 17:26:41",
-      "days_ago": 844,
+      "last_sub": "2024-06-24 00:26:41",
+      "days_ago": 843,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4625,7 +6870,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-23 15:25:17",
+      "last_sub": "2024-07-23 22:25:17",
       "days_ago": 814,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4646,7 +6891,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 14:50:56",
+      "last_sub": "2024-08-06 21:50:56",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4665,7 +6910,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:19:16",
+      "last_sub": "2024-08-06 20:19:16",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4681,7 +6926,7 @@
         "greedy"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-10-22 15:52:47",
+      "last_sub": "2025-10-22 22:52:47",
       "days_ago": 358,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4697,8 +6942,8 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-10-23 18:13:17",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:13:17",
+      "days_ago": 356,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4715,7 +6960,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-11-19 16:41:59",
+      "last_sub": "2025-11-19 23:41:59",
       "days_ago": 330,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4731,7 +6976,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2026-08-06 07:31:01",
+      "last_sub": "2026-08-06 14:31:01",
       "days_ago": 70,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4747,7 +6992,7 @@
         "strings"
       ],
       "topic": "Strings",
-      "last_sub": "2023-10-10 06:42:51",
+      "last_sub": "2023-10-10 13:42:51",
       "days_ago": 1101,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4764,7 +7009,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-07-18 15:43:20",
+      "last_sub": "2024-07-18 22:43:20",
       "days_ago": 819,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4780,7 +7025,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:18:44",
+      "last_sub": "2024-08-06 22:18:44",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4798,7 +7043,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:18:15",
+      "last_sub": "2024-08-06 22:18:15",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4815,7 +7060,7 @@
         "sortings"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:16:30",
+      "last_sub": "2024-08-06 22:16:30",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4834,7 +7079,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 14:50:26",
+      "last_sub": "2024-08-06 21:50:26",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4855,7 +7100,7 @@
         "shortest paths"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-15 15:39:20",
+      "last_sub": "2024-08-15 22:39:20",
       "days_ago": 791,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4872,8 +7117,8 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-11-17 17:31:56",
-      "days_ago": 332,
+      "last_sub": "2025-11-18 00:31:56",
+      "days_ago": 331,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4890,7 +7135,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2026-07-05 04:49:43",
+      "last_sub": "2026-07-05 11:49:43",
       "days_ago": 102,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4905,7 +7150,7 @@
         "games"
       ],
       "topic": "Game Theory & Adhoc",
-      "last_sub": "2026-08-06 07:39:27",
+      "last_sub": "2026-08-06 14:39:27",
       "days_ago": 70,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"

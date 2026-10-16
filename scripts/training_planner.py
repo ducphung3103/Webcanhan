@@ -282,150 +282,10 @@ class CPAutomatedManager:
     def build_schedule_data(self):
         """
         Creates an 8-Week Training & Official Contest Schedule for ICPC & Olympic Tin học Sinh viên 2026.
-        Exact official dates:
-        - 17-18/10/2026: ICPC Miền Nam (ĐH KHTN TP.HCM)
-        - 24-25/10/2026: ICPC Miền Trung (ĐH Khoa học Huế)
-        - 08-09/11/2026: ICPC Quốc gia 2026 (Vietnam National Contest)
-        - 08-11/12/2026: Chung kết OLP'26 & ICPC Asia Danang 2026 (VKU Đà Nẵng)
+        Full 56 days x 4 problems/day = 224 problem assignments tailored for Master (2107).
         """
-        schedule = []
-        cur_date = datetime.date(2026, 10, 17) # Starting Saturday 17/10/2026
-
-        # 8 Weeks breakdown
-        weeks_plan = [
-            # Week 1: 17/10 - 23/10
-            {
-                "week_num": 1,
-                "theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
-                "days": [
-                    ("Thứ Bảy", "Thử máy Vòng thi ICPC Miền Nam 2026 (ĐH KHTN TP.HCM)", "https://codeforces.com/gyms", "ICPC Miền Nam 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
-                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC MIỀN NAM 2026 (5 GIỜ)", "https://codeforces.com/gyms", "ICPC Southern Vietnam Regional Contest 2026", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
-                    ("Thứ Hai", "Upsolving đề ICPC Miền Nam & Phân tích lỗi kỹ thuật phòng thi", "https://codeforces.com/gyms", "Upsolve ICPC Miền Nam", "Hard", "Upsolving", "Chưa làm"),
-                    ("Thứ Ba", "Re-solve bài cũ: DSU Tree & Small to Large", "https://codeforces.com/contest/1416/problem/D", "Codeforces 1416D - DSU Tree", "2600", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Ladder 16 Re-solve: Graph & Shortest Paths (Floyd trick)", "https://codeforces.com/contest/295/problem/B", "Codeforces 295B - Greg and Graph", "1700", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Năm", "Re-solve bài cũ: Mo on Tree & Rerooting", "https://codeforces.com/problemset/problem/375/D", "Codeforces 375D - Mo on tree", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Rà soát Template & Chuẩn bị chiến thuật Vòng Miền Trung", "https://codeforces.com/problemset/problem/217/A", "Codeforces 217A - Ice Skating", "1400", "Review Template", "Chưa làm"),
-                ]
-            },
-            # Week 2: 24/10 - 30/10
-            {
-                "week_num": 2,
-                "theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
-                "days": [
-                    ("Thứ Bảy", "Thử máy Vòng thi ICPC Miền Trung 2026 (ĐH Khoa học - ĐH Huế)", "https://codeforces.com/gyms", "ICPC Miền Trung 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
-                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC MIỀN TRUNG 2026 (5 GIỜ)", "https://codeforces.com/gyms", "ICPC Central Vietnam Regional Contest 2026", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
-                    ("Thứ Hai", "Upsolve đề Miền Trung & Củng cố SOS DP", "https://cses.fi/problemset/task/1654", "CSES 1654 - SOS DP", "2100", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Re-solve bài cũ: SOS DP & Bao hàm loại trừ", "https://codeforces.com/problemset/problem/449/D", "Codeforces 449D - Jzzhu and Numbers", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mini-Mock Contest (2.5h - CF Div.2)", "https://codeforces.com/contest/1987", "Codeforces Round 955 (Div. 2/1)", "1500-2200", "OLP Mini Test", "Chưa làm"),
-                    ("Thứ Năm", "Convex Hull Trick & Li Chao Tree / Alien's Trick", "https://codeforces.com/problemset/problem/1715/E", "Codeforces 1715E - Long Way Home (Dijkstra + CHT)", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Ladder 16 Re-solve: KMP + DP", "https://codeforces.com/problemset/problem/346/B", "Codeforces 346B - Lucky Common Subsequence", "2000", "Ladder 16 Re-solve", "Chưa làm"),
-                ]
-            },
-            # Week 3: 31/10 - 06/11
-            {
-                "week_num": 3,
-                "theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
-                "days": [
-                    ("Thứ Bảy", "Chia căn & Sqrt Decomposition: Re-solve bài cũ", "https://codeforces.com/problemset/problem/13/E", "Codeforces 13E - Holes (Chia căn)", "2700", "Re-solve bài cũ", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST QUỐC GIA 5H: Giả lập ICPC Vietnam National 2023", "https://codeforces.com/gym/104725", "2023 ICPC Vietnam National Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
-                    ("Thứ Hai", "Upsolve đề Mock Test Quốc Gia & Tối ưu hóa phân chia bài", "https://codeforces.com/problemset/problem/438/D", "Codeforces 438D - The Child and Sequence (SegTree Modulo)", "2300", "Upsolving", "Chưa làm"),
-                    ("Thứ Ba", "Kiểm tra và in ấn Team Notebook bản chuẩn cho kỳ thi Quốc Gia", "https://codeforces.com", "ICPC Team Notebook - 25 Trang", "Teamwork", "Checklist", "Chưa làm"),
-                    ("Thứ Tư", "Rà soát bẫy tràn số (MOD, 64-bit, fast I/O) & Viết test generator", "https://codeforces.com/contest/786/problem/B", "Codeforces 786B - Segment Tree trên đồ thị", "2200", "Stress Test Lab", "Chưa làm"),
-                    ("Thứ Năm", "Chiến thuật tâm lý thi đấu 3 người 1 máy vòng Quốc Gia", "https://codeforces.com", "Họp chiến thuật Team ICPC", "Strategy", "Team Meeting", "Chưa làm"),
-                    ("Thứ Sáu", "Thư giãn, ngủ đủ giấc, chuẩn bị tài khoản và máy thi", "https://codeforces.com", "Nghỉ ngơi nạp năng lượng trước Vòng Quốc Gia", "Rest", "Rest & Recharge", "Hoàn thành"),
-                ]
-            },
-            # Week 4: 07/11 - 13/11
-            {
-                "week_num": 4,
-                "theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
-                "days": [
-                    ("Thứ Bảy", "Thử máy Kỳ thi ICPC Quốc gia 2026 tại điểm thi tập trung", "https://codeforces.com/gyms", "ICPC Vietnam National 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
-                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC QUỐC GIA 2026 (VIETNAM NATIONAL - 5 GIỜ)", "https://codeforces.com/gyms", "2026 ICPC Vietnam National Contest", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
-                    ("Thứ Hai", "Tổng kết kết quả vòng Quốc gia & Xác định slot dự Regional Đà Nẵng", "https://olp.vn", "Bảng điểm ICPC Quốc Gia 2026", "Review", "Debrief", "Chưa làm"),
-                    ("Thứ Ba", "Upsolving toàn bộ các bài trong tầm với đề ICPC Quốc Gia 2026", "https://codeforces.com/contest/1043/problem/F", "Codeforces 1043F - Make It One (Bao hàm loại trừ)", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Khởi động giai đoạn 2: Ôn luyện cá nhân Olympic Tin học SV", "https://oj.vnoi.info/problem/c11tct", "VNOI c11tct - Chia kẹo Euler & Lucas", "Hard", "OLP Practice", "Chưa làm"),
-                    ("Thứ Năm", "Toán học & Tổ hợp: Re-solve các bài toán chia kẹo, nghịch đảo", "https://oj.vnoi.info/problem/fc090_divcan", "VNOI fc090_divcan - Bao hàm, Lucas", "Hard", "Re-solve", "Chưa làm"),
-                    ("Thứ Sáu", "Ladder 16: Math & Number Theory", "https://codeforces.com/problemset/problem/354/C", "Codeforces 354C - Vasya and Beautiful Arrays", "2100", "Ladder 16 Re-solve", "Chưa làm"),
-                ]
-            },
-            # Week 5: 14/11 - 20/11
-            {
-                "week_num": 5,
-                "theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
-                "days": [
-                    ("Thứ Bảy", "Hình học tính toán: Bao lồi (Monotone Chain / Graham Scan)", "https://oj.vnoi.info/problem/cavli", "VNOI cavli - Hình học, Bao lồi", "Hard", "Geometry", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST OLP #1: Đề thi Siêu Cúp / Chuyên Tin các năm (3.5 giờ)", "https://cms.ioi-jp.org/joi2023-sp1-open", "JOI Spring Camp 2023 Contest 1", "JOI", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Hai", "Sweepline quét tọa độ X kết hợp Segment Tree", "https://codeforces.com/contest/529/problem/C", "Codeforces 529C - Sweepline (Rooks Defender)", "2200", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Persistent Segment Tree & Treap: Re-solve bài cũ", "https://codeforces.com/contest/986/problem/E", "Codeforces 986E - Prince's Problem (Tree, DS, Math)", "2800", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Kỹ thuật Chia căn lớn bé & DSU", "https://oj.vnoi.info/problem/coci1920_o_paint", "COCI 1920 Paint - Chia căn lớn bé & DSU", "Hard", "Data Structures", "Chưa làm"),
-                    ("Thứ Năm", "Ladder 16: KMP Differencing", "https://codeforces.com/problemset/problem/471/D", "Codeforces 471D - MUH and Cube Walls", "1800", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Sáu", "Review Template SegTree Lazy & Fenwick 2D", "https://oj.vnoi.info/problem/segtree_itteq1", "VNOI ITTEQ1 - Segment Tree nâng cao", "Hard", "Review Template", "Chưa làm"),
-                ]
-            },
-            # Week 6: 21/11 - 27/11
-            {
-                "week_num": 6,
-                "theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-                "days": [
-                    ("Thứ Bảy", "KMP, Z-function & Hash 2D: Re-solve bài cũ", "https://codeforces.com/problemset/problem/432/D", "Codeforces 432D - Prefixes and Suffixes", "2000", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST REGIONAL #4: 2023-2024 ICPC Asia Hue Regional Contest (5h)", "https://codeforces.com/gym/104639", "2023-2024 ICPC Asia Hue Regional Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
-                    ("Thứ Hai", "Aho-Corasick & DP trên Trie", "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind", "LQDOJ ugpalind - DP + Aho-Corasick", "Hard", "LQDOJ String", "Chưa làm"),
-                    ("Thứ Ba", "Luồng cực đại (Dinic) & Cặp ghép hai phía", "https://codeforces.com/contest/944/problem/F", "Codeforces 944F - CTDL, Game", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc", "https://codeforces.com/contest/2181/problem/F", "Codeforces 2181F - Fragmented Nim", "1600", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Năm", "DSU on tree (Small to large) kết hợp Bitmask", "https://codeforces.com/problemset/problem/570/D", "Codeforces 570D - Tree Requests", "2200", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Sáu", "Kiểm tra tiến độ 137 bài khó đã re-solve được bao nhiêu bài", "https://codeforces.com/contest/1442/problem/C", "Codeforces 1442C - Graph, Shortest Path", "2400", "Re-solve bài cũ", "Chưa làm"),
-                ]
-            },
-            # Week 7: 28/11 - 04/12
-            {
-                "week_num": 7,
-                "theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
-                "days": [
-                    ("Thứ Bảy", "FINAL MOCK TEST: 2022-2023 ICPC Asia Yokohama Regional (5 Giờ)", "https://codeforces.com/gym/104021", "2022-2023 ICPC Asia Yokohama Regional", "ICPC Team", "FINAL MOCK TEST", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST OLP #2: Đề Olympic Tin học Sinh viên Toàn quốc (3.5 Giờ)", "https://oj.vnoi.info/problem/voi21_rmat", "VOI 2021 RMAT - Observation & Matrix", "VOI", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Hai", "Upsolve bài khó Mock Test & Đóng gói toàn bộ code mẫu", "https://codeforces.com/contest/1697/problem/E", "Codeforces 1697E - Graph, DP, Tổ hợp", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "In ấn Team Notebook bản cứng (25 trang chuẩn ICPC quốc tế)", "https://codeforces.com", "In ấn Team Notebook", "Preparation", "Checklist", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra compiler flags (-O2, -fsanitize=undefined) & máy chấm", "https://codeforces.com", "Kiểm tra môi trường thi", "Preparation", "Checklist", "Chưa làm"),
-                    ("Thứ Năm", "Họp chiến thuật team 3 người 1 máy lần cuối trước khi bay", "https://codeforces.com", "Họp chiến thuật Team ICPC", "Strategy", "Team Meeting", "Chưa làm"),
-                    ("Thứ Sáu", "Nghỉ ngơi, chuẩn bị hành lý, giấy tờ tùy thân và vé đi Đà Nẵng", "https://codeforces.com", "Nghỉ ngơi và chuẩn bị lên đường", "Rest", "Rest & Recharge", "Hoàn thành"),
-                ]
-            },
-            # Week 8: 05/12 - 11/12
-            {
-                "week_num": 8,
-                "theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
-                "days": [
-                    ("Thứ Bảy", "Di chuyển đến TP. Đà Nẵng, nhận phòng & ổn định nơi lưu trú", "https://olp.vn", "Có mặt tại Đà Nẵng", "Travel", "Check-in", "Chưa làm"),
-                    ("Chủ Nhật", "Tham quan Trường ĐH CNTT và Truyền thông Việt - Hàn (VKU Đà Nẵng)", "https://olp.vn", "Thăm quan địa điểm thi VKU Đà Nẵng", "Site Visit", "Venue Tour", "Chưa làm"),
-                    ("Thứ Hai", "Gõ code nhẹ nhàng vài bài cơ bản lấy cảm giác phím mượt mà", "https://codeforces.com/problemset/problem/476/B", "Codeforces 476B - Dreamoon and WiFi", "1300", "Warm-up", "Chưa làm"),
-                    ("Thứ Ba", "ĐĂNG KÝ THAM GIA OLP & ICPC ASIA DANANG TẠI VKU; CHUNG KẾT OLYMPIC AI", "https://olp.vn", "Đăng ký OLP'26 & ICPC Asia Danang (08/12/2026)", "Registration", "OFFICIAL EVENT", "Chưa làm"),
-                    ("Thứ Tư", "CHÍNH THỨC THI OLYMPIC TIN HỌC SINH VIÊN (OLP'26) - KHỐI CHUYÊN TIN & SIÊU CÚP", "https://olp.vn", "Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026)", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
-                    ("Thứ Năm", "KHAI MẠC ICPC ASIA DANANG 2026; THỬ MÁY (PRACTICE SESSION 2H) & NỘP NOTEBOOK", "https://olp.vn", "Khai mạc & Thử máy ICPC Asia Danang (10/12/2026)", "Practice", "OFFICIAL EVENT", "Đến giờ G!"),
-                    ("Thứ Sáu", "CHÍNH THỨC THI LẬP TRÌNH QUỐC TẾ ICPC ASIA DANANG 2026 (5 TIẾNG: 08:00 - 13:00)", "https://icpc.global", "Chính thức thi ICPC Asia Danang 2026 (11/12/2026)", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
-                ]
-            }
-        ]
-
-        day_offset = 0
-        for w in weeks_plan:
-            for day_name, activity, link, prob_name, rating, session_type, status in w["days"]:
-                calc_date = cur_date + datetime.timedelta(days=day_offset)
-                schedule.append({
-                    "date": calc_date,
-                    "day_name": day_name,
-                    "week_num": w["week_num"],
-                    "week_theme": w["theme"],
-                    "activity": activity,
-                    "link": link,
-                    "problem_name": prob_name,
-                    "rating": rating,
-                    "session_type": session_type,
-                    "status": status
-                })
-                day_offset += 1
-
-        return schedule
+        from scripts.schedule_builder import get_master_schedule
+        return get_master_schedule()
 
     def populate_topic_sheets(self, wb: openpyxl.Workbook):
         """
@@ -652,7 +512,8 @@ class CPAutomatedManager:
         ws_sched.views.sheetView[0].showGridLines = True
         
         # Headers
-        sched_headers = ["Ngày / Thứ", "Tuần & Chủ đề trọng tâm", "Hoạt động & Mục tiêu chi tiết", "Link Bài tập / Contest", "Tên Bài / Contest", "Target Rating", "Loại hình", "Trạng thái"]
+        # Headers matching 1 month to VOI multi-problem format
+        sched_headers = ["Ngày", "Thứ", "Tuần & Chủ đề trọng tâm", "Phiên Luyện Tập / Slot", "Link Bài tập / Contest", "Tên Bài / Bộ đề", "Target Rating", "Kỹ thuật / Ghi chú", "Trạng thái"]
         ws_sched.row_dimensions[1].height = 28.0
         for col_idx, h in enumerate(sched_headers, 1):
             cell = ws_sched.cell(1, col_idx, h)
@@ -662,68 +523,93 @@ class CPAutomatedManager:
             cell.border = BORDER_HEADER
 
         schedule_items = self.build_schedule_data()
-        for idx, item in enumerate(schedule_items, 2):
-            ws_sched.row_dimensions[idx].height = 22.0
-            is_mock = "MOCK TEST" in item["problem_name"] or "Regional" in item["problem_name"] or "Mini" in item["session_type"]
+        current_row = 2
+        for day in schedule_items:
+            date_str = day["date"].strftime("%Y-%m-%d") if hasattr(day["date"], "strftime") else str(day["date"])
+            day_name = day["day_name"]
+            theme = day["week_theme"]
+            probs = day.get("problems", [])
+            for p in probs:
+                ws_sched.row_dimensions[current_row].height = 22.0
+                slot_name = str(p.get("slot", ""))
+                is_contest = "CONTEST" in slot_name or "MOCK" in slot_name or "CONTEST" in day.get("session_type", "")
+                is_mastery = "Mastery" in slot_name or "Re-solve" in str(p.get("tag", ""))
+                is_speed = "Speed" in slot_name or "Warm-up" in slot_name
 
-            c1 = ws_sched.cell(idx, 1, f"{item['date'].strftime('%Y-%m-%d')} ({item['day_name']})")
-            c1.font = FONT_TEXT_BOLD if is_mock else FONT_TEXT_REGULAR
-            c1.alignment = ALIGN_CENTER
-            c1.border = BORDER_THIN
-            c1.fill = FILL_MOCK_CONTEST if is_mock else FILL_HEADER_BLUE
+                # Col 1: Date
+                c1 = ws_sched.cell(current_row, 1, date_str)
+                c1.alignment = ALIGN_CENTER
+                c1.border = BORDER_THIN
+                c1.fill = FILL_MOCK_CONTEST if is_contest else FILL_HEADER_BLUE
 
-            c2 = ws_sched.cell(idx, 2, item["week_theme"])
-            c2.font = FONT_TEXT_REGULAR
-            c2.alignment = ALIGN_LEFT
-            c2.border = BORDER_THIN
+                # Col 2: Day
+                c2 = ws_sched.cell(current_row, 2, day_name)
+                c2.alignment = ALIGN_CENTER
+                c2.border = BORDER_THIN
+                c2.fill = FILL_MOCK_CONTEST if is_contest else FILL_HEADER_BLUE
 
-            c3 = ws_sched.cell(idx, 3, item["activity"])
-            c3.font = FONT_TEXT_REGULAR
-            c3.alignment = ALIGN_LEFT
-            c3.border = BORDER_THIN
+                # Col 3: Theme
+                c3 = ws_sched.cell(current_row, 3, theme)
+                c3.alignment = ALIGN_LEFT
+                c3.font = FONT_TEXT_REGULAR
+                c3.border = BORDER_THIN
 
-            c4 = ws_sched.cell(idx, 4, item["link"])
-            c4.font = FONT_LINK_BLUE
-            c4.alignment = ALIGN_LEFT
-            c4.border = BORDER_THIN
-            if is_mock:
-                c4.fill = FILL_MOCK_CONTEST
+                # Col 4: Slot
+                c4 = ws_sched.cell(current_row, 4, p.get("slot", ""))
+                c4.alignment = ALIGN_LEFT
+                c4.font = FONT_TEXT_BOLD if (is_contest or is_mastery) else FONT_TEXT_REGULAR
+                c4.border = BORDER_THIN
+                if is_contest:
+                    c4.fill = FILL_MOCK_CONTEST
+                elif is_mastery:
+                    c4.fill = FILL_REVIEW_WARNING
+                elif is_speed:
+                    c4.fill = FILL_NOTE_BLUE
 
-            c5 = ws_sched.cell(idx, 5, item["problem_name"])
-            c5.font = FONT_TEXT_BOLD if is_mock else FONT_TEXT_REGULAR
-            c5.alignment = ALIGN_LEFT
-            c5.border = BORDER_THIN
+                # Col 5: Link
+                c5 = ws_sched.cell(current_row, 5, p.get("url", ""))
+                c5.alignment = ALIGN_LEFT
+                c5.font = FONT_LINK_BLUE
+                c5.border = BORDER_THIN
 
-            c6 = ws_sched.cell(idx, 6, item["rating"])
-            c6.font = FONT_TEXT_REGULAR
-            c6.alignment = ALIGN_CENTER
-            c6.border = BORDER_THIN
-            c6.fill = FILL_RATING_PEACH
+                # Col 6: Problem Name
+                c6 = ws_sched.cell(current_row, 6, p.get("name", ""))
+                c6.alignment = ALIGN_LEFT
+                c6.font = FONT_TEXT_BOLD if is_contest else FONT_TEXT_REGULAR
+                c6.border = BORDER_THIN
 
-            c7 = ws_sched.cell(idx, 7, item["session_type"])
-            c7.font = FONT_TEXT_BOLD if is_mock else FONT_TEXT_REGULAR
-            c7.alignment = ALIGN_CENTER
-            c7.border = BORDER_THIN
-            if is_mock:
-                c7.fill = FILL_MOCK_CONTEST
+                # Col 7: Rating
+                r_val = str(p.get("rating", ""))
+                c7 = ws_sched.cell(current_row, 7, r_val)
+                c7.alignment = ALIGN_CENTER
+                c7.border = BORDER_THIN
+                c7.fill = FILL_RATING_PEACH
 
-            c8 = ws_sched.cell(idx, 8, item["status"])
-            c8.font = FONT_TEXT_BOLD
-            c8.alignment = ALIGN_CENTER
-            c8.border = BORDER_THIN
-            if item["status"] == "Hoàn thành":
-                c8.fill = FILL_SOLVED_LIME
-            elif is_mock:
-                c8.fill = FILL_REVIEW_WARNING
+                # Col 8: Tag & Notes
+                c8 = ws_sched.cell(current_row, 8, p.get("tag", ""))
+                c8.alignment = ALIGN_LEFT
+                c8.border = BORDER_THIN
+                c8.font = FONT_TEXT_REGULAR
 
-        ws_sched.column_dimensions["A"].width = 22.0
-        ws_sched.column_dimensions["B"].width = 38.0
-        ws_sched.column_dimensions["C"].width = 44.0
-        ws_sched.column_dimensions["D"].width = 40.0
-        ws_sched.column_dimensions["E"].width = 44.0
-        ws_sched.column_dimensions["F"].width = 16.0
-        ws_sched.column_dimensions["G"].width = 20.0
-        ws_sched.column_dimensions["H"].width = 16.0
+                # Col 9: Status
+                c9 = ws_sched.cell(current_row, 9, "Chưa làm")
+                c9.alignment = ALIGN_CENTER
+                c9.font = FONT_TEXT_BOLD
+                c9.border = BORDER_THIN
+                if is_contest:
+                    c9.fill = FILL_REVIEW_WARNING
+
+                current_row += 1
+
+        ws_sched.column_dimensions["A"].width = 14.0
+        ws_sched.column_dimensions["B"].width = 12.0
+        ws_sched.column_dimensions["C"].width = 38.0
+        ws_sched.column_dimensions["D"].width = 34.0
+        ws_sched.column_dimensions["E"].width = 46.0
+        ws_sched.column_dimensions["F"].width = 42.0
+        ws_sched.column_dimensions["G"].width = 14.0
+        ws_sched.column_dimensions["H"].width = 38.0
+        ws_sched.column_dimensions["I"].width = 16.0
 
         # ---------------------------------------------------------------------
         # Sheet 2 - 6: Algorithmic Categories (Matching format of original sheet)
@@ -1068,12 +954,17 @@ class CPAutomatedManager:
             "stats": {
                 "total_cf_submissions": len(self.cf_problems),
                 "total_cf_solved": sum(1 for p in self.cf_problems.values() if p["solved"]),
+                "cf_max_rating": 2107,
+                "cf_rank": "Master",
+                "cf_peak_velocity": "138 bài/tuần",
                 "ladder16_total": len(self.ladder_problems),
                 "ladder16_solved": sum(1 for p in self.ladder_problems if p["solved"]),
                 "ladder16_review_needed": sum(1 for p in self.ladder_problems if p.get("review_needed")),
                 "ladder16_unsolved": sum(1 for p in self.ladder_problems if not p["solved"]),
                 "hard_review_count": len(self.old_hard_problems),
                 "schedule_total_days": len(serializable_schedule),
+                "schedule_total_problems": sum(len(d.get("problems", [])) for d in serializable_schedule),
+                "daily_target": "4 - 5 bài/ngày (Lực Master 2107)",
                 "accounts": {"Codeforces": self.handle}
             },
             "schedule": serializable_schedule,

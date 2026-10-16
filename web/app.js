@@ -26,6 +26,7 @@ const state = {
     type: "ALL"
   },
   completedSchedule: new Set(JSON.parse(localStorage.getItem("cp_completed_schedule") || "[]")),
+  completedProblems: new Set(JSON.parse(localStorage.getItem("cp_completed_problems") || "[]")),
 
   // Ladder 16 Filters
   ladderFilters: {
@@ -149,12 +150,12 @@ function updateHeroStats() {
   }
   if (el.statHardReview) el.statHardReview.textContent = stats.hard_review_count || 137;
   
-  // Schedule completion
-  const totalSchedule = state.data.schedule.length || 56;
-  const completedCount = state.completedSchedule.size;
-  const pct = Math.round((completedCount / totalSchedule) * 100);
-  if (el.statScheduleProgress) el.statScheduleProgress.textContent = `${completedCount} / ${totalSchedule}`;
-  if (el.statSchedulePct) el.statSchedulePct.textContent = `${pct}% hoàn thành`;
+  // Schedule problem completion (224 problems across 8 weeks)
+  const totalScheduleProbs = state.data.schedule.reduce((acc, d) => acc + (d.problems ? d.problems.length : 1), 0) || 224;
+  const completedProbsCount = state.completedProblems.size;
+  const pct = Math.round((completedProbsCount / totalScheduleProbs) * 100);
+  if (el.statScheduleProgress) el.statScheduleProgress.textContent = `${completedProbsCount} / ${totalScheduleProbs}`;
+  if (el.statSchedulePct) el.statSchedulePct.textContent = `${pct}% hoàn thành (Target: 4-5 bài/ngày)`;
 
   // Dynamic countdowns based on today (2026-10-16)
   const today = new Date("2026-10-16T00:00:00");
@@ -319,10 +320,10 @@ function renderSchedule() {
     return true;
   });
 
-  // Calculate overall & week progress
-  const total = items.length;
-  const completed = state.completedSchedule.size;
-  const pct = Math.round((completed / total) * 100);
+  // Calculate overall & week problem progress
+  const totalProblems = items.reduce((acc, d) => acc + (d.problems ? d.problems.length : 1), 0);
+  const completedProblemsCount = state.completedProblems.size;
+  const pct = Math.round((completedProblemsCount / totalProblems) * 100);
 
   // Group by week
   const weeks = {};
@@ -337,15 +338,15 @@ function renderSchedule() {
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 class="text-lg font-bold text-white flex items-center gap-2">
-            📅 Kế Hoạch 8 Tuần Huấn Luyện & Đấu Tập
+            📅 Kế Hoạch 8 Tuần Huấn Luyện Cường Độ Cao (Master 2107)
             <span class="text-xs px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 font-mono">17/10 - 11/12/2026 (Chung kết OLP & ICPC)</span>
           </h2>
           <p class="text-xs text-slate-400 mt-1">
-            Bấm vào ô vuông để đánh dấu ngày/bài tập đã hoàn thành. Lịch thi được căn chỉnh chính xác theo lịch thi ICPC & Olympic Tin học SV 2026.
+            Mỗi ngày được thiết kế <strong>4 phiên bài tập có mục tiêu rõ ràng</strong> (Speed Warm-up, Core ICPC, OLP Decisive, Mastery Re-solve). Bạn có thể tích checkbox từng bài hoặc tích cả ngày.
           </p>
         </div>
         <div class="flex items-center gap-2">
-          <span class="text-xs font-mono text-slate-300">Tiến độ: <strong class="text-emerald-400 font-bold">${completed}/${total}</strong> (${pct}%)</span>
+          <span class="text-xs font-mono text-slate-300">Tiến độ bài tập: <strong class="text-emerald-400 font-bold">${completedProblemsCount}/${totalProblems}</strong> (${pct}%)</span>
         </div>
       </div>
 
@@ -376,9 +377,9 @@ function renderSchedule() {
 
   Object.keys(weeks).forEach(wNum => {
     const w = weeks[wNum];
-    const wTotal = w.days.length;
-    const wCompleted = w.days.filter(d => state.completedSchedule.has(`${d.date}_${d.day_name}`)).length;
-    const wPct = Math.round((wCompleted / wTotal) * 100);
+    const wTotalProbs = w.days.reduce((acc, d) => acc + (d.problems ? d.problems.length : 1), 0);
+    const wDoneProbs = w.days.reduce((acc, d) => acc + (d.problems ? d.problems.filter(p => state.completedProblems.has(p.id)).length : 0), 0);
+    const wPct = Math.round((wDoneProbs / wTotalProbs) * 100);
 
     html += `
       <div class="glass-card rounded-2xl p-5 border border-slate-800">
@@ -389,7 +390,7 @@ function renderSchedule() {
             <h3 class="text-base font-bold text-white mt-1">${w.theme}</h3>
           </div>
           <div class="flex items-center gap-3">
-            <span class="text-xs font-mono text-slate-400">${wCompleted}/${wTotal} Hoàn thành</span>
+            <span class="text-xs font-mono text-slate-400">${wDoneProbs}/${wTotalProbs} bài AC (${wPct}%)</span>
             <div class="w-24 bg-slate-950 rounded-full h-2 border border-slate-800 overflow-hidden">
               <div class="bg-emerald-500 h-2 rounded-full" style="width: ${wPct}%"></div>
             </div>
@@ -397,49 +398,83 @@ function renderSchedule() {
         </div>
 
         <!-- Days Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
     `;
 
     w.days.forEach(d => {
       const itemKey = `${d.date}_${d.day_name}`;
-      const isDone = state.completedSchedule.has(itemKey);
-      const isMock = d.session_type.includes("MOCK") || d.session_type.includes("CONTEST");
-      const isResolve = d.session_type.includes("Re-solve");
+      const dayProbs = d.problems || [];
+      const dayDoneCount = dayProbs.filter(p => state.completedProblems.has(p.id)).length;
+      const isDayDone = (dayProbs.length > 0 && dayDoneCount === dayProbs.length) || state.completedSchedule.has(itemKey);
+      const isContestDay = d.session_type.includes("CONTEST") || d.session_type.includes("MOCK");
+      const isResolveDay = d.session_type.includes("Re-solve") || d.session_type.includes("UPSOLV");
 
-      let cardBorder = isDone ? "border-emerald-500/40 bg-emerald-950/10" : (isMock ? "border-rose-500/40 bg-rose-950/10" : "border-slate-800 bg-slate-900/60");
+      let cardBorder = isDayDone ? "border-emerald-500/50 bg-emerald-950/15" : 
+        (isContestDay ? "border-rose-500/40 bg-rose-950/10" : 
+        (isResolveDay ? "border-amber-500/30 bg-slate-900/80" : "border-slate-800 bg-slate-900/60"));
 
       html += `
-        <div class="rounded-xl border ${cardBorder} p-3.5 flex flex-col justify-between hover:border-slate-700 transition-all relative">
+        <div class="rounded-xl border ${cardBorder} p-4 flex flex-col justify-between hover:border-slate-700 transition-all relative">
           <div>
-            <!-- Date & Badge -->
+            <!-- Date & Badges -->
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-mono text-slate-300 font-bold">${d.date} (${d.day_name})</span>
-              <span class="text-[10px] font-mono px-2 py-0.5 rounded-full ${
-                isMock ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' : 
-                (isResolve ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' : 'bg-slate-800 text-slate-300')
-              }">${d.session_type}</span>
+              <div class="flex items-center gap-1">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded-full ${
+                  isContestDay ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' : 
+                  (isResolveDay ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' : 'bg-slate-800 text-slate-300')
+                }">${d.session_type}</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 font-bold">🎯 ${dayProbs.length} bài</span>
+              </div>
             </div>
 
-            <!-- Activity & Focus -->
-            <p class="text-xs text-slate-400 mb-2 leading-relaxed">${d.activity}</p>
+            <!-- Activity Description -->
+            <p class="text-xs text-slate-300 mb-3 leading-relaxed font-medium">${d.activity}</p>
 
-            <!-- Problem / Contest Link -->
-            <div class="mb-3">
-              <a href="${d.link}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 underline line-clamp-2 transition-colors flex items-center gap-1">
-                <span>🔗</span> <span>${d.problem_name}</span>
-              </a>
-              ${d.rating ? `<span class="inline-block mt-1 text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-amber-400">Rating: ${d.rating}</span>` : ''}
+            <!-- 4-Problem Interactive List -->
+            <div class="space-y-2 mb-3">
+              ${dayProbs.map((p, pIdx) => {
+                const pKey = p.id || `${itemKey}_p${pIdx}`;
+                const isProbDone = state.completedProblems.has(pKey) || isDayDone;
+                const slotStr = String(p.slot || "");
+                const isContestProb = slotStr.includes("CONTEST") || slotStr.includes("MOCK");
+                const isMasteryProb = slotStr.includes("Mastery") || slotStr.includes("Re-solve") || String(p.tag || "").includes("Re-solve");
+                const isSpeedProb = slotStr.includes("Speed") || slotStr.includes("Warm-up");
+
+                let badgeColor = isContestProb ? 'bg-rose-500/20 text-rose-300 border-rose-500/30' :
+                  (isMasteryProb ? 'bg-amber-500/20 text-amber-300 border-amber-500/30' :
+                  (isSpeedProb ? 'bg-sky-500/20 text-sky-300 border-sky-500/30' : 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30'));
+
+                const slotTag = slotStr.split(':')[0] || "Bài tập";
+
+                return `
+                  <div class="p-2.5 rounded-lg border ${isProbDone ? 'border-emerald-500/40 bg-emerald-950/25' : 'border-slate-800/90 bg-slate-950/70'} flex items-start justify-between gap-2 transition-all">
+                    <div class="flex-1 min-w-0">
+                      <div class="flex items-center gap-1.5 flex-wrap mb-1">
+                        <span class="text-[9px] font-mono px-1.5 py-0.2 rounded border ${badgeColor} font-semibold">${slotTag}</span>
+                        ${p.rating ? `<span class="text-[9px] font-mono px-1.5 py-0.2 rounded bg-slate-800 text-amber-400 font-bold">${p.rating}</span>` : ''}
+                        ${p.time_est && p.time_est !== '0m' ? `<span class="text-[9px] font-mono text-slate-400">⏱ ${p.time_est}</span>` : ''}
+                      </div>
+                      <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold ${isProbDone ? 'text-emerald-400 line-through' : 'text-slate-200 hover:text-indigo-400'} underline line-clamp-1 transition-colors block">
+                        🔗 ${p.name}
+                      </a>
+                      ${p.tag ? `<span class="text-[10px] text-slate-400 mt-0.5 line-clamp-1 block italic">${p.tag}</span>` : ''}
+                    </div>
+                    <input type="checkbox" onchange="toggleScheduleProblem('${pKey}', '${itemKey}')" ${isProbDone ? 'checked' : ''} class="w-4 h-4 mt-1 rounded border-slate-700 bg-slate-900 text-emerald-500 focus:ring-0 cursor-pointer" title="Đánh dấu đã AC bài này">
+                  </div>
+                `;
+              }).join("")}
             </div>
           </div>
 
           <!-- Bottom Checkbox Toggle -->
           <div class="pt-2 border-t border-slate-800/60 flex items-center justify-between">
-            <span class="text-[11px] ${isDone ? 'text-emerald-400 font-semibold' : 'text-slate-500'} font-mono">
-              ${isDone ? '✅ Đã hoàn thành' : '⏳ Chưa làm'}
+            <span class="text-[11px] ${isDayDone ? 'text-emerald-400 font-semibold' : 'text-slate-400'} font-mono">
+              ${isDayDone ? '✅ Đã hoàn thành ngày' : `⏳ Đã giải ${dayDoneCount}/${dayProbs.length} bài`}
             </span>
             <label class="cursor-pointer inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-white">
-              <input type="checkbox" onchange="toggleScheduleItem('${itemKey}')" ${isDone ? 'checked' : ''} class="w-4 h-4 rounded border-slate-700 bg-slate-800 text-indigo-600 focus:ring-0 cursor-pointer">
-              <span>Đánh dấu</span>
+              <input type="checkbox" onchange="toggleScheduleItem('${itemKey}')" ${isDayDone ? 'checked' : ''} class="w-4 h-4 rounded border-slate-700 bg-slate-800 text-indigo-600 focus:ring-0 cursor-pointer">
+              <span>Cả ngày</span>
             </label>
           </div>
         </div>
@@ -466,13 +501,39 @@ window.setScheduleType = function(t) {
   renderSchedule();
 };
 
+window.toggleScheduleProblem = function(pKey, dayKey) {
+  if (state.completedProblems.has(pKey)) {
+    state.completedProblems.delete(pKey);
+    state.completedSchedule.delete(dayKey);
+  } else {
+    state.completedProblems.add(pKey);
+    const dayItem = state.data.schedule.find(d => `${d.date}_${d.day_name}` === dayKey);
+    if (dayItem && dayItem.problems) {
+      const allDone = dayItem.problems.every(p => state.completedProblems.has(p.id));
+      if (allDone) state.completedSchedule.add(dayKey);
+    }
+  }
+  localStorage.setItem("cp_completed_problems", JSON.stringify([...state.completedProblems]));
+  localStorage.setItem("cp_completed_schedule", JSON.stringify([...state.completedSchedule]));
+  updateHeroStats();
+  renderSchedule();
+};
+
 window.toggleScheduleItem = function(key) {
+  const dayItem = state.data.schedule.find(d => `${d.date}_${d.day_name}` === key);
   if (state.completedSchedule.has(key)) {
     state.completedSchedule.delete(key);
+    if (dayItem && dayItem.problems) {
+      dayItem.problems.forEach(p => state.completedProblems.delete(p.id));
+    }
   } else {
     state.completedSchedule.add(key);
+    if (dayItem && dayItem.problems) {
+      dayItem.problems.forEach(p => state.completedProblems.add(p.id));
+    }
   }
   localStorage.setItem("cp_completed_schedule", JSON.stringify([...state.completedSchedule]));
+  localStorage.setItem("cp_completed_problems", JSON.stringify([...state.completedProblems]));
   updateHeroStats();
   renderSchedule();
 };
