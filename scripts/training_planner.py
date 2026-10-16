@@ -281,110 +281,128 @@ class CPAutomatedManager:
 
     def build_schedule_data(self):
         """
-        Creates a concrete 7-Week Training & Mock Testing Schedule for ICPC & Olympic Tin học Sinh viên.
-        Starting Monday 2026-10-19 through Sunday 2026-12-06.
+        Creates an 8-Week Training & Official Contest Schedule for ICPC & Olympic Tin học Sinh viên 2026.
+        Exact official dates:
+        - 17-18/10/2026: ICPC Miền Nam (ĐH KHTN TP.HCM)
+        - 24-25/10/2026: ICPC Miền Trung (ĐH Khoa học Huế)
+        - 08-09/11/2026: ICPC Quốc gia 2026 (Vietnam National Contest)
+        - 08-11/12/2026: Chung kết OLP'26 & ICPC Asia Danang 2026 (VKU Đà Nẵng)
         """
         schedule = []
-        cur_date = datetime.date(2026, 10, 19)
+        cur_date = datetime.date(2026, 10, 17) # Starting Saturday 17/10/2026
 
-        # 7 Weeks breakdown
+        # 8 Weeks breakdown
         weeks_plan = [
-            # Week 1
+            # Week 1: 17/10 - 23/10
             {
                 "week_num": 1,
-                "theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
+                "theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
                 "days": [
-                    ("Thứ Hai", "Ôn tập Lý thuyết & Re-solve bài cũ: DSU Tree & Small to Large", "https://codeforces.com/contest/1416/problem/D", "Codeforces 1416D - DSU Tree", "2600", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Luyện tập Ladder 16: Graph & Shortest Paths", "https://codeforces.com/contest/295/problem/B", "Codeforces 295B - Greg and Graph (Floyd-Warshall trick)", "1700", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mini-Contest #1 (2.5h)", "https://codeforces.com/contest/1996", "Codeforces Round 962 (Div. 3/2)", "1200-1800", "Mini Mock Test", "Chưa làm"),
+                    ("Thứ Bảy", "Thử máy Vòng thi ICPC Miền Nam 2026 (ĐH KHTN TP.HCM)", "https://codeforces.com/gyms", "ICPC Miền Nam 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
+                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC MIỀN NAM 2026 (5 GIỜ)", "https://codeforces.com/gyms", "ICPC Southern Vietnam Regional Contest 2026", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
+                    ("Thứ Hai", "Upsolving đề ICPC Miền Nam & Phân tích lỗi kỹ thuật phòng thi", "https://codeforces.com/gyms", "Upsolve ICPC Miền Nam", "Hard", "Upsolving", "Chưa làm"),
+                    ("Thứ Ba", "Re-solve bài cũ: DSU Tree & Small to Large", "https://codeforces.com/contest/1416/problem/D", "Codeforces 1416D - DSU Tree", "2600", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Tư", "Ladder 16 Re-solve: Graph & Shortest Paths (Floyd trick)", "https://codeforces.com/contest/295/problem/B", "Codeforces 295B - Greg and Graph", "1700", "Ladder 16 Re-solve", "Chưa làm"),
                     ("Thứ Năm", "Re-solve bài cũ: Mo on Tree & Rerooting", "https://codeforces.com/problemset/problem/375/D", "Codeforces 375D - Mo on tree", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Thực hành Ladder 16: DFS/BFS & Constructive", "https://codeforces.com/problemset/problem/217/A", "Codeforces 217A - Ice Skating", "1400", "Ladder 16", "Chưa làm"),
-                    ("Thứ Bảy", "Upsolving & Tối ưu hóa Code Template (Tree/Graph)", "https://oj.vnoi.info/problem/diffgraph", "LQDOJ diffgraph - Small to large, reroot", "Hard", "VNOI/LQDOJ Practice", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 1: ICPC Regional Simulation 5 Giờ (Team Contest #1)", "https://codeforces.com/gym/104021", "2022-2023 ICPC Asia Yokohama Regional", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Sáu", "Rà soát Template & Chuẩn bị chiến thuật Vòng Miền Trung", "https://codeforces.com/problemset/problem/217/A", "Codeforces 217A - Ice Skating", "1400", "Review Template", "Chưa làm"),
                 ]
             },
-            # Week 2
+            # Week 2: 24/10 - 30/10
             {
                 "week_num": 2,
-                "theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
+                "theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
                 "days": [
-                    ("Thứ Hai", "Ôn tập SOS DP & Bitmask: Re-solve các bài kinh điển", "https://cses.fi/problemset/task/1654", "CSES 1654 - SOS DP", "2100", "Re-solve", "Chưa làm"),
+                    ("Thứ Bảy", "Thử máy Vòng thi ICPC Miền Trung 2026 (ĐH Khoa học - ĐH Huế)", "https://codeforces.com/gyms", "ICPC Miền Trung 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
+                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC MIỀN TRUNG 2026 (5 GIỜ)", "https://codeforces.com/gyms", "ICPC Central Vietnam Regional Contest 2026", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
+                    ("Thứ Hai", "Upsolve đề Miền Trung & Củng cố SOS DP", "https://cses.fi/problemset/task/1654", "CSES 1654 - SOS DP", "2100", "Re-solve bài cũ", "Chưa làm"),
                     ("Thứ Ba", "Re-solve bài cũ: SOS DP & Bao hàm loại trừ", "https://codeforces.com/problemset/problem/449/D", "Codeforces 449D - Jzzhu and Numbers", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mock Contest #2 (3h)", "https://codeforces.com/contest/1987", "Codeforces Round 955 (Div. 2/1)", "1500-2200", "OLP Mock Test", "Chưa làm"),
+                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mini-Mock Contest (2.5h - CF Div.2)", "https://codeforces.com/contest/1987", "Codeforces Round 955 (Div. 2/1)", "1500-2200", "OLP Mini Test", "Chưa làm"),
                     ("Thứ Năm", "Convex Hull Trick & Li Chao Tree / Alien's Trick", "https://codeforces.com/problemset/problem/1715/E", "Codeforces 1715E - Long Way Home (Dijkstra + CHT)", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Ladder 16: DP & Strings (KMP + DP)", "https://codeforces.com/problemset/problem/346/B", "Codeforces 346B - Lucky Common Subsequence", "2000", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Bảy", "Upsolve các bài DP chưa hoàn thành & Team Strategy", "https://oj.vnoi.info/problem/voi21_or", "VOI 2021 OR - SOS DP", "VOI", "VOI Practice", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 2: ICPC Regional Simulation 5 Giờ (Team Contest #2)", "https://codeforces.com/gym/104114", "2022 ICPC Asia Can Tho Regional Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Sáu", "Ladder 16 Re-solve: KMP + DP", "https://codeforces.com/problemset/problem/346/B", "Codeforces 346B - Lucky Common Subsequence", "2000", "Ladder 16 Re-solve", "Chưa làm"),
                 ]
             },
-            # Week 3
+            # Week 3: 31/10 - 06/11
             {
                 "week_num": 3,
-                "theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
+                "theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
                 "days": [
-                    ("Thứ Hai", "Chia căn & Sqrt Decomposition: Re-solve bài cũ", "https://codeforces.com/problemset/problem/13/E", "Codeforces 13E - Holes (Chia căn)", "2700", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Ladder 16: Segment Tree & Modulo Trick", "https://codeforces.com/problemset/problem/438/D", "Codeforces 438D - The Child and Sequence", "2300", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mock Contest #3 (3.5h - CTDL & DP)", "https://oj.vnoi.info/problem/coci1920_o_paint", "COCI 1920 Paint - Chia căn lớn bé & DSU", "Hard", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Năm", "Persistent Segment Tree & Treap cơ bản", "https://codeforces.com/contest/986/problem/E", "Codeforces 986E - Prince's Problem (Tree, DS, Math)", "2800", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Ladder 16: Data Structures & Hashing", "https://codeforces.com/problemset/problem/126/B", "Codeforces 126B - Password", "1700", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Bảy", "Review Template SegTree Lazy & Fenwick 2D", "https://oj.vnoi.info/problem/segtree_itteq1", "VNOI ITTEQ1 - Segment Tree nâng cao", "Hard", "Review Template", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 3: ICPC Regional Simulation 5 Giờ (Team Contest #3)", "https://codeforces.com/gym/103449", "2021-2022 ICPC Asia Hanoi Regional Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Bảy", "Chia căn & Sqrt Decomposition: Re-solve bài cũ", "https://codeforces.com/problemset/problem/13/E", "Codeforces 13E - Holes (Chia căn)", "2700", "Re-solve bài cũ", "Chưa làm"),
+                    ("Chủ Nhật", "MOCK TEST QUỐC GIA 5H: Giả lập ICPC Vietnam National 2023", "https://codeforces.com/gym/104725", "2023 ICPC Vietnam National Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Hai", "Upsolve đề Mock Test Quốc Gia & Tối ưu hóa phân chia bài", "https://codeforces.com/problemset/problem/438/D", "Codeforces 438D - The Child and Sequence (SegTree Modulo)", "2300", "Upsolving", "Chưa làm"),
+                    ("Thứ Ba", "Kiểm tra và in ấn Team Notebook bản chuẩn cho kỳ thi Quốc Gia", "https://codeforces.com", "ICPC Team Notebook - 25 Trang", "Teamwork", "Checklist", "Chưa làm"),
+                    ("Thứ Tư", "Rà soát bẫy tràn số (MOD, 64-bit, fast I/O) & Viết test generator", "https://codeforces.com/contest/786/problem/B", "Codeforces 786B - Segment Tree trên đồ thị", "2200", "Stress Test Lab", "Chưa làm"),
+                    ("Thứ Năm", "Chiến thuật tâm lý thi đấu 3 người 1 máy vòng Quốc Gia", "https://codeforces.com", "Họp chiến thuật Team ICPC", "Strategy", "Team Meeting", "Chưa làm"),
+                    ("Thứ Sáu", "Thư giãn, ngủ đủ giấc, chuẩn bị tài khoản và máy thi", "https://codeforces.com", "Nghỉ ngơi nạp năng lượng trước Vòng Quốc Gia", "Rest", "Rest & Recharge", "Hoàn thành"),
                 ]
             },
-            # Week 4
+            # Week 4: 07/11 - 13/11
             {
                 "week_num": 4,
-                "theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
+                "theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
                 "days": [
-                    ("Thứ Hai", "Bao hàm loại trừ & Lucas Theorem: Re-solve bài cũ", "https://codeforces.com/contest/1043/problem/F", "Codeforces 1043F - Make It One (Bao hàm)", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Toán chia kẹo Euler & Nghịch đảo modulo", "https://oj.vnoi.info/problem/c11tct", "VNOI c11tct - Chia kẹo, Lucas theory", "Hard", "VNOI Math", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mock Contest #4 (3h - Toán & Tổ hợp)", "https://codeforces.com/contest/1974", "Codeforces Round 946", "Div.3/2", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Năm", "Hình học Sweepline & Convex Hull: Re-solve bài cũ", "https://codeforces.com/contest/529/problem/C", "Codeforces 529C - Sweepline (Rooks Defender)", "2200", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Hình học tính toán & Bao lồi (Monotone Chain)", "https://oj.vnoi.info/problem/cavli", "VNOI cavli - Hình học, Bao lồi", "Hard", "Geometry", "Chưa làm"),
-                    ("Thứ Bảy", "Ladder 16: Math & Number Theory", "https://codeforces.com/problemset/problem/354/C", "Codeforces 354C - Vasya and Beautiful Arrays", "2100", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 4: ICPC Regional Simulation 5 Giờ (Team Contest #4)", "https://codeforces.com/gym/104639", "2023-2024 ICPC Asia Hue Regional Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Bảy", "Thử máy Kỳ thi ICPC Quốc gia 2026 tại điểm thi tập trung", "https://codeforces.com/gyms", "ICPC Vietnam National 2026 - Practice Session", "ICPC Team", "THỬ MÁY", "Chưa làm"),
+                    ("Chủ Nhật", "CHÍNH THỨC THI ICPC QUỐC GIA 2026 (VIETNAM NATIONAL - 5 GIỜ)", "https://codeforces.com/gyms", "2026 ICPC Vietnam National Contest", "ICPC Team", "OFFICIAL CONTEST", "Chưa làm"),
+                    ("Thứ Hai", "Tổng kết kết quả vòng Quốc gia & Xác định slot dự Regional Đà Nẵng", "https://olp.vn", "Bảng điểm ICPC Quốc Gia 2026", "Review", "Debrief", "Chưa làm"),
+                    ("Thứ Ba", "Upsolving toàn bộ các bài trong tầm với đề ICPC Quốc Gia 2026", "https://codeforces.com/contest/1043/problem/F", "Codeforces 1043F - Make It One (Bao hàm loại trừ)", "2400", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Tư", "Khởi động giai đoạn 2: Ôn luyện cá nhân Olympic Tin học SV", "https://oj.vnoi.info/problem/c11tct", "VNOI c11tct - Chia kẹo Euler & Lucas", "Hard", "OLP Practice", "Chưa làm"),
+                    ("Thứ Năm", "Toán học & Tổ hợp: Re-solve các bài toán chia kẹo, nghịch đảo", "https://oj.vnoi.info/problem/fc090_divcan", "VNOI fc090_divcan - Bao hàm, Lucas", "Hard", "Re-solve", "Chưa làm"),
+                    ("Thứ Sáu", "Ladder 16: Math & Number Theory", "https://codeforces.com/problemset/problem/354/C", "Codeforces 354C - Vasya and Beautiful Arrays", "2100", "Ladder 16 Re-solve", "Chưa làm"),
                 ]
             },
-            # Week 5
+            # Week 5: 14/11 - 20/11
             {
                 "week_num": 5,
-                "theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+                "theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
                 "days": [
-                    ("Thứ Hai", "KMP, Z-function & Hash 2D: Re-solve bài cũ", "https://codeforces.com/problemset/problem/432/D", "Codeforces 432D - Prefixes and Suffixes", "2000", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Ba", "Aho-Corasick & DP trên Trie", "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind", "LQDOJ ugpalind - DP + Aho-Corasick", "Hard", "LQDOJ String", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mock Contest #5 (3.5h - Đề Siêu Cúp / Chuyên Tin)", "https://cms.ioi-jp.org/joi2023-sp1-open", "JOI Spring Camp 2023 Contest 1", "JOI", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Năm", "Luồng cực đại (Dinic) & Cặp ghép cực đại", "https://codeforces.com/contest/944/problem/F", "Codeforces 944F - CTDL, Game", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc", "https://codeforces.com/contest/2181/problem/F", "Codeforces 2181F - Fragmented Nim", "1600", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Bảy", "Ladder 16: KMP String Differencing", "https://codeforces.com/problemset/problem/471/D", "Codeforces 471D - MUH and Cube Walls", "1800", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 5: ICPC Vietnam National Simulation 5 Giờ (Team Contest #5)", "https://codeforces.com/gym/104725", "2023 ICPC Vietnam National Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Bảy", "Hình học tính toán: Bao lồi (Monotone Chain / Graham Scan)", "https://oj.vnoi.info/problem/cavli", "VNOI cavli - Hình học, Bao lồi", "Hard", "Geometry", "Chưa làm"),
+                    ("Chủ Nhật", "MOCK TEST OLP #1: Đề thi Siêu Cúp / Chuyên Tin các năm (3.5 giờ)", "https://cms.ioi-jp.org/joi2023-sp1-open", "JOI Spring Camp 2023 Contest 1", "JOI", "OLP Mock Test", "Chưa làm"),
+                    ("Thứ Hai", "Sweepline quét tọa độ X kết hợp Segment Tree", "https://codeforces.com/contest/529/problem/C", "Codeforces 529C - Sweepline (Rooks Defender)", "2200", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Ba", "Persistent Segment Tree & Treap: Re-solve bài cũ", "https://codeforces.com/contest/986/problem/E", "Codeforces 986E - Prince's Problem (Tree, DS, Math)", "2800", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Tư", "Kỹ thuật Chia căn lớn bé & DSU", "https://oj.vnoi.info/problem/coci1920_o_paint", "COCI 1920 Paint - Chia căn lớn bé & DSU", "Hard", "Data Structures", "Chưa làm"),
+                    ("Thứ Năm", "Ladder 16: KMP Differencing", "https://codeforces.com/problemset/problem/471/D", "Codeforces 471D - MUH and Cube Walls", "1800", "Ladder 16 Re-solve", "Chưa làm"),
+                    ("Thứ Sáu", "Review Template SegTree Lazy & Fenwick 2D", "https://oj.vnoi.info/problem/segtree_itteq1", "VNOI ITTEQ1 - Segment Tree nâng cao", "Hard", "Review Template", "Chưa làm"),
                 ]
             },
-            # Week 6
+            # Week 6: 21/11 - 27/11
             {
                 "week_num": 6,
-                "theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
+                "theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
                 "days": [
-                    ("Thứ Hai", "Upsolving bài khó Mock Test 5 & Phân tích bug phòng thi", "https://codeforces.com/contest/1442/problem/C", "Codeforces 1442C - Graph, Shortest Path", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Ba", "Re-solve bài cũ: DSU on Tree / Small to large", "https://codeforces.com/problemset/problem/570/D", "Codeforces 570D - Tree Requests", "2200", "Ladder 16 Re-solve", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra cá nhân OLP Mock Contest #6 (3h - Đề Olympic các năm)", "https://oj.vnoi.info/problem/voi21_rmat", "VOI 2021 RMAT - Observation & Matrix", "VOI", "OLP Mock Test", "Chưa làm"),
-                    ("Thứ Năm", "Kiểm tra và hoàn thiện ICPC Team Notebook (Codeforces Template)", "https://codeforces.com/contest/1697/problem/E", "Codeforces 1697E - Graph, DP, Tổ hợp", "2400", "Re-solve bài cũ", "Chưa làm"),
-                    ("Thứ Sáu", "Thực hành Stress Test (Viết script sinh test ngẫu nhiên đối chiếu)", "https://dmoj.ca/problem/coci06c1p6", "COCI 06 c1p6 - Hash 2D", "Hard", "Stress Test Lab", "Chưa làm"),
-                    ("Thứ Bảy", "Review toàn bộ các Trick lỏ & bẫy tràn số (Overflow, MOD, 1LL<<x)", "https://codeforces.com/contest/786/problem/B", "Codeforces 786B - Dijkstra đoạn", "2200", "Trick lỏ", "Chưa làm"),
-                    ("Chủ Nhật", "MOCK TEST 6: FINAL FULL ICPC SIMULATION 5 GIỜ", "https://codeforces.com/gym/103960", "2022-2023 ICPC Brazil Subregional / Asia Archive", "ICPC Team", "FINAL MOCK TEST", "Chưa làm"),
+                    ("Thứ Bảy", "KMP, Z-function & Hash 2D: Re-solve bài cũ", "https://codeforces.com/problemset/problem/432/D", "Codeforces 432D - Prefixes and Suffixes", "2000", "Ladder 16 Re-solve", "Chưa làm"),
+                    ("Chủ Nhật", "MOCK TEST REGIONAL #4: 2023-2024 ICPC Asia Hue Regional Contest (5h)", "https://codeforces.com/gym/104639", "2023-2024 ICPC Asia Hue Regional Contest", "ICPC Team", "FULL MOCK TEST", "Chưa làm"),
+                    ("Thứ Hai", "Aho-Corasick & DP trên Trie", "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind", "LQDOJ ugpalind - DP + Aho-Corasick", "Hard", "LQDOJ String", "Chưa làm"),
+                    ("Thứ Ba", "Luồng cực đại (Dinic) & Cặp ghép hai phía", "https://codeforces.com/contest/944/problem/F", "Codeforces 944F - CTDL, Game", "2400", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Tư", "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc", "https://codeforces.com/contest/2181/problem/F", "Codeforces 2181F - Fragmented Nim", "1600", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Năm", "DSU on tree (Small to large) kết hợp Bitmask", "https://codeforces.com/problemset/problem/570/D", "Codeforces 570D - Tree Requests", "2200", "Ladder 16 Re-solve", "Chưa làm"),
+                    ("Thứ Sáu", "Kiểm tra tiến độ 137 bài khó đã re-solve được bao nhiêu bài", "https://codeforces.com/contest/1442/problem/C", "Codeforces 1442C - Graph, Shortest Path", "2400", "Re-solve bài cũ", "Chưa làm"),
                 ]
             },
-            # Week 7
+            # Week 7: 28/11 - 04/12
             {
                 "week_num": 7,
-                "theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
+                "theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
                 "days": [
-                    ("Thứ Hai", "Re-solve nhẹ nhàng: Ladder 16 các bài trung bình (Lấy cảm giác tay)", "https://codeforces.com/problemset/problem/476/B", "Codeforces 476B - Dreamoon and WiFi", "1300", "Ladder 16", "Chưa làm"),
-                    ("Thứ Ba", "Rà soát lại danh sách 137 bài khó đã ôn tập", "https://codeforces.com/contest/2181/problem/D", "Codeforces 2181D - Doorway (BS + DS)", "2000", "Re-solve nhẹ", "Chưa làm"),
-                    ("Thứ Tư", "Kiểm tra Template Notebook, máy chấm, compiler flags (-O2, -fsanitize)", "https://codeforces.com", "Chuẩn bị môi trường thi & template in ấn", "Preparation", "Checklist", "Chưa làm"),
-                    ("Thứ Năm", "Chiến thuật tâm lý: Phân bổ thời gian, nhận diện bài bẫy", "https://codeforces.com", "Họp chiến thuật team ICPC", "Strategy", "Team Meeting", "Chưa làm"),
-                    ("Thứ Sáu", "Nghỉ ngơi, ngủ đủ giấc, chuẩn bị thẻ sinh viên & CCCD", "https://codeforces.com", "Nghỉ ngơi chuẩn bị cho ngày thi", "Rest", "Rest & Recharge", "Hoàn thành"),
-                    ("Thứ Bảy", "NGÀY THI OLYMPIC TIN HỌC SINH VIÊN (CÁ NHÂN)", "https://olp.vn", "Olympic Tin học Sinh viên Toàn quốc", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
-                    ("Chủ Nhật", "NGÀY THI ICPC REGIONAL (TEAM 3 NGƯỜI / 5 GIỜ)", "https://icpc.global", "ICPC Asia Regional Contest", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
+                    ("Thứ Bảy", "FINAL MOCK TEST: 2022-2023 ICPC Asia Yokohama Regional (5 Giờ)", "https://codeforces.com/gym/104021", "2022-2023 ICPC Asia Yokohama Regional", "ICPC Team", "FINAL MOCK TEST", "Chưa làm"),
+                    ("Chủ Nhật", "MOCK TEST OLP #2: Đề Olympic Tin học Sinh viên Toàn quốc (3.5 Giờ)", "https://oj.vnoi.info/problem/voi21_rmat", "VOI 2021 RMAT - Observation & Matrix", "VOI", "OLP Mock Test", "Chưa làm"),
+                    ("Thứ Hai", "Upsolve bài khó Mock Test & Đóng gói toàn bộ code mẫu", "https://codeforces.com/contest/1697/problem/E", "Codeforces 1697E - Graph, DP, Tổ hợp", "2400", "Re-solve bài cũ", "Chưa làm"),
+                    ("Thứ Ba", "In ấn Team Notebook bản cứng (25 trang chuẩn ICPC quốc tế)", "https://codeforces.com", "In ấn Team Notebook", "Preparation", "Checklist", "Chưa làm"),
+                    ("Thứ Tư", "Kiểm tra compiler flags (-O2, -fsanitize=undefined) & máy chấm", "https://codeforces.com", "Kiểm tra môi trường thi", "Preparation", "Checklist", "Chưa làm"),
+                    ("Thứ Năm", "Họp chiến thuật team 3 người 1 máy lần cuối trước khi bay", "https://codeforces.com", "Họp chiến thuật Team ICPC", "Strategy", "Team Meeting", "Chưa làm"),
+                    ("Thứ Sáu", "Nghỉ ngơi, chuẩn bị hành lý, giấy tờ tùy thân và vé đi Đà Nẵng", "https://codeforces.com", "Nghỉ ngơi và chuẩn bị lên đường", "Rest", "Rest & Recharge", "Hoàn thành"),
+                ]
+            },
+            # Week 8: 05/12 - 11/12
+            {
+                "week_num": 8,
+                "theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+                "days": [
+                    ("Thứ Bảy", "Di chuyển đến TP. Đà Nẵng, nhận phòng & ổn định nơi lưu trú", "https://olp.vn", "Có mặt tại Đà Nẵng", "Travel", "Check-in", "Chưa làm"),
+                    ("Chủ Nhật", "Tham quan Trường ĐH CNTT và Truyền thông Việt - Hàn (VKU Đà Nẵng)", "https://olp.vn", "Thăm quan địa điểm thi VKU Đà Nẵng", "Site Visit", "Venue Tour", "Chưa làm"),
+                    ("Thứ Hai", "Gõ code nhẹ nhàng vài bài cơ bản lấy cảm giác phím mượt mà", "https://codeforces.com/problemset/problem/476/B", "Codeforces 476B - Dreamoon and WiFi", "1300", "Warm-up", "Chưa làm"),
+                    ("Thứ Ba", "ĐĂNG KÝ THAM GIA OLP & ICPC ASIA DANANG TẠI VKU; CHUNG KẾT OLYMPIC AI", "https://olp.vn", "Đăng ký OLP'26 & ICPC Asia Danang (08/12/2026)", "Registration", "OFFICIAL EVENT", "Chưa làm"),
+                    ("Thứ Tư", "CHÍNH THỨC THI OLYMPIC TIN HỌC SINH VIÊN (OLP'26) - KHỐI CHUYÊN TIN & SIÊU CÚP", "https://olp.vn", "Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026)", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
+                    ("Thứ Năm", "KHAI MẠC ICPC ASIA DANANG 2026; THỬ MÁY (PRACTICE SESSION 2H) & NỘP NOTEBOOK", "https://olp.vn", "Khai mạc & Thử máy ICPC Asia Danang (10/12/2026)", "Practice", "OFFICIAL EVENT", "Đến giờ G!"),
+                    ("Thứ Sáu", "CHÍNH THỨC THI LẬP TRÌNH QUỐC TẾ ICPC ASIA DANANG 2026 (5 TIẾNG: 08:00 - 13:00)", "https://icpc.global", "Chính thức thi ICPC Asia Danang 2026 (11/12/2026)", "CONTEST", "OFFICIAL CONTEST", "Đến giờ G!"),
                 ]
             }
         ]

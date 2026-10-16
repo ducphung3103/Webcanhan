@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:03:05.770217",
+  "updated_at": "2026-10-16T16:13:17.182902",
   "user_handle": "DeruckLoveNewTechnology",
   "stats": {
     "total_cf_submissions": 662,
@@ -9,18 +9,54 @@
     "ladder16_review_needed": 8,
     "ladder16_unsolved": 30,
     "hard_review_count": 137,
-    "schedule_total_days": 49,
+    "schedule_total_days": 56,
     "accounts": {
       "Codeforces": "DeruckLoveNewTechnology"
     }
   },
   "schedule": [
     {
+      "date": "2026-10-17",
+      "day_name": "Thứ Bảy",
+      "week_num": 1,
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "Thử máy Vòng thi ICPC Miền Nam 2026 (ĐH KHTN TP.HCM)",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "ICPC Miền Nam 2026 - Practice Session",
+      "rating": "ICPC Team",
+      "session_type": "THỬ MÁY",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-10-18",
+      "day_name": "Chủ Nhật",
+      "week_num": 1,
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "CHÍNH THỨC THI ICPC MIỀN NAM 2026 (5 GIỜ)",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "ICPC Southern Vietnam Regional Contest 2026",
+      "rating": "ICPC Team",
+      "session_type": "OFFICIAL CONTEST",
+      "status": "Chưa làm"
+    },
+    {
       "date": "2026-10-19",
       "day_name": "Thứ Hai",
       "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "Ôn tập Lý thuyết & Re-solve bài cũ: DSU Tree & Small to Large",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "Upsolving đề ICPC Miền Nam & Phân tích lỗi kỹ thuật phòng thi",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "Upsolve ICPC Miền Nam",
+      "rating": "Hard",
+      "session_type": "Upsolving",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-10-20",
+      "day_name": "Thứ Ba",
+      "week_num": 1,
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "Re-solve bài cũ: DSU Tree & Small to Large",
       "link": "https://codeforces.com/contest/1416/problem/D",
       "problem_name": "Codeforces 1416D - DSU Tree",
       "rating": "2600",
@@ -28,34 +64,22 @@
       "status": "Chưa làm"
     },
     {
-      "date": "2026-10-20",
-      "day_name": "Thứ Ba",
-      "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "Luyện tập Ladder 16: Graph & Shortest Paths",
-      "link": "https://codeforces.com/contest/295/problem/B",
-      "problem_name": "Codeforces 295B - Greg and Graph (Floyd-Warshall trick)",
-      "rating": "1700",
-      "session_type": "Ladder 16 Re-solve",
-      "status": "Chưa làm"
-    },
-    {
       "date": "2026-10-21",
       "day_name": "Thứ Tư",
       "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "Kiểm tra cá nhân OLP Mini-Contest #1 (2.5h)",
-      "link": "https://codeforces.com/contest/1996",
-      "problem_name": "Codeforces Round 962 (Div. 3/2)",
-      "rating": "1200-1800",
-      "session_type": "Mini Mock Test",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "Ladder 16 Re-solve: Graph & Shortest Paths (Floyd trick)",
+      "link": "https://codeforces.com/contest/295/problem/B",
+      "problem_name": "Codeforces 295B - Greg and Graph",
+      "rating": "1700",
+      "session_type": "Ladder 16 Re-solve",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-22",
       "day_name": "Thứ Năm",
       "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
       "activity": "Re-solve bài cũ: Mo on Tree & Rerooting",
       "link": "https://codeforces.com/problemset/problem/375/D",
       "problem_name": "Codeforces 375D - Mo on tree",
@@ -67,55 +91,55 @@
       "date": "2026-10-23",
       "day_name": "Thứ Sáu",
       "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "Thực hành Ladder 16: DFS/BFS & Constructive",
+      "week_theme": "Tuần 1: VÒNG THI ICPC MIỀN NAM 2026 & Củng cố Cây (Tree), DSU",
+      "activity": "Rà soát Template & Chuẩn bị chiến thuật Vòng Miền Trung",
       "link": "https://codeforces.com/problemset/problem/217/A",
       "problem_name": "Codeforces 217A - Ice Skating",
       "rating": "1400",
-      "session_type": "Ladder 16",
+      "session_type": "Review Template",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-24",
       "day_name": "Thứ Bảy",
-      "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "Upsolving & Tối ưu hóa Code Template (Tree/Graph)",
-      "link": "https://oj.vnoi.info/problem/diffgraph",
-      "problem_name": "LQDOJ diffgraph - Small to large, reroot",
-      "rating": "Hard",
-      "session_type": "VNOI/LQDOJ Practice",
+      "week_num": 2,
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "activity": "Thử máy Vòng thi ICPC Miền Trung 2026 (ĐH Khoa học - ĐH Huế)",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "ICPC Miền Trung 2026 - Practice Session",
+      "rating": "ICPC Team",
+      "session_type": "THỬ MÁY",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-25",
       "day_name": "Chủ Nhật",
-      "week_num": 1,
-      "week_theme": "Tuần 1: Củng cố Cây (Tree), DSU nâng cao & Đường đi ngắn nhất (Shortest Path)",
-      "activity": "MOCK TEST 1: ICPC Regional Simulation 5 Giờ (Team Contest #1)",
-      "link": "https://codeforces.com/gym/104021",
-      "problem_name": "2022-2023 ICPC Asia Yokohama Regional",
+      "week_num": 2,
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "activity": "CHÍNH THỨC THI ICPC MIỀN TRUNG 2026 (5 GIỜ)",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "ICPC Central Vietnam Regional Contest 2026",
       "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
+      "session_type": "OFFICIAL CONTEST",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-26",
       "day_name": "Thứ Hai",
       "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
-      "activity": "Ôn tập SOS DP & Bitmask: Re-solve các bài kinh điển",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "activity": "Upsolve đề Miền Trung & Củng cố SOS DP",
       "link": "https://cses.fi/problemset/task/1654",
       "problem_name": "CSES 1654 - SOS DP",
       "rating": "2100",
-      "session_type": "Re-solve",
+      "session_type": "Re-solve bài cũ",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-27",
       "day_name": "Thứ Ba",
       "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
       "activity": "Re-solve bài cũ: SOS DP & Bao hàm loại trừ",
       "link": "https://codeforces.com/problemset/problem/449/D",
       "problem_name": "Codeforces 449D - Jzzhu and Numbers",
@@ -127,19 +151,19 @@
       "date": "2026-10-28",
       "day_name": "Thứ Tư",
       "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
-      "activity": "Kiểm tra cá nhân OLP Mock Contest #2 (3h)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "activity": "Kiểm tra cá nhân OLP Mini-Mock Contest (2.5h - CF Div.2)",
       "link": "https://codeforces.com/contest/1987",
       "problem_name": "Codeforces Round 955 (Div. 2/1)",
       "rating": "1500-2200",
-      "session_type": "OLP Mock Test",
+      "session_type": "OLP Mini Test",
       "status": "Chưa làm"
     },
     {
       "date": "2026-10-29",
       "day_name": "Thứ Năm",
       "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
       "activity": "Convex Hull Trick & Li Chao Tree / Alien's Trick",
       "link": "https://codeforces.com/problemset/problem/1715/E",
       "problem_name": "Codeforces 1715E - Long Way Home (Dijkstra + CHT)",
@@ -151,8 +175,8 @@
       "date": "2026-10-30",
       "day_name": "Thứ Sáu",
       "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
-      "activity": "Ladder 16: DP & Strings (KMP + DP)",
+      "week_theme": "Tuần 2: VÒNG THI ICPC MIỀN TRUNG 2026 & Quy hoạch động nâng cao (SOS DP, CHT)",
+      "activity": "Ladder 16 Re-solve: KMP + DP",
       "link": "https://codeforces.com/problemset/problem/346/B",
       "problem_name": "Codeforces 346B - Lucky Common Subsequence",
       "rating": "2000",
@@ -162,32 +186,8 @@
     {
       "date": "2026-10-31",
       "day_name": "Thứ Bảy",
-      "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
-      "activity": "Upsolve các bài DP chưa hoàn thành & Team Strategy",
-      "link": "https://oj.vnoi.info/problem/voi21_or",
-      "problem_name": "VOI 2021 OR - SOS DP",
-      "rating": "VOI",
-      "session_type": "VOI Practice",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-01",
-      "day_name": "Chủ Nhật",
-      "week_num": 2,
-      "week_theme": "Tuần 2: Dynamic Programming nâng cao (SOS DP, CHT, Bitmask, Tree DP)",
-      "activity": "MOCK TEST 2: ICPC Regional Simulation 5 Giờ (Team Contest #2)",
-      "link": "https://codeforces.com/gym/104114",
-      "problem_name": "2022 ICPC Asia Can Tho Regional Contest",
-      "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-02",
-      "day_name": "Thứ Hai",
       "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
       "activity": "Chia căn & Sqrt Decomposition: Re-solve bài cũ",
       "link": "https://codeforces.com/problemset/problem/13/E",
       "problem_name": "Codeforces 13E - Holes (Chia căn)",
@@ -196,142 +196,154 @@
       "status": "Chưa làm"
     },
     {
+      "date": "2026-11-01",
+      "day_name": "Chủ Nhật",
+      "week_num": 3,
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "MOCK TEST QUỐC GIA 5H: Giả lập ICPC Vietnam National 2023",
+      "link": "https://codeforces.com/gym/104725",
+      "problem_name": "2023 ICPC Vietnam National Contest",
+      "rating": "ICPC Team",
+      "session_type": "FULL MOCK TEST",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-02",
+      "day_name": "Thứ Hai",
+      "week_num": 3,
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "Upsolve đề Mock Test Quốc Gia & Tối ưu hóa phân chia bài",
+      "link": "https://codeforces.com/problemset/problem/438/D",
+      "problem_name": "Codeforces 438D - The Child and Sequence (SegTree Modulo)",
+      "rating": "2300",
+      "session_type": "Upsolving",
+      "status": "Chưa làm"
+    },
+    {
       "date": "2026-11-03",
       "day_name": "Thứ Ba",
       "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "Ladder 16: Segment Tree & Modulo Trick",
-      "link": "https://codeforces.com/problemset/problem/438/D",
-      "problem_name": "Codeforces 438D - The Child and Sequence",
-      "rating": "2300",
-      "session_type": "Ladder 16 Re-solve",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "Kiểm tra và in ấn Team Notebook bản chuẩn cho kỳ thi Quốc Gia",
+      "link": "https://codeforces.com",
+      "problem_name": "ICPC Team Notebook - 25 Trang",
+      "rating": "Teamwork",
+      "session_type": "Checklist",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-04",
       "day_name": "Thứ Tư",
       "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "Kiểm tra cá nhân OLP Mock Contest #3 (3.5h - CTDL & DP)",
-      "link": "https://oj.vnoi.info/problem/coci1920_o_paint",
-      "problem_name": "COCI 1920 Paint - Chia căn lớn bé & DSU",
-      "rating": "Hard",
-      "session_type": "OLP Mock Test",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "Rà soát bẫy tràn số (MOD, 64-bit, fast I/O) & Viết test generator",
+      "link": "https://codeforces.com/contest/786/problem/B",
+      "problem_name": "Codeforces 786B - Segment Tree trên đồ thị",
+      "rating": "2200",
+      "session_type": "Stress Test Lab",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-05",
       "day_name": "Thứ Năm",
       "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "Persistent Segment Tree & Treap cơ bản",
-      "link": "https://codeforces.com/contest/986/problem/E",
-      "problem_name": "Codeforces 986E - Prince's Problem (Tree, DS, Math)",
-      "rating": "2800",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "Chiến thuật tâm lý thi đấu 3 người 1 máy vòng Quốc Gia",
+      "link": "https://codeforces.com",
+      "problem_name": "Họp chiến thuật Team ICPC",
+      "rating": "Strategy",
+      "session_type": "Team Meeting",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-06",
       "day_name": "Thứ Sáu",
       "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "Ladder 16: Data Structures & Hashing",
-      "link": "https://codeforces.com/problemset/problem/126/B",
-      "problem_name": "Codeforces 126B - Password",
-      "rating": "1700",
-      "session_type": "Ladder 16 Re-solve",
-      "status": "Chưa làm"
+      "week_theme": "Tuần 3: TỔNG LỰC CHUẨN BỊ CHO KỲ THI ICPC QUỐC GIA 2026",
+      "activity": "Thư giãn, ngủ đủ giấc, chuẩn bị tài khoản và máy thi",
+      "link": "https://codeforces.com",
+      "problem_name": "Nghỉ ngơi nạp năng lượng trước Vòng Quốc Gia",
+      "rating": "Rest",
+      "session_type": "Rest & Recharge",
+      "status": "Hoàn thành"
     },
     {
       "date": "2026-11-07",
       "day_name": "Thứ Bảy",
-      "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "Review Template SegTree Lazy & Fenwick 2D",
-      "link": "https://oj.vnoi.info/problem/segtree_itteq1",
-      "problem_name": "VNOI ITTEQ1 - Segment Tree nâng cao",
-      "rating": "Hard",
-      "session_type": "Review Template",
+      "week_num": 4,
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "Thử máy Kỳ thi ICPC Quốc gia 2026 tại điểm thi tập trung",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "ICPC Vietnam National 2026 - Practice Session",
+      "rating": "ICPC Team",
+      "session_type": "THỬ MÁY",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-08",
       "day_name": "Chủ Nhật",
-      "week_num": 3,
-      "week_theme": "Tuần 3: Cấu trúc dữ liệu nâng cao & Chia căn (Mo, Sqrt Decomposition, SegTree)",
-      "activity": "MOCK TEST 3: ICPC Regional Simulation 5 Giờ (Team Contest #3)",
-      "link": "https://codeforces.com/gym/103449",
-      "problem_name": "2021-2022 ICPC Asia Hanoi Regional Contest",
+      "week_num": 4,
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "CHÍNH THỨC THI ICPC QUỐC GIA 2026 (VIETNAM NATIONAL - 5 GIỜ)",
+      "link": "https://codeforces.com/gyms",
+      "problem_name": "2026 ICPC Vietnam National Contest",
       "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
+      "session_type": "OFFICIAL CONTEST",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-09",
       "day_name": "Thứ Hai",
       "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "Bao hàm loại trừ & Lucas Theorem: Re-solve bài cũ",
-      "link": "https://codeforces.com/contest/1043/problem/F",
-      "problem_name": "Codeforces 1043F - Make It One (Bao hàm)",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "Tổng kết kết quả vòng Quốc gia & Xác định slot dự Regional Đà Nẵng",
+      "link": "https://olp.vn",
+      "problem_name": "Bảng điểm ICPC Quốc Gia 2026",
+      "rating": "Review",
+      "session_type": "Debrief",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-10",
       "day_name": "Thứ Ba",
       "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "Toán chia kẹo Euler & Nghịch đảo modulo",
-      "link": "https://oj.vnoi.info/problem/c11tct",
-      "problem_name": "VNOI c11tct - Chia kẹo, Lucas theory",
-      "rating": "Hard",
-      "session_type": "VNOI Math",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "Upsolving toàn bộ các bài trong tầm với đề ICPC Quốc Gia 2026",
+      "link": "https://codeforces.com/contest/1043/problem/F",
+      "problem_name": "Codeforces 1043F - Make It One (Bao hàm loại trừ)",
+      "rating": "2400",
+      "session_type": "Re-solve bài cũ",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-11",
       "day_name": "Thứ Tư",
       "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "Kiểm tra cá nhân OLP Mock Contest #4 (3h - Toán & Tổ hợp)",
-      "link": "https://codeforces.com/contest/1974",
-      "problem_name": "Codeforces Round 946",
-      "rating": "Div.3/2",
-      "session_type": "OLP Mock Test",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "Khởi động giai đoạn 2: Ôn luyện cá nhân Olympic Tin học SV",
+      "link": "https://oj.vnoi.info/problem/c11tct",
+      "problem_name": "VNOI c11tct - Chia kẹo Euler & Lucas",
+      "rating": "Hard",
+      "session_type": "OLP Practice",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-12",
       "day_name": "Thứ Năm",
       "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "Hình học Sweepline & Convex Hull: Re-solve bài cũ",
-      "link": "https://codeforces.com/contest/529/problem/C",
-      "problem_name": "Codeforces 529C - Sweepline (Rooks Defender)",
-      "rating": "2200",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
+      "activity": "Toán học & Tổ hợp: Re-solve các bài toán chia kẹo, nghịch đảo",
+      "link": "https://oj.vnoi.info/problem/fc090_divcan",
+      "problem_name": "VNOI fc090_divcan - Bao hàm, Lucas",
+      "rating": "Hard",
+      "session_type": "Re-solve",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-13",
       "day_name": "Thứ Sáu",
       "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "Hình học tính toán & Bao lồi (Monotone Chain)",
-      "link": "https://oj.vnoi.info/problem/cavli",
-      "problem_name": "VNOI cavli - Hình học, Bao lồi",
-      "rating": "Hard",
-      "session_type": "Geometry",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-14",
-      "day_name": "Thứ Bảy",
-      "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
+      "week_theme": "Tuần 4: KỲ THI ICPC QUỐC GIA 2026 (08-09/11) & BƯỚC NGOẶT CHUYỂN GIAO",
       "activity": "Ladder 16: Math & Number Theory",
       "link": "https://codeforces.com/problemset/problem/354/C",
       "problem_name": "Codeforces 354C - Vasya and Beautiful Arrays",
@@ -340,22 +352,94 @@
       "status": "Chưa làm"
     },
     {
+      "date": "2026-11-14",
+      "day_name": "Thứ Bảy",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Hình học tính toán: Bao lồi (Monotone Chain / Graham Scan)",
+      "link": "https://oj.vnoi.info/problem/cavli",
+      "problem_name": "VNOI cavli - Hình học, Bao lồi",
+      "rating": "Hard",
+      "session_type": "Geometry",
+      "status": "Chưa làm"
+    },
+    {
       "date": "2026-11-15",
       "day_name": "Chủ Nhật",
-      "week_num": 4,
-      "week_theme": "Tuần 4: Toán học, Tổ hợp, Nghịch đảo Modulo & Hình học Sweepline",
-      "activity": "MOCK TEST 4: ICPC Regional Simulation 5 Giờ (Team Contest #4)",
-      "link": "https://codeforces.com/gym/104639",
-      "problem_name": "2023-2024 ICPC Asia Hue Regional Contest",
-      "rating": "ICPC Team",
-      "session_type": "FULL MOCK TEST",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "MOCK TEST OLP #1: Đề thi Siêu Cúp / Chuyên Tin các năm (3.5 giờ)",
+      "link": "https://cms.ioi-jp.org/joi2023-sp1-open",
+      "problem_name": "JOI Spring Camp 2023 Contest 1",
+      "rating": "JOI",
+      "session_type": "OLP Mock Test",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-16",
       "day_name": "Thứ Hai",
       "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Sweepline quét tọa độ X kết hợp Segment Tree",
+      "link": "https://codeforces.com/contest/529/problem/C",
+      "problem_name": "Codeforces 529C - Sweepline (Rooks Defender)",
+      "rating": "2200",
+      "session_type": "Re-solve bài cũ",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-17",
+      "day_name": "Thứ Ba",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Persistent Segment Tree & Treap: Re-solve bài cũ",
+      "link": "https://codeforces.com/contest/986/problem/E",
+      "problem_name": "Codeforces 986E - Prince's Problem (Tree, DS, Math)",
+      "rating": "2800",
+      "session_type": "Re-solve bài cũ",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-18",
+      "day_name": "Thứ Tư",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Kỹ thuật Chia căn lớn bé & DSU",
+      "link": "https://oj.vnoi.info/problem/coci1920_o_paint",
+      "problem_name": "COCI 1920 Paint - Chia căn lớn bé & DSU",
+      "rating": "Hard",
+      "session_type": "Data Structures",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-19",
+      "day_name": "Thứ Năm",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Ladder 16: KMP Differencing",
+      "link": "https://codeforces.com/problemset/problem/471/D",
+      "problem_name": "Codeforces 471D - MUH and Cube Walls",
+      "rating": "1800",
+      "session_type": "Ladder 16 Re-solve",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-20",
+      "day_name": "Thứ Sáu",
+      "week_num": 5,
+      "week_theme": "Tuần 5: Chuyên sâu Olympic: Hình học Sweepline, Bao lồi & CTDL Nâng cao",
+      "activity": "Review Template SegTree Lazy & Fenwick 2D",
+      "link": "https://oj.vnoi.info/problem/segtree_itteq1",
+      "problem_name": "VNOI ITTEQ1 - Segment Tree nâng cao",
+      "rating": "Hard",
+      "session_type": "Review Template",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-21",
+      "day_name": "Thứ Bảy",
+      "week_num": 6,
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
       "activity": "KMP, Z-function & Hash 2D: Re-solve bài cũ",
       "link": "https://codeforces.com/problemset/problem/432/D",
       "problem_name": "Codeforces 432D - Prefixes and Suffixes",
@@ -364,73 +448,13 @@
       "status": "Chưa làm"
     },
     {
-      "date": "2026-11-17",
-      "day_name": "Thứ Ba",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Aho-Corasick & DP trên Trie",
-      "link": "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind",
-      "problem_name": "LQDOJ ugpalind - DP + Aho-Corasick",
-      "rating": "Hard",
-      "session_type": "LQDOJ String",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-18",
-      "day_name": "Thứ Tư",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Kiểm tra cá nhân OLP Mock Contest #5 (3.5h - Đề Siêu Cúp / Chuyên Tin)",
-      "link": "https://cms.ioi-jp.org/joi2023-sp1-open",
-      "problem_name": "JOI Spring Camp 2023 Contest 1",
-      "rating": "JOI",
-      "session_type": "OLP Mock Test",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-19",
-      "day_name": "Thứ Năm",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Luồng cực đại (Dinic) & Cặp ghép cực đại",
-      "link": "https://codeforces.com/contest/944/problem/F",
-      "problem_name": "Codeforces 944F - CTDL, Game",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-20",
-      "day_name": "Thứ Sáu",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc",
-      "link": "https://codeforces.com/contest/2181/problem/F",
-      "problem_name": "Codeforces 2181F - Fragmented Nim",
-      "rating": "1600",
-      "session_type": "Re-solve bài cũ",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-21",
-      "day_name": "Thứ Bảy",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "Ladder 16: KMP String Differencing",
-      "link": "https://codeforces.com/problemset/problem/471/D",
-      "problem_name": "Codeforces 471D - MUH and Cube Walls",
-      "rating": "1800",
-      "session_type": "Ladder 16 Re-solve",
-      "status": "Chưa làm"
-    },
-    {
       "date": "2026-11-22",
       "day_name": "Chủ Nhật",
-      "week_num": 5,
-      "week_theme": "Tuần 5: Thuật toán Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
-      "activity": "MOCK TEST 5: ICPC Vietnam National Simulation 5 Giờ (Team Contest #5)",
-      "link": "https://codeforces.com/gym/104725",
-      "problem_name": "2023 ICPC Vietnam National Contest",
+      "week_num": 6,
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "MOCK TEST REGIONAL #4: 2023-2024 ICPC Asia Hue Regional Contest (5h)",
+      "link": "https://codeforces.com/gym/104639",
+      "problem_name": "2023-2024 ICPC Asia Hue Regional Contest",
       "rating": "ICPC Team",
       "session_type": "FULL MOCK TEST",
       "status": "Chưa làm"
@@ -439,20 +463,44 @@
       "date": "2026-11-23",
       "day_name": "Thứ Hai",
       "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Upsolving bài khó Mock Test 5 & Phân tích bug phòng thi",
-      "link": "https://codeforces.com/contest/1442/problem/C",
-      "problem_name": "Codeforces 1442C - Graph, Shortest Path",
-      "rating": "2400",
-      "session_type": "Re-solve bài cũ",
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "Aho-Corasick & DP trên Trie",
+      "link": "https://lqdoj.edu.vn/problem/lqdoj2022r4ugpalind",
+      "problem_name": "LQDOJ ugpalind - DP + Aho-Corasick",
+      "rating": "Hard",
+      "session_type": "LQDOJ String",
       "status": "Chưa làm"
     },
     {
       "date": "2026-11-24",
       "day_name": "Thứ Ba",
       "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Re-solve bài cũ: DSU on Tree / Small to large",
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "Luồng cực đại (Dinic) & Cặp ghép hai phía",
+      "link": "https://codeforces.com/contest/944/problem/F",
+      "problem_name": "Codeforces 944F - CTDL, Game",
+      "rating": "2400",
+      "session_type": "Re-solve bài cũ",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-25",
+      "day_name": "Thứ Tư",
+      "week_num": 6,
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "Game Theory: Nim, Sprague-Grundy & Nhận xét Adhoc",
+      "link": "https://codeforces.com/contest/2181/problem/F",
+      "problem_name": "Codeforces 2181F - Fragmented Nim",
+      "rating": "1600",
+      "session_type": "Re-solve bài cũ",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-26",
+      "day_name": "Thứ Năm",
+      "week_num": 6,
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "DSU on tree (Small to large) kết hợp Bitmask",
       "link": "https://codeforces.com/problemset/problem/570/D",
       "problem_name": "Codeforces 570D - Tree Requests",
       "rating": "2200",
@@ -460,11 +508,35 @@
       "status": "Chưa làm"
     },
     {
-      "date": "2026-11-25",
-      "day_name": "Thứ Tư",
+      "date": "2026-11-27",
+      "day_name": "Thứ Sáu",
       "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Kiểm tra cá nhân OLP Mock Contest #6 (3h - Đề Olympic các năm)",
+      "week_theme": "Tuần 6: Xâu ký tự (Strings), Luồng cực đại (Flow) & Game Theory",
+      "activity": "Kiểm tra tiến độ 137 bài khó đã re-solve được bao nhiêu bài",
+      "link": "https://codeforces.com/contest/1442/problem/C",
+      "problem_name": "Codeforces 1442C - Graph, Shortest Path",
+      "rating": "2400",
+      "session_type": "Re-solve bài cũ",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-28",
+      "day_name": "Thứ Bảy",
+      "week_num": 7,
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "FINAL MOCK TEST: 2022-2023 ICPC Asia Yokohama Regional (5 Giờ)",
+      "link": "https://codeforces.com/gym/104021",
+      "problem_name": "2022-2023 ICPC Asia Yokohama Regional",
+      "rating": "ICPC Team",
+      "session_type": "FINAL MOCK TEST",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-11-29",
+      "day_name": "Chủ Nhật",
+      "week_num": 7,
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "MOCK TEST OLP #2: Đề Olympic Tin học Sinh viên Toàn quốc (3.5 Giờ)",
       "link": "https://oj.vnoi.info/problem/voi21_rmat",
       "problem_name": "VOI 2021 RMAT - Observation & Matrix",
       "rating": "VOI",
@@ -472,11 +544,11 @@
       "status": "Chưa làm"
     },
     {
-      "date": "2026-11-26",
-      "day_name": "Thứ Năm",
-      "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Kiểm tra và hoàn thiện ICPC Team Notebook (Codeforces Template)",
+      "date": "2026-11-30",
+      "day_name": "Thứ Hai",
+      "week_num": 7,
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "Upsolve bài khó Mock Test & Đóng gói toàn bộ code mẫu",
       "link": "https://codeforces.com/contest/1697/problem/E",
       "problem_name": "Codeforces 1697E - Graph, DP, Tổ hợp",
       "rating": "2400",
@@ -484,73 +556,25 @@
       "status": "Chưa làm"
     },
     {
-      "date": "2026-11-27",
-      "day_name": "Thứ Sáu",
-      "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Thực hành Stress Test (Viết script sinh test ngẫu nhiên đối chiếu)",
-      "link": "https://dmoj.ca/problem/coci06c1p6",
-      "problem_name": "COCI 06 c1p6 - Hash 2D",
-      "rating": "Hard",
-      "session_type": "Stress Test Lab",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-28",
-      "day_name": "Thứ Bảy",
-      "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "Review toàn bộ các Trick lỏ & bẫy tràn số (Overflow, MOD, 1LL<<x)",
-      "link": "https://codeforces.com/contest/786/problem/B",
-      "problem_name": "Codeforces 786B - Dijkstra đoạn",
-      "rating": "2200",
-      "session_type": "Trick lỏ",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-29",
-      "day_name": "Chủ Nhật",
-      "week_num": 6,
-      "week_theme": "Tuần 6: Tổng lực Luyện đề, Chiến thuật Team & Stress Testing",
-      "activity": "MOCK TEST 6: FINAL FULL ICPC SIMULATION 5 GIỜ",
-      "link": "https://codeforces.com/gym/103960",
-      "problem_name": "2022-2023 ICPC Brazil Subregional / Asia Archive",
-      "rating": "ICPC Team",
-      "session_type": "FINAL MOCK TEST",
-      "status": "Chưa làm"
-    },
-    {
-      "date": "2026-11-30",
-      "day_name": "Thứ Hai",
-      "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "Re-solve nhẹ nhàng: Ladder 16 các bài trung bình (Lấy cảm giác tay)",
-      "link": "https://codeforces.com/problemset/problem/476/B",
-      "problem_name": "Codeforces 476B - Dreamoon and WiFi",
-      "rating": "1300",
-      "session_type": "Ladder 16",
-      "status": "Chưa làm"
-    },
-    {
       "date": "2026-12-01",
       "day_name": "Thứ Ba",
       "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "Rà soát lại danh sách 137 bài khó đã ôn tập",
-      "link": "https://codeforces.com/contest/2181/problem/D",
-      "problem_name": "Codeforces 2181D - Doorway (BS + DS)",
-      "rating": "2000",
-      "session_type": "Re-solve nhẹ",
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "In ấn Team Notebook bản cứng (25 trang chuẩn ICPC quốc tế)",
+      "link": "https://codeforces.com",
+      "problem_name": "In ấn Team Notebook",
+      "rating": "Preparation",
+      "session_type": "Checklist",
       "status": "Chưa làm"
     },
     {
       "date": "2026-12-02",
       "day_name": "Thứ Tư",
       "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "Kiểm tra Template Notebook, máy chấm, compiler flags (-O2, -fsanitize)",
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "Kiểm tra compiler flags (-O2, -fsanitize=undefined) & máy chấm",
       "link": "https://codeforces.com",
-      "problem_name": "Chuẩn bị môi trường thi & template in ấn",
+      "problem_name": "Kiểm tra môi trường thi",
       "rating": "Preparation",
       "session_type": "Checklist",
       "status": "Chưa làm"
@@ -559,10 +583,10 @@
       "date": "2026-12-03",
       "day_name": "Thứ Năm",
       "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "Chiến thuật tâm lý: Phân bổ thời gian, nhận diện bài bẫy",
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "Họp chiến thuật team 3 người 1 máy lần cuối trước khi bay",
       "link": "https://codeforces.com",
-      "problem_name": "Họp chiến thuật team ICPC",
+      "problem_name": "Họp chiến thuật Team ICPC",
       "rating": "Strategy",
       "session_type": "Team Meeting",
       "status": "Chưa làm"
@@ -571,10 +595,10 @@
       "date": "2026-12-04",
       "day_name": "Thứ Sáu",
       "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "Nghỉ ngơi, ngủ đủ giấc, chuẩn bị thẻ sinh viên & CCCD",
+      "week_theme": "Tuần 7: Tổng duyệt cuối cùng & Chuẩn bị lên đường đi Đà Nẵng",
+      "activity": "Nghỉ ngơi, chuẩn bị hành lý, giấy tờ tùy thân và vé đi Đà Nẵng",
       "link": "https://codeforces.com",
-      "problem_name": "Nghỉ ngơi chuẩn bị cho ngày thi",
+      "problem_name": "Nghỉ ngơi và chuẩn bị lên đường",
       "rating": "Rest",
       "session_type": "Rest & Recharge",
       "status": "Hoàn thành"
@@ -582,23 +606,83 @@
     {
       "date": "2026-12-05",
       "day_name": "Thứ Bảy",
-      "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "NGÀY THI OLYMPIC TIN HỌC SINH VIÊN (CÁ NHÂN)",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "Di chuyển đến TP. Đà Nẵng, nhận phòng & ổn định nơi lưu trú",
       "link": "https://olp.vn",
-      "problem_name": "Olympic Tin học Sinh viên Toàn quốc",
+      "problem_name": "Có mặt tại Đà Nẵng",
+      "rating": "Travel",
+      "session_type": "Check-in",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-12-06",
+      "day_name": "Chủ Nhật",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "Tham quan Trường ĐH CNTT và Truyền thông Việt - Hàn (VKU Đà Nẵng)",
+      "link": "https://olp.vn",
+      "problem_name": "Thăm quan địa điểm thi VKU Đà Nẵng",
+      "rating": "Site Visit",
+      "session_type": "Venue Tour",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-12-07",
+      "day_name": "Thứ Hai",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "Gõ code nhẹ nhàng vài bài cơ bản lấy cảm giác phím mượt mà",
+      "link": "https://codeforces.com/problemset/problem/476/B",
+      "problem_name": "Codeforces 476B - Dreamoon and WiFi",
+      "rating": "1300",
+      "session_type": "Warm-up",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-12-08",
+      "day_name": "Thứ Ba",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "ĐĂNG KÝ THAM GIA OLP & ICPC ASIA DANANG TẠI VKU; CHUNG KẾT OLYMPIC AI",
+      "link": "https://olp.vn",
+      "problem_name": "Đăng ký OLP'26 & ICPC Asia Danang (08/12/2026)",
+      "rating": "Registration",
+      "session_type": "OFFICIAL EVENT",
+      "status": "Chưa làm"
+    },
+    {
+      "date": "2026-12-09",
+      "day_name": "Thứ Tư",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "CHÍNH THỨC THI OLYMPIC TIN HỌC SINH VIÊN (OLP'26) - KHỐI CHUYÊN TIN & SIÊU CÚP",
+      "link": "https://olp.vn",
+      "problem_name": "Kỳ thi Cá nhân Olympic Tin học SV 2026 (09/12/2026)",
       "rating": "CONTEST",
       "session_type": "OFFICIAL CONTEST",
       "status": "Đến giờ G!"
     },
     {
-      "date": "2026-12-06",
-      "day_name": "Chủ Nhật",
-      "week_num": 7,
-      "week_theme": "Tuần 7: Tapering, Thư giãn trí não & Rà soát lần cuối trước giờ G",
-      "activity": "NGÀY THI ICPC REGIONAL (TEAM 3 NGƯỜI / 5 GIỜ)",
+      "date": "2026-12-10",
+      "day_name": "Thứ Năm",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "KHAI MẠC ICPC ASIA DANANG 2026; THỬ MÁY (PRACTICE SESSION 2H) & NỘP NOTEBOOK",
+      "link": "https://olp.vn",
+      "problem_name": "Khai mạc & Thử máy ICPC Asia Danang (10/12/2026)",
+      "rating": "Practice",
+      "session_type": "OFFICIAL EVENT",
+      "status": "Đến giờ G!"
+    },
+    {
+      "date": "2026-12-11",
+      "day_name": "Thứ Sáu",
+      "week_num": 8,
+      "week_theme": "Tuần 8: VÒNG CHUNG KẾT TOÀN QUỐC OLP'26 & ICPC ASIA DANANG 2026 (TẠI VKU)",
+      "activity": "CHÍNH THỨC THI LẬP TRÌNH QUỐC TẾ ICPC ASIA DANANG 2026 (5 TIẾNG: 08:00 - 13:00)",
       "link": "https://icpc.global",
-      "problem_name": "ICPC Asia Regional Contest",
+      "problem_name": "Chính thức thi ICPC Asia Danang 2026 (11/12/2026)",
       "rating": "CONTEST",
       "session_type": "OFFICIAL CONTEST",
       "status": "Đến giờ G!"
@@ -615,7 +699,7 @@
       "pidx": "A",
       "key": "334A",
       "solved": true,
-      "last_sub": "2026-09-05 02:58:28",
+      "last_sub": "2026-09-05 09:58:28",
       "rating": 1000,
       "tags": [
         "implementation"
@@ -632,7 +716,7 @@
       "pidx": "A",
       "key": "59A",
       "solved": true,
-      "last_sub": "2026-09-01 07:04:58",
+      "last_sub": "2026-09-01 14:04:58",
       "rating": 800,
       "tags": [
         "implementation",
@@ -650,7 +734,7 @@
       "pidx": "A",
       "key": "476A",
       "solved": true,
-      "last_sub": "2026-10-15 08:15:41",
+      "last_sub": "2026-10-15 15:15:41",
       "rating": 1000,
       "tags": [
         "implementation",
@@ -668,7 +752,7 @@
       "pidx": "A",
       "key": "189A",
       "solved": true,
-      "last_sub": "2026-09-04 09:05:40",
+      "last_sub": "2026-09-04 16:05:40",
       "rating": 1300,
       "tags": [
         "brute force",
@@ -686,7 +770,7 @@
       "pidx": "B",
       "key": "230B",
       "solved": true,
-      "last_sub": "2026-09-04 09:30:21",
+      "last_sub": "2026-09-04 16:30:21",
       "rating": 1300,
       "tags": [
         "binary search",
@@ -706,7 +790,7 @@
       "pidx": "A",
       "key": "217A",
       "solved": true,
-      "last_sub": "2026-09-10 06:40:41",
+      "last_sub": "2026-09-10 13:40:41",
       "rating": 1200,
       "tags": [
         "brute force",
@@ -726,7 +810,7 @@
       "pidx": "A",
       "key": "258A",
       "solved": true,
-      "last_sub": "2026-09-04 07:51:50",
+      "last_sub": "2026-09-04 14:51:50",
       "rating": 1100,
       "tags": [
         "greedy",
@@ -744,7 +828,7 @@
       "pidx": "B",
       "key": "476B",
       "solved": true,
-      "last_sub": "2026-09-06 10:18:52",
+      "last_sub": "2026-09-06 17:18:52",
       "rating": 1300,
       "tags": [
         "bitmasks",
@@ -766,7 +850,7 @@
       "pidx": "A",
       "key": "115A",
       "solved": true,
-      "last_sub": "2026-09-17 09:58:00",
+      "last_sub": "2026-09-17 16:58:00",
       "rating": 900,
       "tags": [
         "dfs and similar",
@@ -785,7 +869,7 @@
       "pidx": "A",
       "key": "295A",
       "solved": true,
-      "last_sub": "2026-09-22 12:58:54",
+      "last_sub": "2026-09-22 19:58:54",
       "rating": 1400,
       "tags": [
         "data structures",
@@ -803,7 +887,7 @@
       "pidx": "C",
       "key": "478C",
       "solved": true,
-      "last_sub": "2026-09-19 16:14:10",
+      "last_sub": "2026-09-19 23:14:10",
       "rating": 1800,
       "tags": [
         "greedy"
@@ -820,7 +904,7 @@
       "pidx": "C",
       "key": "427C",
       "solved": true,
-      "last_sub": "2026-09-18 13:41:15",
+      "last_sub": "2026-09-18 20:41:15",
       "rating": 1700,
       "tags": [
         "dfs and similar",
@@ -839,7 +923,7 @@
       "pidx": "C",
       "key": "369C",
       "solved": true,
-      "last_sub": "2026-09-19 15:59:23",
+      "last_sub": "2026-09-19 22:59:23",
       "rating": 1600,
       "tags": [
         "dfs and similar",
@@ -858,7 +942,7 @@
       "pidx": "B",
       "key": "319B",
       "solved": true,
-      "last_sub": "2026-10-15 08:34:34",
+      "last_sub": "2026-10-15 15:34:34",
       "rating": 1900,
       "tags": [
         "data structures",
@@ -876,7 +960,7 @@
       "pidx": "B",
       "key": "372B",
       "solved": true,
-      "last_sub": "2026-10-15 08:46:53",
+      "last_sub": "2026-10-15 15:46:53",
       "rating": 1900,
       "tags": [
         "brute force",
@@ -895,7 +979,7 @@
       "pidx": "B",
       "key": "295B",
       "solved": true,
-      "last_sub": "2023-11-28 01:03:33",
+      "last_sub": "2023-11-28 08:03:33",
       "rating": 1700,
       "tags": [
         "dp",
@@ -914,7 +998,7 @@
       "pidx": "C",
       "key": "276C",
       "solved": true,
-      "last_sub": "2026-09-09 02:53:34",
+      "last_sub": "2026-09-09 09:53:34",
       "rating": 1500,
       "tags": [
         "data structures",
@@ -934,7 +1018,7 @@
       "pidx": "D",
       "key": "363D",
       "solved": true,
-      "last_sub": "2026-10-15 09:04:00",
+      "last_sub": "2026-10-15 16:04:00",
       "rating": 1800,
       "tags": [
         "binary search",
@@ -952,7 +1036,7 @@
       "pidx": "A",
       "key": "494A",
       "solved": true,
-      "last_sub": "2026-10-15 09:26:26",
+      "last_sub": "2026-10-15 16:26:26",
       "rating": 1500,
       "tags": [
         "greedy"
@@ -969,7 +1053,7 @@
       "pidx": "A",
       "key": "446A",
       "solved": true,
-      "last_sub": "2026-09-23 04:50:12",
+      "last_sub": "2026-09-23 11:50:12",
       "rating": 1600,
       "tags": [
         "dp",
@@ -988,7 +1072,7 @@
       "pidx": "B",
       "key": "349B",
       "solved": true,
-      "last_sub": "2026-09-17 09:16:24",
+      "last_sub": "2026-09-17 16:16:24",
       "rating": 1700,
       "tags": [
         "data structures",
@@ -1008,7 +1092,7 @@
       "pidx": "D",
       "key": "246D",
       "solved": true,
-      "last_sub": "2026-09-20 04:28:53",
+      "last_sub": "2026-09-20 11:28:53",
       "rating": 1600,
       "tags": [
         "brute force",
@@ -1027,7 +1111,7 @@
       "pidx": "B",
       "key": "274B",
       "solved": true,
-      "last_sub": "2026-09-24 12:18:34",
+      "last_sub": "2026-09-24 19:18:34",
       "rating": 1800,
       "tags": [
         "dfs and similar",
@@ -1047,7 +1131,7 @@
       "pidx": "C",
       "key": "242C",
       "solved": true,
-      "last_sub": "2026-10-15 09:46:22",
+      "last_sub": "2026-10-15 16:46:22",
       "rating": 1800,
       "tags": [
         "dfs and similar",
@@ -1067,7 +1151,7 @@
       "pidx": "B",
       "key": "482B",
       "solved": true,
-      "last_sub": "2026-10-15 12:01:33",
+      "last_sub": "2026-10-15 19:01:33",
       "rating": 1800,
       "tags": [
         "constructive algorithms",
@@ -1086,7 +1170,7 @@
       "pidx": "B",
       "key": "269B",
       "solved": true,
-      "last_sub": "2026-09-29 06:58:20",
+      "last_sub": "2026-09-29 13:58:20",
       "rating": 1700,
       "tags": [
         "dp"
@@ -1103,7 +1187,7 @@
       "pidx": "A",
       "key": "243A",
       "solved": true,
-      "last_sub": "2026-10-15 12:10:38",
+      "last_sub": "2026-10-15 19:10:38",
       "rating": 1600,
       "tags": [
         "bitmasks"
@@ -1120,7 +1204,7 @@
       "pidx": "D",
       "key": "118D",
       "solved": true,
-      "last_sub": "2026-09-10 08:34:06",
+      "last_sub": "2026-09-10 15:34:06",
       "rating": 1700,
       "tags": [
         "dp"
@@ -1137,7 +1221,7 @@
       "pidx": "D",
       "key": "358D",
       "solved": true,
-      "last_sub": "2026-09-29 08:07:06",
+      "last_sub": "2026-09-29 15:07:06",
       "rating": 1800,
       "tags": [
         "dp",
@@ -1155,7 +1239,7 @@
       "pidx": "C",
       "key": "255C",
       "solved": true,
-      "last_sub": "2026-09-23 05:11:42",
+      "last_sub": "2026-09-23 12:11:42",
       "rating": 1500,
       "tags": [
         "brute force",
@@ -1173,7 +1257,7 @@
       "pidx": "C",
       "key": "371C",
       "solved": true,
-      "last_sub": "2026-09-06 14:53:42",
+      "last_sub": "2026-09-06 21:53:42",
       "rating": 1600,
       "tags": [
         "binary search",
@@ -1191,7 +1275,7 @@
       "pidx": "B",
       "key": "111B",
       "solved": true,
-      "last_sub": "2026-10-15 15:03:37",
+      "last_sub": "2026-10-15 22:03:37",
       "rating": 1900,
       "tags": [
         "binary search",
@@ -1210,7 +1294,7 @@
       "pidx": "A",
       "key": "364A",
       "solved": true,
-      "last_sub": "2026-10-15 16:21:03",
+      "last_sub": "2026-10-15 23:21:03",
       "rating": 1600,
       "tags": [
         "combinatorics",
@@ -1229,7 +1313,7 @@
       "pidx": "C",
       "key": "339C",
       "solved": true,
-      "last_sub": "2026-09-17 07:07:17",
+      "last_sub": "2026-09-17 14:07:17",
       "rating": 1700,
       "tags": [
         "constructive algorithms",
@@ -1251,7 +1335,7 @@
       "pidx": "C",
       "key": "225C",
       "solved": true,
-      "last_sub": "2026-09-20 14:01:28",
+      "last_sub": "2026-09-20 21:01:28",
       "rating": 1700,
       "tags": [
         "dp",
@@ -1269,7 +1353,7 @@
       "pidx": "C",
       "key": "219C",
       "solved": true,
-      "last_sub": "2026-09-16 08:36:05",
+      "last_sub": "2026-09-16 15:36:05",
       "rating": 1600,
       "tags": [
         "brute force",
@@ -1288,7 +1372,7 @@
       "pidx": "D",
       "key": "339D",
       "solved": true,
-      "last_sub": "2026-09-10 13:11:29",
+      "last_sub": "2026-09-10 20:11:29",
       "rating": 1700,
       "tags": [
         "data structures",
@@ -1306,7 +1390,7 @@
       "pidx": "A",
       "key": "321A",
       "solved": true,
-      "last_sub": "2026-10-16 04:57:48",
+      "last_sub": "2026-10-16 11:57:48",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1325,7 +1409,7 @@
       "pidx": "A",
       "key": "204A",
       "solved": true,
-      "last_sub": "2026-10-16 05:25:59",
+      "last_sub": "2026-10-16 12:25:59",
       "rating": 1500,
       "tags": [
         "binary search",
@@ -1344,7 +1428,7 @@
       "pidx": "B",
       "key": "204B",
       "solved": true,
-      "last_sub": "2026-10-16 05:39:16",
+      "last_sub": "2026-10-16 12:39:16",
       "rating": 1500,
       "tags": [
         "binary search",
@@ -1362,7 +1446,7 @@
       "pidx": "B",
       "key": "264B",
       "solved": true,
-      "last_sub": "2026-10-01 09:33:57",
+      "last_sub": "2026-10-01 16:33:57",
       "rating": 1500,
       "tags": [
         "dp",
@@ -1380,7 +1464,7 @@
       "pidx": "C",
       "key": "431C",
       "solved": true,
-      "last_sub": "2026-09-08 04:20:01",
+      "last_sub": "2026-09-08 11:20:01",
       "rating": 1600,
       "tags": [
         "dp",
@@ -1399,7 +1483,7 @@
       "pidx": "B",
       "key": "547B",
       "solved": true,
-      "last_sub": "2026-10-16 07:09:07",
+      "last_sub": "2026-10-16 14:09:07",
       "rating": 1900,
       "tags": [
         "binary search",
@@ -1449,7 +1533,7 @@
       "pidx": "B",
       "key": "126B",
       "solved": true,
-      "last_sub": "2024-06-13 14:25:29",
+      "last_sub": "2024-06-13 21:25:29",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1470,7 +1554,7 @@
       "pidx": "D",
       "key": "271D",
       "solved": true,
-      "last_sub": "2026-09-21 06:25:02",
+      "last_sub": "2026-09-21 13:25:02",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1518,7 +1602,7 @@
       "pidx": "D",
       "key": "471D",
       "solved": true,
-      "last_sub": "2024-06-13 14:00:46",
+      "last_sub": "2024-06-13 21:00:46",
       "rating": 1800,
       "tags": [
         "string suffix structures",
@@ -1581,7 +1665,7 @@
       "pidx": "C",
       "key": "463C",
       "solved": true,
-      "last_sub": "2026-09-17 09:36:20",
+      "last_sub": "2026-09-17 16:36:20",
       "rating": 1900,
       "tags": [
         "greedy",
@@ -1675,7 +1759,7 @@
       "pidx": "E",
       "key": "61E",
       "solved": true,
-      "last_sub": "2026-09-13 13:18:56",
+      "last_sub": "2026-09-13 20:18:56",
       "rating": 1900,
       "tags": [
         "data structures",
@@ -1693,7 +1777,7 @@
       "pidx": "D",
       "key": "519D",
       "solved": true,
-      "last_sub": "2026-09-21 02:54:23",
+      "last_sub": "2026-09-21 09:54:23",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1742,7 +1826,7 @@
       "pidx": "D",
       "key": "400D",
       "solved": true,
-      "last_sub": "2026-10-07 02:45:59",
+      "last_sub": "2026-10-07 09:45:59",
       "rating": 2000,
       "tags": [
         "dsu",
@@ -1761,7 +1845,7 @@
       "pidx": "C",
       "key": "460C",
       "solved": true,
-      "last_sub": "2026-09-22 07:32:49",
+      "last_sub": "2026-09-22 14:32:49",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -1795,7 +1879,7 @@
       "pidx": "C",
       "key": "459C",
       "solved": true,
-      "last_sub": "2026-10-14 16:21:35",
+      "last_sub": "2026-10-14 23:21:35",
       "rating": 1900,
       "tags": [
         "combinatorics",
@@ -1814,7 +1898,7 @@
       "pidx": "D",
       "key": "459D",
       "solved": true,
-      "last_sub": "2026-10-01 10:20:20",
+      "last_sub": "2026-10-01 17:20:20",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -1833,7 +1917,7 @@
       "pidx": "D",
       "key": "451D",
       "solved": true,
-      "last_sub": "2026-10-08 05:57:50",
+      "last_sub": "2026-10-08 12:57:50",
       "rating": 2000,
       "tags": [
         "math"
@@ -1880,7 +1964,7 @@
       "pidx": "C",
       "key": "448C",
       "solved": true,
-      "last_sub": "2026-09-22 10:50:21",
+      "last_sub": "2026-09-22 17:50:21",
       "rating": 1900,
       "tags": [
         "divide and conquer",
@@ -1944,7 +2028,7 @@
       "pidx": "C",
       "key": "514C",
       "solved": true,
-      "last_sub": "2026-10-07 09:04:40",
+      "last_sub": "2026-10-07 16:04:40",
       "rating": 2000,
       "tags": [
         "binary search",
@@ -1965,7 +2049,7 @@
       "pidx": "D",
       "key": "448D",
       "solved": true,
-      "last_sub": "2026-09-22 12:49:47",
+      "last_sub": "2026-09-22 19:49:47",
       "rating": 1800,
       "tags": [
         "binary search",
@@ -1998,7 +2082,7 @@
       "pidx": "B",
       "key": "346B",
       "solved": true,
-      "last_sub": "2024-06-17 14:47:51",
+      "last_sub": "2024-06-17 21:47:51",
       "rating": 2000,
       "tags": [
         "dp",
@@ -2016,7 +2100,7 @@
       "pidx": "D",
       "key": "432D",
       "solved": true,
-      "last_sub": "2024-06-13 14:55:50",
+      "last_sub": "2024-06-13 21:55:50",
       "rating": 2000,
       "tags": [
         "dp",
@@ -2051,7 +2135,7 @@
       "pidx": "E",
       "key": "242E",
       "solved": true,
-      "last_sub": "2026-10-09 15:35:04",
+      "last_sub": "2026-10-09 22:35:04",
       "rating": 2000,
       "tags": [
         "bitmasks",
@@ -2084,7 +2168,7 @@
       "pidx": "D",
       "key": "439D",
       "solved": true,
-      "last_sub": "2026-10-03 01:54:20",
+      "last_sub": "2026-10-03 08:54:20",
       "rating": 1700,
       "tags": [
         "binary search",
@@ -2119,7 +2203,7 @@
       "pidx": "D",
       "key": "478D",
       "solved": true,
-      "last_sub": "2026-10-13 08:20:47",
+      "last_sub": "2026-10-13 15:20:47",
       "rating": 2000,
       "tags": [
         "dp"
@@ -2136,7 +2220,7 @@
       "pidx": "D",
       "key": "219D",
       "solved": true,
-      "last_sub": "2026-10-08 07:49:19",
+      "last_sub": "2026-10-08 14:49:19",
       "rating": 1700,
       "tags": [
         "dfs and similar",
@@ -2156,7 +2240,7 @@
       "pidx": "D",
       "key": "401D",
       "solved": true,
-      "last_sub": "2026-10-08 06:29:56",
+      "last_sub": "2026-10-08 13:29:56",
       "rating": 2000,
       "tags": [
         "bitmasks",
@@ -2177,7 +2261,7 @@
       "pidx": "D",
       "key": "371D",
       "solved": true,
-      "last_sub": "2026-10-13 07:24:02",
+      "last_sub": "2026-10-13 14:24:02",
       "rating": 1800,
       "tags": [
         "data structures",
@@ -2212,7 +2296,7 @@
       "pidx": "D",
       "key": "148D",
       "solved": true,
-      "last_sub": "2026-10-15 03:40:44",
+      "last_sub": "2026-10-15 10:40:44",
       "rating": 1800,
       "tags": [
         "dp",
@@ -2247,7 +2331,7 @@
       "pidx": "D",
       "key": "359D",
       "solved": true,
-      "last_sub": "2026-10-01 10:06:04",
+      "last_sub": "2026-10-01 17:06:04",
       "rating": 2000,
       "tags": [
         "binary search",
@@ -2298,7 +2382,7 @@
       "pidx": "D",
       "key": "438D",
       "solved": true,
-      "last_sub": "2024-08-06 13:21:00",
+      "last_sub": "2024-08-06 20:21:00",
       "rating": 2300,
       "tags": [
         "data structures",
@@ -2316,7 +2400,7 @@
       "pidx": "C",
       "key": "354C",
       "solved": true,
-      "last_sub": "2024-08-06 13:17:04",
+      "last_sub": "2024-08-06 20:17:04",
       "rating": 2100,
       "tags": [
         "brute force",
@@ -2365,7 +2449,7 @@
       "pidx": "D",
       "key": "570D",
       "solved": true,
-      "last_sub": "2024-08-06 13:23:08",
+      "last_sub": "2024-08-06 20:23:08",
       "rating": 2200,
       "tags": [
         "binary search",
@@ -2393,7 +2477,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-05-01 16:16:33",
+      "last_sub": "2024-05-01 23:16:33",
       "days_ago": 897,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2413,7 +2497,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:18:27",
+      "last_sub": "2024-08-06 20:18:27",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2429,7 +2513,7 @@
         "dsu"
       ],
       "topic": "Data Structures",
-      "last_sub": "2024-08-06 13:19:38",
+      "last_sub": "2024-08-06 20:19:38",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2449,7 +2533,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-21 14:09:02",
+      "last_sub": "2024-08-21 21:09:02",
       "days_ago": 785,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2471,7 +2555,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-02 11:22:23",
+      "last_sub": "2024-09-02 18:22:23",
       "days_ago": 773,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2490,7 +2574,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-17 13:01:42",
+      "last_sub": "2024-08-17 20:01:42",
       "days_ago": 789,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2510,7 +2594,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-09-04 14:32:29",
+      "last_sub": "2024-09-04 21:32:29",
       "days_ago": 771,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2526,7 +2610,7 @@
         "shortest paths"
       ],
       "topic": "General CP",
-      "last_sub": "2024-11-03 03:28:28",
+      "last_sub": "2024-11-03 10:28:28",
       "days_ago": 711,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2543,7 +2627,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-08-16 16:42:01",
+      "last_sub": "2023-08-16 23:42:01",
       "days_ago": 1156,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2561,7 +2645,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-08-20 11:27:25",
+      "last_sub": "2023-08-20 18:27:25",
       "days_ago": 1152,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2580,7 +2664,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-28 14:54:34",
+      "last_sub": "2024-06-28 21:54:34",
       "days_ago": 839,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2597,7 +2681,7 @@
         "graphs"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 14:34:14",
+      "last_sub": "2024-08-06 21:34:14",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2613,7 +2697,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:11:23",
+      "last_sub": "2024-08-06 20:11:23",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2630,7 +2714,7 @@
         "probabilities"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:08:53",
+      "last_sub": "2024-08-06 20:08:53",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2650,7 +2734,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-18 03:57:10",
+      "last_sub": "2024-08-18 10:57:10",
       "days_ago": 788,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2666,7 +2750,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-09-10 01:11:16",
+      "last_sub": "2024-09-10 08:11:16",
       "days_ago": 765,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2683,7 +2767,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-08-01 03:26:35",
+      "last_sub": "2023-08-01 10:26:35",
       "days_ago": 1171,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2700,7 +2784,7 @@
         "trees"
       ],
       "topic": "General CP",
-      "last_sub": "2023-08-08 08:24:35",
+      "last_sub": "2023-08-08 15:24:35",
       "days_ago": 1164,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2717,7 +2801,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2023-12-07 01:14:39",
+      "last_sub": "2023-12-07 08:14:39",
       "days_ago": 1043,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2733,7 +2817,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2024-02-19 16:32:28",
+      "last_sub": "2024-02-19 23:32:28",
       "days_ago": 969,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2752,7 +2836,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:14:20",
+      "last_sub": "2024-08-06 22:14:20",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2770,7 +2854,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:09:40",
+      "last_sub": "2024-08-06 22:09:40",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2787,7 +2871,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:13:09",
+      "last_sub": "2024-08-06 20:13:09",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2803,7 +2887,7 @@
         "divide and conquer"
       ],
       "topic": "General CP",
-      "last_sub": "2024-08-06 13:12:37",
+      "last_sub": "2024-08-06 20:12:37",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2821,7 +2905,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2024-08-06 13:11:04",
+      "last_sub": "2024-08-06 20:11:04",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2841,7 +2925,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:09:58",
+      "last_sub": "2024-08-06 20:09:58",
       "days_ago": 800,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2859,7 +2943,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-20 15:50:43",
+      "last_sub": "2024-08-20 22:50:43",
       "days_ago": 786,
       "priority": "P2 - Master/TST (2400+)",
       "source": "Codeforces Submissions"
@@ -2876,7 +2960,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-03-18 15:10:34",
+      "last_sub": "2023-03-18 22:10:34",
       "days_ago": 1307,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2893,7 +2977,7 @@
         "shortest paths"
       ],
       "topic": "General CP",
-      "last_sub": "2023-07-31 02:47:24",
+      "last_sub": "2023-07-31 09:47:24",
       "days_ago": 1172,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2910,7 +2994,7 @@
         "data structures"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-11-26 04:22:38",
+      "last_sub": "2023-11-26 11:22:38",
       "days_ago": 1054,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2928,7 +3012,7 @@
         "greedy"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-12-09 14:43:38",
+      "last_sub": "2023-12-09 21:43:38",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2943,7 +3027,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-09 12:28:36",
+      "last_sub": "2023-12-09 19:28:36",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2960,7 +3044,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-09 12:08:13",
+      "last_sub": "2023-12-09 19:08:13",
       "days_ago": 1041,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2977,7 +3061,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-12-26 14:32:18",
+      "last_sub": "2023-12-26 21:32:18",
       "days_ago": 1024,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -2993,7 +3077,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 13:41:46",
+      "last_sub": "2024-06-13 20:41:46",
       "days_ago": 854,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3012,7 +3096,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:21:03",
+      "last_sub": "2024-08-06 22:21:03",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3030,7 +3114,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:15:34",
+      "last_sub": "2024-08-06 22:15:34",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3048,7 +3132,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 14:49:51",
+      "last_sub": "2024-08-06 21:49:51",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3066,7 +3150,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 14:49:34",
+      "last_sub": "2024-08-06 21:49:34",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3082,7 +3166,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:21:00",
+      "last_sub": "2024-08-06 20:21:00",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3099,7 +3183,7 @@
         "strings"
       ],
       "topic": "General CP",
-      "last_sub": "2024-08-06 13:19:57",
+      "last_sub": "2024-08-06 20:19:57",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3117,7 +3201,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:01:18",
+      "last_sub": "2024-08-06 20:01:18",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3136,7 +3220,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-12 03:24:04",
+      "last_sub": "2024-08-12 10:24:04",
       "days_ago": 794,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3157,7 +3241,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-20 01:56:54",
+      "last_sub": "2024-08-20 08:56:54",
       "days_ago": 786,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3175,7 +3259,7 @@
         "sortings"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-05-04 08:23:35",
+      "last_sub": "2025-05-04 15:23:35",
       "days_ago": 529,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3192,8 +3276,8 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-11-19 19:49:55",
-      "days_ago": 330,
+      "last_sub": "2025-11-20 02:49:55",
+      "days_ago": 329,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3213,7 +3297,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-12-03 08:53:02",
+      "last_sub": "2025-12-03 15:53:02",
       "days_ago": 316,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3231,7 +3315,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-08-01 02:13:26",
+      "last_sub": "2023-08-01 09:13:26",
       "days_ago": 1171,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3246,7 +3330,7 @@
         "data structures"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-08-01 02:01:22",
+      "last_sub": "2023-08-01 09:01:22",
       "days_ago": 1171,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3264,7 +3348,7 @@
         "dp"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-12-28 04:53:31",
+      "last_sub": "2023-12-28 11:53:31",
       "days_ago": 1022,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3289,7 +3373,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-04 08:21:20",
+      "last_sub": "2024-06-04 15:21:20",
       "days_ago": 863,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3306,7 +3390,7 @@
         "greedy"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-04 16:05:49",
+      "last_sub": "2024-08-04 23:05:49",
       "days_ago": 802,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3326,7 +3410,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:23:08",
+      "last_sub": "2024-08-06 20:23:08",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3345,7 +3429,7 @@
         "greedy"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-10 16:09:39",
+      "last_sub": "2024-08-10 23:09:39",
       "days_ago": 796,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3361,7 +3445,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-04-04 08:17:49",
+      "last_sub": "2025-04-04 15:17:49",
       "days_ago": 559,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3378,7 +3462,7 @@
         "trees"
       ],
       "topic": "Tree",
-      "last_sub": "2025-10-11 07:25:40",
+      "last_sub": "2025-10-11 14:25:40",
       "days_ago": 369,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3396,8 +3480,8 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-10-22 18:29:55",
-      "days_ago": 358,
+      "last_sub": "2025-10-23 01:29:55",
+      "days_ago": 357,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3416,7 +3500,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-11-26 16:57:15",
+      "last_sub": "2025-11-26 23:57:15",
       "days_ago": 323,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3434,7 +3518,7 @@
         "graphs"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-02-27 15:50:20",
+      "last_sub": "2023-02-27 22:50:20",
       "days_ago": 1326,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3452,7 +3536,7 @@
         "trees"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-23 10:32:57",
+      "last_sub": "2023-12-23 17:32:57",
       "days_ago": 1027,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3470,7 +3554,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:17:00",
+      "last_sub": "2024-08-06 22:17:00",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3486,7 +3570,7 @@
         "geometry"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:07:55",
+      "last_sub": "2024-08-06 22:07:55",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3503,7 +3587,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:25:03",
+      "last_sub": "2024-08-06 20:25:03",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3520,7 +3604,7 @@
         "number theory"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 13:17:04",
+      "last_sub": "2024-08-06 20:17:04",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3539,7 +3623,7 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:11:44",
+      "last_sub": "2024-08-06 20:11:44",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3558,7 +3642,7 @@
         "shortest paths"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-10 15:38:10",
+      "last_sub": "2024-08-10 22:38:10",
       "days_ago": 796,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3576,7 +3660,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-15 15:47:44",
+      "last_sub": "2024-08-15 22:47:44",
       "days_ago": 791,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3591,7 +3675,7 @@
         "data structures"
       ],
       "topic": "General CP",
-      "last_sub": "2025-10-22 15:23:42",
+      "last_sub": "2025-10-22 22:23:42",
       "days_ago": 358,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3607,8 +3691,8 @@
         "sortings"
       ],
       "topic": "General CP",
-      "last_sub": "2025-10-23 18:48:00",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:48:00",
+      "days_ago": 356,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3623,7 +3707,7 @@
         "strings"
       ],
       "topic": "General CP",
-      "last_sub": "2026-07-19 04:17:07",
+      "last_sub": "2026-07-19 11:17:07",
       "days_ago": 88,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3639,7 +3723,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2022-11-14 04:17:21",
+      "last_sub": "2022-11-14 11:17:21",
       "days_ago": 1431,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3660,7 +3744,7 @@
         "trees"
       ],
       "topic": "Data Structures",
-      "last_sub": "2023-08-12 04:28:39",
+      "last_sub": "2023-08-12 11:28:39",
       "days_ago": 1160,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3680,7 +3764,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-05-30 16:19:35",
+      "last_sub": "2024-05-30 23:19:35",
       "days_ago": 868,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3698,7 +3782,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 14:55:50",
+      "last_sub": "2024-06-13 21:55:50",
       "days_ago": 854,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3714,7 +3798,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-17 14:47:51",
+      "last_sub": "2024-06-17 21:47:51",
       "days_ago": 850,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3734,7 +3818,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-06 15:17:38",
+      "last_sub": "2024-08-06 22:17:38",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3750,7 +3834,7 @@
         "data structures"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:09:17",
+      "last_sub": "2024-08-06 22:09:17",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3767,7 +3851,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 14:50:07",
+      "last_sub": "2024-08-06 21:50:07",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3787,7 +3871,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:00:44",
+      "last_sub": "2024-08-06 20:00:44",
       "days_ago": 800,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3806,7 +3890,7 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-10 08:18:33",
+      "last_sub": "2024-09-10 15:18:33",
       "days_ago": 765,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3822,7 +3906,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-10-22 16:52:25",
+      "last_sub": "2025-10-22 23:52:25",
       "days_ago": 358,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3837,8 +3921,25 @@
         "geometry"
       ],
       "topic": "Geometry & Sweepline",
-      "last_sub": "2025-11-17 21:27:05",
-      "days_ago": 332,
+      "last_sub": "2025-11-18 04:27:05",
+      "days_ago": 331,
+      "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
+      "source": "Codeforces Submissions"
+    },
+    {
+      "key": "2041C",
+      "name": "Cube",
+      "url": "https://codeforces.com/problemset/problem/2041/C",
+      "rating": 2000,
+      "platform": "Codeforces",
+      "tags": [
+        "bitmasks",
+        "dfs and similar",
+        "dp"
+      ],
+      "topic": "Graph Theory",
+      "last_sub": "2025-11-19 23:44:07",
+      "days_ago": 330,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3855,25 +3956,8 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-11-19 18:05:06",
-      "days_ago": 330,
-      "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
-      "source": "Codeforces Submissions"
-    },
-    {
-      "key": "2041C",
-      "name": "Cube",
-      "url": "https://codeforces.com/problemset/problem/2041/C",
-      "rating": 2000,
-      "platform": "Codeforces",
-      "tags": [
-        "bitmasks",
-        "dfs and similar",
-        "dp"
-      ],
-      "topic": "Graph Theory",
-      "last_sub": "2025-11-19 16:44:07",
-      "days_ago": 330,
+      "last_sub": "2025-11-20 01:05:06",
+      "days_ago": 329,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
     },
@@ -3889,7 +3973,7 @@
         "sortings"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-08-06 08:26:04",
+      "last_sub": "2026-08-06 15:26:04",
       "days_ago": 70,
       "priority": "P1 - Cực kỳ quan trọng (2000-2300)",
       "source": "Codeforces Submissions"
@@ -3907,7 +3991,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2022-11-11 15:32:53",
+      "last_sub": "2022-11-11 22:32:53",
       "days_ago": 1434,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -3924,7 +4008,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2023-10-31 06:11:13",
+      "last_sub": "2023-10-31 13:11:13",
       "days_ago": 1080,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -3941,7 +4025,7 @@
         "trees"
       ],
       "topic": "General CP",
-      "last_sub": "2023-12-04 03:10:33",
+      "last_sub": "2023-12-04 10:10:33",
       "days_ago": 1046,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -3959,7 +4043,7 @@
         "implementation"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-12-14 09:11:52",
+      "last_sub": "2023-12-14 16:11:52",
       "days_ago": 1036,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -3980,7 +4064,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-05-26 15:43:21",
+      "last_sub": "2024-05-26 22:43:21",
       "days_ago": 872,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -3997,8 +4081,8 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-06-23 17:28:32",
-      "days_ago": 844,
+      "last_sub": "2024-06-24 00:28:32",
+      "days_ago": 843,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4018,28 +4102,8 @@
         "trees"
       ],
       "topic": "Data Structures",
-      "last_sub": "2024-07-18 16:13:37",
+      "last_sub": "2024-07-18 23:13:37",
       "days_ago": 819,
-      "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
-      "source": "Codeforces Submissions"
-    },
-    {
-      "key": "1991E",
-      "name": "Coloring Game",
-      "url": "https://codeforces.com/problemset/problem/1991/E",
-      "rating": 1900,
-      "platform": "Codeforces",
-      "tags": [
-        "constructive algorithms",
-        "dfs and similar",
-        "games",
-        "graphs",
-        "greedy",
-        "interactive"
-      ],
-      "topic": "Graph Theory",
-      "last_sub": "2024-07-28 17:22:41",
-      "days_ago": 809,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4058,8 +4122,28 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-28 15:51:05",
+      "last_sub": "2024-07-28 22:51:05",
       "days_ago": 809,
+      "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
+      "source": "Codeforces Submissions"
+    },
+    {
+      "key": "1991E",
+      "name": "Coloring Game",
+      "url": "https://codeforces.com/problemset/problem/1991/E",
+      "rating": 1900,
+      "platform": "Codeforces",
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "games",
+        "graphs",
+        "greedy",
+        "interactive"
+      ],
+      "topic": "Graph Theory",
+      "last_sub": "2024-07-29 00:22:41",
+      "days_ago": 808,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4078,7 +4162,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:22:13",
+      "last_sub": "2024-08-06 20:22:13",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4099,7 +4183,7 @@
         "two pointers"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 13:20:37",
+      "last_sub": "2024-08-06 20:20:37",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4118,7 +4202,7 @@
         "implementation"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-10 16:00:30",
+      "last_sub": "2024-08-10 23:00:30",
       "days_ago": 796,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4136,7 +4220,7 @@
         "math"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-08-13 15:46:53",
+      "last_sub": "2024-08-13 22:46:53",
       "days_ago": 793,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4155,7 +4239,7 @@
         "implementation"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-21 03:31:22",
+      "last_sub": "2024-08-21 10:31:22",
       "days_ago": 785,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4171,8 +4255,8 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2025-10-23 18:57:47",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:57:47",
+      "days_ago": 356,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4189,7 +4273,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-05-27 03:22:54",
+      "last_sub": "2026-05-27 10:22:54",
       "days_ago": 141,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4204,7 +4288,7 @@
         "dp"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2022-10-17 08:38:40",
+      "last_sub": "2022-10-17 15:38:40",
       "days_ago": 1459,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4219,7 +4303,7 @@
         "data structures"
       ],
       "topic": "General CP",
-      "last_sub": "2023-08-01 01:17:48",
+      "last_sub": "2023-08-01 08:17:48",
       "days_ago": 1171,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4239,7 +4323,7 @@
         "sortings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2023-08-17 10:43:31",
+      "last_sub": "2023-08-17 17:43:31",
       "days_ago": 1155,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4257,7 +4341,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-04-27 16:09:00",
+      "last_sub": "2024-04-27 23:09:00",
       "days_ago": 901,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4273,7 +4357,7 @@
         "strings"
       ],
       "topic": "Strings",
-      "last_sub": "2024-06-13 14:00:46",
+      "last_sub": "2024-06-13 21:00:46",
       "days_ago": 854,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4290,7 +4374,7 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-18 13:25:42",
+      "last_sub": "2024-06-18 20:25:42",
       "days_ago": 849,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4309,7 +4393,7 @@
         "implementation"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-07-20 16:08:28",
+      "last_sub": "2024-07-20 23:08:28",
       "days_ago": 817,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4329,7 +4413,7 @@
         "number theory"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-23 15:50:51",
+      "last_sub": "2024-07-23 22:50:51",
       "days_ago": 814,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4347,7 +4431,7 @@
         "trees"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:16:09",
+      "last_sub": "2024-08-06 22:16:09",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4365,7 +4449,7 @@
         "trees"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 15:15:17",
+      "last_sub": "2024-08-06 22:15:17",
       "days_ago": 800,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4382,7 +4466,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-09-02 11:25:19",
+      "last_sub": "2024-09-02 18:25:19",
       "days_ago": 773,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4400,8 +4484,8 @@
         "implementation"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-10-22 17:32:44",
-      "days_ago": 358,
+      "last_sub": "2025-10-23 00:32:44",
+      "days_ago": 357,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
     },
@@ -4416,7 +4500,7 @@
         "sortings"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2026-07-19 06:00:47",
+      "last_sub": "2026-07-19 13:00:47",
       "days_ago": 88,
       "priority": "P1 - Trọng tâm ICPC/OLP (1800-1900)",
       "source": "Codeforces Submissions"
@@ -4434,7 +4518,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2023-11-07 16:28:10",
+      "last_sub": "2023-11-07 23:28:10",
       "days_ago": 1073,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4451,7 +4535,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2023-11-28 01:03:33",
+      "last_sub": "2023-11-28 08:03:33",
       "days_ago": 1052,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4464,7 +4548,7 @@
       "platform": "Codeforces",
       "tags": [],
       "topic": "General CP",
-      "last_sub": "2024-05-04 14:34:49",
+      "last_sub": "2024-05-04 21:34:49",
       "days_ago": 894,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4484,7 +4568,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-05-26 02:39:06",
+      "last_sub": "2024-05-26 09:39:06",
       "days_ago": 872,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4503,7 +4587,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-06-13 14:25:29",
+      "last_sub": "2024-06-13 21:25:29",
       "days_ago": 854,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4521,8 +4605,8 @@
         "sortings"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-06-23 17:26:41",
-      "days_ago": 844,
+      "last_sub": "2024-06-24 00:26:41",
+      "days_ago": 843,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4541,7 +4625,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-07-23 15:25:17",
+      "last_sub": "2024-07-23 22:25:17",
       "days_ago": 814,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4562,7 +4646,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 14:50:56",
+      "last_sub": "2024-08-06 21:50:56",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4581,7 +4665,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2024-08-06 13:19:16",
+      "last_sub": "2024-08-06 20:19:16",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4597,7 +4681,7 @@
         "greedy"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2025-10-22 15:52:47",
+      "last_sub": "2025-10-22 22:52:47",
       "days_ago": 358,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4613,8 +4697,8 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-10-23 18:13:17",
-      "days_ago": 357,
+      "last_sub": "2025-10-24 01:13:17",
+      "days_ago": 356,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4631,7 +4715,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2025-11-19 16:41:59",
+      "last_sub": "2025-11-19 23:41:59",
       "days_ago": 330,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4647,7 +4731,7 @@
         "strings"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2026-08-06 07:31:01",
+      "last_sub": "2026-08-06 14:31:01",
       "days_ago": 70,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4663,7 +4747,7 @@
         "strings"
       ],
       "topic": "Strings",
-      "last_sub": "2023-10-10 06:42:51",
+      "last_sub": "2023-10-10 13:42:51",
       "days_ago": 1101,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4680,7 +4764,7 @@
         "two pointers"
       ],
       "topic": "Dynamic Programming",
-      "last_sub": "2024-07-18 15:43:20",
+      "last_sub": "2024-07-18 22:43:20",
       "days_ago": 819,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4696,7 +4780,7 @@
         "two pointers"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-06 15:18:44",
+      "last_sub": "2024-08-06 22:18:44",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4714,7 +4798,7 @@
         "shortest paths"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:18:15",
+      "last_sub": "2024-08-06 22:18:15",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4731,7 +4815,7 @@
         "sortings"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 15:16:30",
+      "last_sub": "2024-08-06 22:16:30",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4750,7 +4834,7 @@
         "trees"
       ],
       "topic": "Graph Theory",
-      "last_sub": "2024-08-06 14:50:26",
+      "last_sub": "2024-08-06 21:50:26",
       "days_ago": 800,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4771,7 +4855,7 @@
         "shortest paths"
       ],
       "topic": "Greedy & Search",
-      "last_sub": "2024-08-15 15:39:20",
+      "last_sub": "2024-08-15 22:39:20",
       "days_ago": 791,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4788,8 +4872,8 @@
         "math"
       ],
       "topic": "Mathematics",
-      "last_sub": "2025-11-17 17:31:56",
-      "days_ago": 332,
+      "last_sub": "2025-11-18 00:31:56",
+      "days_ago": 331,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
     },
@@ -4806,7 +4890,7 @@
         "two pointers"
       ],
       "topic": "Mathematics",
-      "last_sub": "2026-07-05 04:49:43",
+      "last_sub": "2026-07-05 11:49:43",
       "days_ago": 102,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -4821,7 +4905,7 @@
         "games"
       ],
       "topic": "Game Theory & Adhoc",
-      "last_sub": "2026-08-06 07:39:27",
+      "last_sub": "2026-08-06 14:39:27",
       "days_ago": 70,
       "priority": "P3 - Luyện phản xạ nhanh (1600-1700)",
       "source": "Codeforces Submissions"
@@ -20458,718 +20542,6 @@
       "roadmap_topic_title": "Maximum Matching"
     },
     {
-      "id": "CF-547B",
-      "title": "Codeforces 547B - Mike and Feet",
-      "url": "https://codeforces.com/contest/547/problem/B",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "binary search",
-        "data structures",
-        "dp",
-        "dsu"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_binary_search",
-      "roadmap_topic_title": "Binary Search"
-    },
-    {
-      "id": "CF-204B",
-      "title": "Codeforces 204B - Little Elephant and Cards",
-      "url": "https://codeforces.com/contest/204/problem/B",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [
-        "binary search",
-        "data structures"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_binary_search",
-      "roadmap_topic_title": "Binary Search"
-    },
-    {
-      "id": "CF-204A",
-      "title": "Codeforces 204A - Little Elephant and Interval",
-      "url": "https://codeforces.com/contest/204/problem/A",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [
-        "binary search",
-        "combinatorics",
-        "dp"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_binary_search",
-      "roadmap_topic_title": "Binary Search"
-    },
-    {
-      "id": "CF-321A",
-      "title": "Codeforces 321A - Ciel and Robot",
-      "url": "https://codeforces.com/contest/321/problem/A",
-      "platform": "Codeforces",
-      "rating": 1700,
-      "difficulty": "Medium",
-      "tags": [
-        "binary search",
-        "implementation",
-        "math"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_binary_search",
-      "roadmap_topic_title": "Binary Search"
-    },
-    {
-      "id": "CF-364A",
-      "title": "Codeforces 364A - Matrix",
-      "url": "https://codeforces.com/contest/364/problem/A",
-      "platform": "Codeforces",
-      "rating": 1600,
-      "difficulty": "Medium",
-      "tags": [
-        "combinatorics",
-        "data structures",
-        "implementation"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "HARD",
-      "roadmap_category": "Hard Math",
-      "roadmap_topic_id": "hard_combinatoric",
-      "roadmap_topic_title": "Combinatoric"
-    },
-    {
-      "id": "CF-111B",
-      "title": "Codeforces 111B - Petya and Divisors",
-      "url": "https://codeforces.com/contest/111/problem/B",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "binary search",
-        "data structures",
-        "number theory"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_number_theory",
-      "roadmap_topic_title": "Number Theory"
-    },
-    {
-      "id": "CF-243A",
-      "title": "Codeforces 243A - The Brand New Function",
-      "url": "https://codeforces.com/contest/243/problem/A",
-      "platform": "Codeforces",
-      "rating": 1600,
-      "difficulty": "Medium",
-      "tags": [
-        "bitmasks"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitmask",
-      "roadmap_topic_title": "Bitmask"
-    },
-    {
-      "id": "CF-482B",
-      "title": "Codeforces 482B - Interesting Array",
-      "url": "https://codeforces.com/contest/482/problem/B",
-      "platform": "Codeforces",
-      "rating": 1800,
-      "difficulty": "Medium",
-      "tags": [
-        "constructive algorithms",
-        "data structures",
-        "trees"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "INSANE",
-      "roadmap_category": "Advanced Insane Topics",
-      "roadmap_topic_id": "insane_constructive",
-      "roadmap_topic_title": "Constructive"
-    },
-    {
-      "id": "CF-242C",
-      "title": "Codeforces 242C - King's Path",
-      "url": "https://codeforces.com/contest/242/problem/C",
-      "platform": "Codeforces",
-      "rating": 1800,
-      "difficulty": "Medium",
-      "tags": [
-        "dfs and similar",
-        "graphs",
-        "hashing",
-        "shortest paths"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic String",
-      "roadmap_topic_id": "basic_hash",
-      "roadmap_topic_title": "Hash"
-    },
-    {
-      "id": "CF-494A",
-      "title": "Codeforces 494A - Treasure",
-      "url": "https://codeforces.com/contest/494/problem/A",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [
-        "greedy"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_greedy",
-      "roadmap_topic_title": "Greedy"
-    },
-    {
-      "id": "CF-363D",
-      "title": "Codeforces 363D - Renting Bikes",
-      "url": "https://codeforces.com/contest/363/problem/D",
-      "platform": "Codeforces",
-      "rating": 1800,
-      "difficulty": "Medium",
-      "tags": [
-        "binary search",
-        "greedy"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_binary_search",
-      "roadmap_topic_title": "Binary Search"
-    },
-    {
-      "id": "CF-372B",
-      "title": "Codeforces 372B - Counting Rectangles is Fun",
-      "url": "https://codeforces.com/contest/372/problem/B",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "brute force",
-        "divide and conquer",
-        "dp"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-319B",
-      "title": "Codeforces 319B - Psychos in a Line",
-      "url": "https://codeforces.com/contest/319/problem/B",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "data structures",
-        "implementation"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Data Structure",
-      "roadmap_topic_id": "basic_struct",
-      "roadmap_topic_title": "Struct"
-    },
-    {
-      "id": "CF-476A",
-      "title": "Codeforces 476A - Dreamoon and Stairs",
-      "url": "https://codeforces.com/contest/476/problem/A",
-      "platform": "Codeforces",
-      "rating": 1000,
-      "difficulty": "Easy",
-      "tags": [
-        "implementation",
-        "math"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-514D",
-      "title": "Codeforces 514D - R2D2 and Droid Army",
-      "url": "https://codeforces.com/contest/514/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "binary search",
-        "data structures",
-        "two pointers"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_two_pointer",
-      "roadmap_topic_title": "Two Pointer"
-    },
-    {
-      "id": "CF-463D",
-      "title": "Codeforces 463D - Gargari and Permutations",
-      "url": "https://codeforces.com/contest/463/problem/D",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "dfs and similar",
-        "dp",
-        "graphs",
-        "implementation"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-148D",
-      "title": "Codeforces 148D - Bag of mice",
-      "url": "https://codeforces.com/contest/148/problem/D",
-      "platform": "Codeforces",
-      "rating": 1800,
-      "difficulty": "Medium",
-      "tags": [
-        "dp",
-        "games",
-        "math",
-        "probabilities"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "HARD",
-      "roadmap_category": "Other Hard",
-      "roadmap_topic_id": "hard_game_theory",
-      "roadmap_topic_title": "Game Theory"
-    },
-    {
-      "id": "CF-459C",
-      "title": "Codeforces 459C - Pashmak and Buses",
-      "url": "https://codeforces.com/contest/459/problem/C",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "combinatorics",
-        "constructive algorithms",
-        "math"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "HARD",
-      "roadmap_category": "Hard Math",
-      "roadmap_topic_id": "hard_combinatoric",
-      "roadmap_topic_title": "Combinatoric"
-    },
-    {
-      "id": "CF-478D",
-      "title": "Codeforces 478D - Red-Green Towers",
-      "url": "https://codeforces.com/contest/478/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "dp"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-540D",
-      "title": "Codeforces 540D - Bad Luck Island",
-      "url": "https://codeforces.com/contest/540/problem/D",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "dp",
-        "probabilities"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-371D",
-      "title": "Codeforces 371D - Vessels",
-      "url": "https://codeforces.com/contest/371/problem/D",
-      "platform": "Codeforces",
-      "rating": 1800,
-      "difficulty": "Medium",
-      "tags": [
-        "data structures",
-        "dsu",
-        "implementation",
-        "trees"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Data Structure",
-      "roadmap_topic_id": "basic_struct",
-      "roadmap_topic_title": "Struct"
-    },
-    {
-      "id": "CF-106725K",
-      "title": "Codeforces 106725K - Keep on the Right Track",
-      "url": "https://codeforces.com/contest/106725/problem/K",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-106725H",
-      "title": "Codeforces 106725H - Hidden Permutation",
-      "url": "https://codeforces.com/contest/106725/problem/H",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-106725I",
-      "title": "Codeforces 106725I - Integer Triple",
-      "url": "https://codeforces.com/contest/106725/problem/I",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-106725B",
-      "title": "Codeforces 106725B - Better Die",
-      "url": "https://codeforces.com/contest/106725/problem/B",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-106725N",
-      "title": "Codeforces 106725N - New CCPC Rule",
-      "url": "https://codeforces.com/contest/106725/problem/N",
-      "platform": "Codeforces",
-      "rating": 1500,
-      "difficulty": "Medium",
-      "tags": [],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-242E",
-      "title": "Codeforces 242E - XOR on Segment",
-      "url": "https://codeforces.com/contest/242/problem/E",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "bitmasks",
-        "data structures"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitmask",
-      "roadmap_topic_title": "Bitmask"
-    },
-    {
-      "id": "CF-219D",
-      "title": "Codeforces 219D - Choosing Capital for Treeland",
-      "url": "https://codeforces.com/contest/219/problem/D",
-      "platform": "Codeforces",
-      "rating": 1700,
-      "difficulty": "Medium",
-      "tags": [
-        "dfs and similar",
-        "dp",
-        "graphs",
-        "trees"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitwise",
-      "roadmap_topic_title": "Bitwise"
-    },
-    {
-      "id": "CF-401D",
-      "title": "Codeforces 401D - Roman and Numbers",
-      "url": "https://codeforces.com/contest/401/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "bitmasks",
-        "brute force",
-        "combinatorics",
-        "dp",
-        "number theory"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm & Data Structure 2",
-      "roadmap_topic_id": "basic_bitmask",
-      "roadmap_topic_title": "Bitmask"
-    },
-    {
-      "id": "CF-451D",
-      "title": "Codeforces 451D - Count Good Substrings",
-      "url": "https://codeforces.com/contest/451/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "math"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "INTERMEDIATE",
-      "roadmap_category": "Intermediate Data Structure",
-      "roadmap_topic_id": "intermediate_1d",
-      "roadmap_topic_title": "1D"
-    },
-    {
-      "id": "CF-479E",
-      "title": "Codeforces 479E - Riding in a Lift",
-      "url": "https://codeforces.com/contest/479/problem/E",
-      "platform": "Codeforces",
-      "rating": 1900,
-      "difficulty": "Hard",
-      "tags": [
-        "combinatorics",
-        "dp"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "HARD",
-      "roadmap_category": "Hard Math",
-      "roadmap_topic_id": "hard_combinatoric",
-      "roadmap_topic_title": "Combinatoric"
-    },
-    {
-      "id": "CF-514C",
-      "title": "Codeforces 514C - Watto and Mechanism",
-      "url": "https://codeforces.com/contest/514/problem/C",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "binary search",
-        "data structures",
-        "hashing",
-        "string suffix structures",
-        "strings"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic String",
-      "roadmap_topic_id": "basic_hash",
-      "roadmap_topic_title": "Hash"
-    },
-    {
-      "id": "CF-400D",
-      "title": "Codeforces 400D - Dima and Bacteria",
-      "url": "https://codeforces.com/contest/400/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "dsu",
-        "graphs",
-        "shortest paths"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "INTERMEDIATE",
-      "roadmap_category": "Intermediate Graph",
-      "roadmap_topic_id": "intermediate_shortest_path",
-      "roadmap_topic_title": "Shortest Path"
-    },
-    {
-      "id": "CF-2260D",
-      "title": "Codeforces 2260D - Signs of Prefix Sums",
-      "url": "https://codeforces.com/contest/2260/problem/D",
-      "platform": "Codeforces",
-      "rating": 1700,
-      "difficulty": "Medium",
-      "tags": [
-        "brute force",
-        "constructive algorithms",
-        "dfs and similar",
-        "dp",
-        "implementation"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "INSANE",
-      "roadmap_category": "Advanced Insane Topics",
-      "roadmap_topic_id": "insane_constructive",
-      "roadmap_topic_title": "Constructive"
-    },
-    {
-      "id": "CF-609D",
-      "title": "Codeforces 609D - Gadgets for dollars and pounds",
-      "url": "https://codeforces.com/contest/609/problem/D",
-      "platform": "Codeforces",
-      "rating": 2000,
-      "difficulty": "Hard",
-      "tags": [
-        "binary search",
-        "greedy",
-        "two pointers"
-      ],
-      "notes": "Solved on Codeforces",
-      "source_sheet": "Codeforces API (DeruckLoveNewTechnology)",
-      "solved": true,
-      "status": "Solved",
-      "roadmap_tier": "BASIC",
-      "roadmap_category": "Basic Algorithm",
-      "roadmap_topic_id": "basic_two_pointer",
-      "roadmap_topic_title": "Two Pointer"
-    },
-    {
       "id": "CF-609C",
       "title": "Codeforces 609C - Load Balancing",
       "url": "https://codeforces.com/contest/609/problem/C",
@@ -32606,11 +31978,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "prefixsum",
-        "2d sum",
-        "diff array",
         "mảng cộng dồn",
-        "prefix sum"
+        "prefixsum",
+        "prefix sum",
+        "2d sum",
+        "diff array"
       ],
       "problems": [
         {
@@ -32685,8 +32057,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "diff array",
         "mảng hiệu",
+        "diff array",
         "difference array"
       ],
       "problems": [],
@@ -32700,14 +32072,14 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "arithmetic",
         "lcm",
-        "sàng",
-        "số học",
-        "prime",
         "number theory",
         "sieve",
-        "gcd"
+        "số học",
+        "arithmetic",
+        "gcd",
+        "sàng",
+        "prime"
       ],
       "problems": [
         {
@@ -32850,20 +32222,6 @@
           "tags": [
             "Math False",
             "Mathematics"
-          ]
-        },
-        {
-          "id": "CF-111B",
-          "title": "Codeforces 111B - Petya and Divisors",
-          "url": "https://codeforces.com/contest/111/problem/B",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "data structures",
-            "number theory"
           ]
         },
         {
@@ -33328,9 +32686,9 @@
           ]
         }
       ],
-      "total_problems": 42,
-      "solved_problems": 35,
-      "completion_pct": 83.3
+      "total_problems": 41,
+      "solved_problems": 34,
+      "completion_pct": 82.9
     },
     {
       "id": "basic_arithmetic_function",
@@ -33365,10 +32723,10 @@
       "category": "Basic Algorithm",
       "keywords": [
         "nguyên tố",
-        "sàng nguyên tố",
-        "prime",
+        "sieve",
         "prime -> prime sieve",
-        "sieve"
+        "sàng nguyên tố",
+        "prime"
       ],
       "problems": [],
       "total_problems": 0,
@@ -33381,11 +32739,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "recursion",
-        "đệ quy",
         "branch and bound",
+        "backtrack",
         "quay lui",
-        "backtrack"
+        "đệ quy",
+        "recursion"
       ],
       "problems": [
         {
@@ -33464,11 +32822,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "sort",
-        "merge sort",
-        "sorting",
+        "bubble sort",
         "sắp xếp",
-        "bubble sort"
+        "sorting",
+        "sort",
+        "merge sort"
       ],
       "problems": [
         {
@@ -34450,8 +33808,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "tham lam",
-        "greedy"
+        "greedy",
+        "tham lam"
       ],
       "problems": [
         {
@@ -36203,18 +35561,6 @@
           ]
         },
         {
-          "id": "CF-494A",
-          "title": "Codeforces 494A - Treasure",
-          "url": "https://codeforces.com/contest/494/problem/A",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "greedy"
-          ]
-        },
-        {
           "id": "CF-358D",
           "title": "Codeforces 358D - Dima and Hares",
           "url": "https://codeforces.com/contest/358/problem/D",
@@ -36896,9 +36242,9 @@
           ]
         }
       ],
-      "total_problems": 185,
-      "solved_problems": 57,
-      "completion_pct": 30.8
+      "total_problems": 184,
+      "solved_problems": 56,
+      "completion_pct": 30.4
     },
     {
       "id": "basic_binary_search",
@@ -36906,9 +36252,9 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "chặt nhị phân",
         "bs",
         "tìm kiếm nhị phân",
+        "chặt nhị phân",
         "binary search"
       ],
       "problems": [
@@ -37026,75 +36372,6 @@
             "flows",
             "math",
             "trees"
-          ]
-        },
-        {
-          "id": "CF-547B",
-          "title": "Codeforces 547B - Mike and Feet",
-          "url": "https://codeforces.com/contest/547/problem/B",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "data structures",
-            "dp",
-            "dsu"
-          ]
-        },
-        {
-          "id": "CF-204B",
-          "title": "Codeforces 204B - Little Elephant and Cards",
-          "url": "https://codeforces.com/contest/204/problem/B",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "data structures"
-          ]
-        },
-        {
-          "id": "CF-204A",
-          "title": "Codeforces 204A - Little Elephant and Interval",
-          "url": "https://codeforces.com/contest/204/problem/A",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "combinatorics",
-            "dp"
-          ]
-        },
-        {
-          "id": "CF-321A",
-          "title": "Codeforces 321A - Ciel and Robot",
-          "url": "https://codeforces.com/contest/321/problem/A",
-          "platform": "Codeforces",
-          "rating": 1700,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "implementation",
-            "math"
-          ]
-        },
-        {
-          "id": "CF-363D",
-          "title": "Codeforces 363D - Renting Bikes",
-          "url": "https://codeforces.com/contest/363/problem/D",
-          "platform": "Codeforces",
-          "rating": 1800,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "greedy"
           ]
         },
         {
@@ -37493,9 +36770,9 @@
           ]
         }
       ],
-      "total_problems": 39,
-      "solved_problems": 35,
-      "completion_pct": 89.7
+      "total_problems": 34,
+      "solved_problems": 30,
+      "completion_pct": 88.2
     },
     {
       "id": "basic_two_pointer",
@@ -37503,8 +36780,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "hai con trỏ",
         "two pointer",
+        "hai con trỏ",
         "two pointers"
       ],
       "problems": [
@@ -37523,34 +36800,6 @@
             "data structures",
             "divide and conquer",
             "math",
-            "two pointers"
-          ]
-        },
-        {
-          "id": "CF-514D",
-          "title": "Codeforces 514D - R2D2 and Droid Army",
-          "url": "https://codeforces.com/contest/514/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "data structures",
-            "two pointers"
-          ]
-        },
-        {
-          "id": "CF-609D",
-          "title": "Codeforces 609D - Gadgets for dollars and pounds",
-          "url": "https://codeforces.com/contest/609/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "greedy",
             "two pointers"
           ]
         },
@@ -38074,8 +37323,8 @@
           ]
         }
       ],
-      "total_problems": 37,
-      "solved_problems": 37,
+      "total_problems": 35,
+      "solved_problems": 35,
       "completion_pct": 100.0
     },
     {
@@ -39491,34 +38740,6 @@
           ]
         },
         {
-          "id": "CF-319B",
-          "title": "Codeforces 319B - Psychos in a Line",
-          "url": "https://codeforces.com/contest/319/problem/B",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "data structures",
-            "implementation"
-          ]
-        },
-        {
-          "id": "CF-371D",
-          "title": "Codeforces 371D - Vessels",
-          "url": "https://codeforces.com/contest/371/problem/D",
-          "platform": "Codeforces",
-          "rating": 1800,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "data structures",
-            "dsu",
-            "implementation",
-            "trees"
-          ]
-        },
-        {
           "id": "CF-295A",
           "title": "Codeforces 295A - Greg and Array",
           "url": "https://codeforces.com/contest/295/problem/A",
@@ -39886,9 +39107,9 @@
           ]
         }
       ],
-      "total_problems": 123,
-      "solved_problems": 32,
-      "completion_pct": 26.0
+      "total_problems": 121,
+      "solved_problems": 30,
+      "completion_pct": 24.8
     },
     {
       "id": "basic_set_multiset",
@@ -39909,14 +39130,14 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
-        "monotonic",
         "deque",
-        "hàng đợi",
-        "monotonic stack",
-        "deque dp",
-        "ngăn xếp",
-        "stack / queue / deque -> monotonic stack / deque",
         "monotonic deque",
+        "ngăn xếp",
+        "deque dp",
+        "monotonic stack",
+        "stack / queue / deque -> monotonic stack / deque",
+        "hàng đợi",
+        "monotonic",
         "stack",
         "queue"
       ],
@@ -39994,11 +39215,11 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
+        "hash table -> unordered_set / map",
         "hash",
         "hashing",
         "băm",
-        "hash 2d",
-        "hash table -> unordered_set / map"
+        "hash 2d"
       ],
       "problems": [],
       "total_problems": 0,
@@ -40011,11 +39232,11 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
-        "priority_queue / heap",
-        "priority queue",
-        "pq",
+        "priority_queue",
         "heap",
-        "priority_queue"
+        "priority_queue / heap",
+        "pq",
+        "priority queue"
       ],
       "problems": [
         {
@@ -40067,11 +39288,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "xor",
-        "bitmask",
+        "bitwise",
         "and",
-        "or",
-        "bitwise"
+        "bitmask",
+        "xor",
+        "or"
       ],
       "problems": [
         {
@@ -41022,138 +40243,6 @@
           "solved": false,
           "tags": [
             "False"
-          ]
-        },
-        {
-          "id": "CF-372B",
-          "title": "Codeforces 372B - Counting Rectangles is Fun",
-          "url": "https://codeforces.com/contest/372/problem/B",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "brute force",
-            "divide and conquer",
-            "dp"
-          ]
-        },
-        {
-          "id": "CF-476A",
-          "title": "Codeforces 476A - Dreamoon and Stairs",
-          "url": "https://codeforces.com/contest/476/problem/A",
-          "platform": "Codeforces",
-          "rating": 1000,
-          "difficulty": "Easy",
-          "solved": true,
-          "tags": [
-            "implementation",
-            "math"
-          ]
-        },
-        {
-          "id": "CF-463D",
-          "title": "Codeforces 463D - Gargari and Permutations",
-          "url": "https://codeforces.com/contest/463/problem/D",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "dfs and similar",
-            "dp",
-            "graphs",
-            "implementation"
-          ]
-        },
-        {
-          "id": "CF-478D",
-          "title": "Codeforces 478D - Red-Green Towers",
-          "url": "https://codeforces.com/contest/478/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "dp"
-          ]
-        },
-        {
-          "id": "CF-540D",
-          "title": "Codeforces 540D - Bad Luck Island",
-          "url": "https://codeforces.com/contest/540/problem/D",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "dp",
-            "probabilities"
-          ]
-        },
-        {
-          "id": "CF-106725K",
-          "title": "Codeforces 106725K - Keep on the Right Track",
-          "url": "https://codeforces.com/contest/106725/problem/K",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": []
-        },
-        {
-          "id": "CF-106725H",
-          "title": "Codeforces 106725H - Hidden Permutation",
-          "url": "https://codeforces.com/contest/106725/problem/H",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": []
-        },
-        {
-          "id": "CF-106725I",
-          "title": "Codeforces 106725I - Integer Triple",
-          "url": "https://codeforces.com/contest/106725/problem/I",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": []
-        },
-        {
-          "id": "CF-106725B",
-          "title": "Codeforces 106725B - Better Die",
-          "url": "https://codeforces.com/contest/106725/problem/B",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": []
-        },
-        {
-          "id": "CF-106725N",
-          "title": "Codeforces 106725N - New CCPC Rule",
-          "url": "https://codeforces.com/contest/106725/problem/N",
-          "platform": "Codeforces",
-          "rating": 1500,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": []
-        },
-        {
-          "id": "CF-219D",
-          "title": "Codeforces 219D - Choosing Capital for Treeland",
-          "url": "https://codeforces.com/contest/219/problem/D",
-          "platform": "Codeforces",
-          "rating": 1700,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "dfs and similar",
-            "dp",
-            "graphs",
-            "trees"
           ]
         },
         {
@@ -43958,9 +43047,9 @@
           ]
         }
       ],
-      "total_problems": 320,
-      "solved_problems": 251,
-      "completion_pct": 78.4
+      "total_problems": 309,
+      "solved_problems": 240,
+      "completion_pct": 77.7
     },
     {
       "id": "basic_operator",
@@ -43981,11 +43070,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "sos dp",
-        "mask",
+        "mặt nạ bit",
         "dp bitmask",
         "bitmask",
-        "mặt nạ bit"
+        "mask",
+        "sos dp"
       ],
       "problems": [
         {
@@ -44260,47 +43349,6 @@
           ]
         },
         {
-          "id": "CF-243A",
-          "title": "Codeforces 243A - The Brand New Function",
-          "url": "https://codeforces.com/contest/243/problem/A",
-          "platform": "Codeforces",
-          "rating": 1600,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "bitmasks"
-          ]
-        },
-        {
-          "id": "CF-242E",
-          "title": "Codeforces 242E - XOR on Segment",
-          "url": "https://codeforces.com/contest/242/problem/E",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "bitmasks",
-            "data structures"
-          ]
-        },
-        {
-          "id": "CF-401D",
-          "title": "Codeforces 401D - Roman and Numbers",
-          "url": "https://codeforces.com/contest/401/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "bitmasks",
-            "brute force",
-            "combinatorics",
-            "dp",
-            "number theory"
-          ]
-        },
-        {
           "id": "CF-2260C",
           "title": "Codeforces 2260C - Maximize XOR, Minimize Operations",
           "url": "https://codeforces.com/contest/2260/problem/C",
@@ -44553,9 +43601,9 @@
           ]
         }
       ],
-      "total_problems": 35,
-      "solved_problems": 23,
-      "completion_pct": 65.7
+      "total_problems": 32,
+      "solved_problems": 20,
+      "completion_pct": 62.5
     },
     {
       "id": "basic_mask_premask_in_o_3_n",
@@ -44576,12 +43624,12 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "disjoint set",
         "small to large",
-        "union find",
         "dsu",
-        "set merging",
-        "disjoint set union"
+        "disjoint set union",
+        "union find",
+        "disjoint set",
+        "set merging"
       ],
       "problems": [],
       "total_problems": 0,
@@ -44595,8 +43643,8 @@
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
         "disjoint set",
-        "dsu",
-        "dsu on array"
+        "dsu on array",
+        "dsu"
       ],
       "problems": [],
       "total_problems": 0,
@@ -44609,9 +43657,9 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "small to large",
         "gộp tập",
         "sack",
+        "small to large",
         "set merging - small to large"
       ],
       "problems": [
@@ -44808,8 +43856,8 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "knapsack",
         "balo",
+        "knapsack",
         "dp knapsack"
       ],
       "problems": [
@@ -44937,10 +43985,10 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "longest increasing subsequence",
+        "dãy con tăng",
         "dp lis",
-        "lis",
-        "dãy con tăng"
+        "longest increasing subsequence",
+        "lis"
       ],
       "problems": [
         {
@@ -45218,9 +44266,9 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "dãy con chung",
         "dp lcs",
-        "lcs"
+        "lcs",
+        "dãy con chung"
       ],
       "problems": [],
       "total_problems": 0,
@@ -45233,12 +44281,12 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "sos dp",
-        "mask",
+        "mặt nạ bit",
         "dp bitmask",
-        "bitmask",
         "bitmask dp",
-        "mặt nạ bit"
+        "bitmask",
+        "mask",
+        "sos dp"
       ],
       "problems": [
         {
@@ -45385,9 +44433,9 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "depth first search",
+        "duyệt theo chiều sâu",
         "dfs",
-        "duyệt theo chiều sâu"
+        "depth first search"
       ],
       "problems": [
         {
@@ -45459,10 +44507,10 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "depth first search",
-        "dfs",
+        "duyệt theo chiều sâu",
         "normal dfs",
-        "duyệt theo chiều sâu"
+        "dfs",
+        "depth first search"
       ],
       "problems": [
         {
@@ -45488,11 +44536,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "tarjan",
-        "bridge & articulation point",
         "bridge",
         "articulation",
+        "tarjan",
         "khớp",
+        "bridge & articulation point",
         "cầu"
       ],
       "problems": [
@@ -45527,10 +44575,10 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "dial",
-        "breadth first search",
         "bfs 0-1",
-        "bfs"
+        "bfs",
+        "breadth first search",
+        "dial"
       ],
       "problems": [
         {
@@ -45558,11 +44606,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "dial",
+        "normal bfs",
+        "bfs",
         "bfs 0-1",
         "breadth first search",
-        "normal bfs",
-        "bfs"
+        "dial"
       ],
       "problems": [],
       "total_problems": 0,
@@ -45575,11 +44623,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "dial",
+        "bfs",
         "bfs 0-1",
-        "bfs 0-1 / dial",
         "breadth first search",
-        "bfs"
+        "bfs 0-1 / dial",
+        "dial"
       ],
       "problems": [],
       "total_problems": 0,
@@ -45592,11 +44640,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "tarjan",
-        "kosaraju",
-        "strongly connected component (scc)",
         "liên thông mạnh",
         "scc",
+        "kosaraju",
+        "tarjan",
+        "strongly connected component (scc)",
         "strongly connected"
       ],
       "problems": [],
@@ -45697,8 +44745,8 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "sắp xếp topo",
         "topological sort",
+        "sắp xếp topo",
         "topological",
         "topo"
       ],
@@ -45838,9 +44886,9 @@
       "tier": "BASIC",
       "category": "Basic String",
       "keywords": [
-        "hashing",
         "hash 2d",
         "hash",
+        "hashing",
         "băm"
       ],
       "problems": [
@@ -45916,37 +44964,6 @@
             "hashing",
             "probabilities",
             "trees"
-          ]
-        },
-        {
-          "id": "CF-242C",
-          "title": "Codeforces 242C - King's Path",
-          "url": "https://codeforces.com/contest/242/problem/C",
-          "platform": "Codeforces",
-          "rating": 1800,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "dfs and similar",
-            "graphs",
-            "hashing",
-            "shortest paths"
-          ]
-        },
-        {
-          "id": "CF-514C",
-          "title": "Codeforces 514C - Watto and Mechanism",
-          "url": "https://codeforces.com/contest/514/problem/C",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "binary search",
-            "data structures",
-            "hashing",
-            "string suffix structures",
-            "strings"
           ]
         },
         {
@@ -46028,9 +45045,9 @@
           ]
         }
       ],
-      "total_problems": 11,
-      "solved_problems": 8,
-      "completion_pct": 72.7
+      "total_problems": 9,
+      "solved_problems": 6,
+      "completion_pct": 66.7
     },
     {
       "id": "basic_kmp",
@@ -46038,9 +45055,9 @@
       "tier": "BASIC",
       "category": "Basic String",
       "keywords": [
-        "knuth morris pratt",
+        "tiền tố",
         "kmp",
-        "tiền tố"
+        "knuth morris pratt"
       ],
       "problems": [],
       "total_problems": 0,
@@ -46093,10 +45110,10 @@
       "tier": "BASIC",
       "category": "Basic Tree",
       "keywords": [
-        "binary lifting",
         "binary lifting & lowest common ancestor",
-        "lca",
-        "tổ tiên chung"
+        "tổ tiên chung",
+        "binary lifting",
+        "lca"
       ],
       "problems": [
         {
@@ -46244,20 +45261,6 @@
             "Centroid",
             "Graph Theory",
             "Tree"
-          ]
-        },
-        {
-          "id": "CF-400D",
-          "title": "Codeforces 400D - Dima and Bacteria",
-          "url": "https://codeforces.com/contest/400/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "dsu",
-            "graphs",
-            "shortest paths"
           ]
         },
         {
@@ -46411,9 +45414,9 @@
           ]
         }
       ],
-      "total_problems": 14,
-      "solved_problems": 11,
-      "completion_pct": 78.6
+      "total_problems": 13,
+      "solved_problems": 10,
+      "completion_pct": 76.9
     },
     {
       "id": "intermediate_floyd",
@@ -46421,8 +45424,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Graph",
       "keywords": [
-        "floyd",
-        "floyd warshall"
+        "floyd warshall",
+        "floyd"
       ],
       "problems": [
         {
@@ -46448,9 +45451,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Graph",
       "keywords": [
+        "dijkstra",
         "đường đi ngắn nhất",
-        "shortest path",
-        "dijkstra"
+        "shortest path"
       ],
       "problems": [
         {
@@ -46531,9 +45534,9 @@
       "category": "Intermediate Graph",
       "keywords": [
         "mst",
-        "cây khung",
+        "kruskal",
         "prim",
-        "kruskal"
+        "cây khung"
       ],
       "problems": [
         {
@@ -46610,10 +45613,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
-        "cây phân đoạn",
+        "it",
         "segment tree",
-        "segtree",
-        "it"
+        "cây phân đoạn",
+        "segtree"
       ],
       "problems": [
         {
@@ -46751,9 +45754,9 @@
       "keywords": [
         "it",
         "segment tree",
+        "cây phân đoạn",
         "segtree",
-        "normal segment tree",
-        "cây phân đoạn"
+        "normal segment tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -46766,8 +45769,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
-        "lazy",
         "lazy propagation",
+        "lazy",
         "lười"
       ],
       "problems": [],
@@ -46835,8 +45838,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
-        "bit",
         "binary index tree",
+        "bit",
         "fenwick"
       ],
       "problems": [],
@@ -46866,18 +45869,6 @@
           ]
         },
         {
-          "id": "CF-451D",
-          "title": "Codeforces 451D - Count Good Substrings",
-          "url": "https://codeforces.com/contest/451/problem/D",
-          "platform": "Codeforces",
-          "rating": 2000,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "math"
-          ]
-        },
-        {
           "id": "CF-1311D",
           "title": "Codeforces 1311D - Three Integers",
           "url": "https://codeforces.com/contest/1311/problem/D",
@@ -46891,9 +45882,9 @@
           ]
         }
       ],
-      "total_problems": 3,
-      "solved_problems": 2,
-      "completion_pct": 66.7
+      "total_problems": 2,
+      "solved_problems": 1,
+      "completion_pct": 50.0
     },
     {
       "id": "intermediate_2d",
@@ -47425,9 +46416,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "euler tour magic -> lca o(1)",
+        "euler tour",
         "euler tour tree",
-        "euler tour"
+        "euler tour magic -> lca o(1)"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47521,9 +46512,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "dp on tree",
         "dp tree",
-        "quy hoạch động trên cây"
+        "quy hoạch động trên cây",
+        "dp on tree"
       ],
       "problems": [
         {
@@ -47666,9 +46657,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "dp on tree",
         "dp tree",
-        "quy hoạch động trên cây"
+        "quy hoạch động trên cây",
+        "dp on tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47694,10 +46685,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
+        "dp rerooting",
         "đổi gốc",
         "rerooting",
-        "reroot",
-        "dp rerooting"
+        "reroot"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47710,10 +46701,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "dsu on tree",
+        "sack",
         "small to large on tree",
         "sack (dsu on tree)",
-        "sack"
+        "dsu on tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47817,11 +46808,11 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Math",
       "keywords": [
-        "inclusion",
-        "bao hàm",
-        "exclusion",
         "bao hàm loại trừ",
-        "inclusion & exclusion"
+        "exclusion",
+        "inclusion & exclusion",
+        "bao hàm",
+        "inclusion"
       ],
       "problems": [
         {
@@ -47911,9 +46902,9 @@
       "category": "Intermediate DP",
       "keywords": [
         "lexicographical",
+        "dp digit / lexicographical order",
         "digit dp",
-        "dp chữ số",
-        "dp digit / lexicographical order"
+        "dp chữ số"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47939,8 +46930,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate DP",
       "keywords": [
-        "quy hoạch động đoạn",
-        "dp range"
+        "dp range",
+        "quy hoạch động đoạn"
       ],
       "problems": [
         {
@@ -47982,9 +46973,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate DP",
       "keywords": [
+        "sum over subsets",
         "dp sos",
-        "sos dp",
-        "sum over subsets"
+        "sos dp"
       ],
       "problems": [
         {
@@ -48125,9 +47116,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Geometry",
       "keywords": [
-        "sweep line",
+        "quét",
         "sweepline",
-        "quét"
+        "sweep line"
       ],
       "problems": [
         {
@@ -48991,10 +47982,10 @@
       "tier": "HARD",
       "category": "Hard Data Structure",
       "keywords": [
-        "chia căn",
-        "mo",
+        "mo on tree",
         "mo algorithm",
-        "mo on tree"
+        "mo",
+        "chia căn"
       ],
       "problems": [
         {
@@ -49176,11 +48167,11 @@
       "tier": "HARD",
       "category": "Hard Data Structure",
       "keywords": [
+        "mo on tree",
+        "online update mo algorithm",
         "mo",
         "chia căn",
-        "mo algorithm",
-        "mo on tree",
-        "online update mo algorithm"
+        "mo algorithm"
       ],
       "problems": [],
       "total_problems": 0,
@@ -49219,9 +48210,9 @@
       "tier": "HARD",
       "category": "Hard Tree",
       "keywords": [
-        "heavy light",
-        "hld",
         "heavy - light decomposition",
+        "hld",
+        "heavy light",
         "heavy-light decomposition"
       ],
       "problems": [
@@ -49691,47 +48682,6 @@
           ]
         },
         {
-          "id": "CF-364A",
-          "title": "Codeforces 364A - Matrix",
-          "url": "https://codeforces.com/contest/364/problem/A",
-          "platform": "Codeforces",
-          "rating": 1600,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "combinatorics",
-            "data structures",
-            "implementation"
-          ]
-        },
-        {
-          "id": "CF-459C",
-          "title": "Codeforces 459C - Pashmak and Buses",
-          "url": "https://codeforces.com/contest/459/problem/C",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "combinatorics",
-            "constructive algorithms",
-            "math"
-          ]
-        },
-        {
-          "id": "CF-479E",
-          "title": "Codeforces 479E - Riding in a Lift",
-          "url": "https://codeforces.com/contest/479/problem/E",
-          "platform": "Codeforces",
-          "rating": 1900,
-          "difficulty": "Hard",
-          "solved": true,
-          "tags": [
-            "combinatorics",
-            "dp"
-          ]
-        },
-        {
           "id": "CF-300C",
           "title": "Codeforces 300C - Beautiful Numbers",
           "url": "https://codeforces.com/contest/300/problem/C",
@@ -49876,9 +48826,9 @@
           ]
         }
       ],
-      "total_problems": 33,
-      "solved_problems": 14,
-      "completion_pct": 42.4
+      "total_problems": 30,
+      "solved_problems": 11,
+      "completion_pct": 36.7
     },
     {
       "id": "hard_binomial_coefficent",
@@ -49912,15 +48862,15 @@
       "tier": "HARD",
       "category": "Hard Math",
       "keywords": [
-        "arithmetic",
+        "advanced number theory",
         "lcm",
-        "sàng",
-        "số học",
-        "prime",
         "number theory",
         "sieve",
+        "số học",
+        "arithmetic",
         "gcd",
-        "advanced number theory"
+        "sàng",
+        "prime"
       ],
       "problems": [],
       "total_problems": 0,
@@ -49933,9 +48883,9 @@
       "tier": "HARD",
       "category": "Hard Math",
       "keywords": [
-        "nhân ma trận",
-        "matrix",
         "matrix exponentiation",
+        "matrix",
+        "nhân ma trận",
         "matrix multiplication"
       ],
       "problems": [
@@ -50219,11 +49169,11 @@
       "tier": "HARD",
       "category": "Hard Graph",
       "keywords": [
-        "bipartite matching",
-        "hungarian",
-        "hopcroft",
         "cặp ghép",
+        "hungarian",
+        "bipartite matching",
         "maximum matching",
+        "hopcroft",
         "matching"
       ],
       "problems": [
@@ -50305,12 +49255,12 @@
       "tier": "HARD",
       "category": "Hard Graph",
       "keywords": [
-        "bipartite matching",
-        "hungarian",
-        "hopcroft",
         "cặp ghép",
-        "maximum matching - min cost",
-        "matching"
+        "hungarian",
+        "bipartite matching",
+        "hopcroft",
+        "matching",
+        "maximum matching - min cost"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50337,10 +49287,10 @@
       "category": "Hard Graph",
       "keywords": [
         "boruvka mst",
-        "cây khung",
-        "kruskal",
         "mst",
-        "prim"
+        "prim",
+        "cây khung",
+        "kruskal"
       ],
       "problems": [
         {
@@ -50448,11 +49398,11 @@
       "tier": "HARD",
       "category": "Other Hard",
       "keywords": [
-        "trò chơi",
-        "grundy",
-        "game",
         "nim",
-        "game theory"
+        "game theory",
+        "game",
+        "trò chơi",
+        "grundy"
       ],
       "problems": [
         {
@@ -51854,21 +50804,6 @@
           ]
         },
         {
-          "id": "CF-148D",
-          "title": "Codeforces 148D - Bag of mice",
-          "url": "https://codeforces.com/contest/148/problem/D",
-          "platform": "Codeforces",
-          "rating": 1800,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "dp",
-            "games",
-            "math",
-            "probabilities"
-          ]
-        },
-        {
           "id": "CF-2181F",
           "title": "Codeforces 2181F - Fragmented Nim",
           "url": "https://codeforces.com/contest/2181/problem/F",
@@ -51881,9 +50816,9 @@
           ]
         }
       ],
-      "total_problems": 92,
-      "solved_problems": 4,
-      "completion_pct": 4.3
+      "total_problems": 91,
+      "solved_problems": 3,
+      "completion_pct": 3.3
     },
     {
       "id": "hard_nim",
@@ -52038,11 +50973,11 @@
       "tier": "HARD",
       "category": "Other Hard",
       "keywords": [
-        "bs",
-        "tìm kiếm nhị phân",
-        "parallel binary search",
         "binary search",
-        "chặt nhị phân"
+        "parallel binary search",
+        "chặt nhị phân",
+        "tìm kiếm nhị phân",
+        "bs"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52069,9 +51004,9 @@
       "category": "Advanced Insane Topics",
       "keywords": [
         "cht",
-        "bao lồi dp",
         "dp cht",
-        "convex hull trick"
+        "convex hull trick",
+        "bao lồi dp"
       ],
       "problems": [
         {
@@ -52118,8 +51053,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "alien trick",
         "dp alien trick",
+        "alien trick",
         "wqs binary search"
       ],
       "problems": [],
@@ -52133,8 +51068,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "2sat",
-        "2-sat"
+        "2-sat",
+        "2sat"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52147,12 +51082,12 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "edmonds karp",
+        "min cut",
+        "luồng",
         "max flow",
         "flow",
-        "luồng",
         "dinic",
-        "min cut"
+        "edmonds karp"
       ],
       "problems": [
         {
@@ -52213,13 +51148,13 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "edmonds karp",
+        "min cut",
+        "luồng",
         "max flow",
         "flow",
-        "maximum flow",
-        "luồng",
         "dinic",
-        "min cut"
+        "maximum flow",
+        "edmonds karp"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52232,13 +51167,13 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "edmonds karp",
+        "min cut",
+        "mincost maxflow",
+        "luồng",
         "max flow",
         "flow",
-        "luồng",
-        "mincost maxflow",
         "dinic",
-        "min cut"
+        "edmonds karp"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52251,13 +51186,13 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "edmonds karp",
+        "min cut",
+        "luồng",
         "max flow",
         "flow",
-        "luồng",
         "flow with demand",
         "dinic",
-        "min cut"
+        "edmonds karp"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52348,10 +51283,10 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "cây phân đoạn",
+        "it",
         "segment tree",
-        "segtree",
-        "it"
+        "cây phân đoạn",
+        "segtree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52403,14 +51338,14 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "persistent tree",
         "persistent",
         "it",
         "persistent segment tree",
-        "segtree",
         "segment tree",
         "cây phân đoạn",
-        "persistent segtree"
+        "segtree",
+        "persistent segtree",
+        "persistent tree"
       ],
       "problems": [
         {
@@ -52471,11 +51406,11 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "it",
         "lichao segment tree",
+        "it",
         "segment tree",
-        "segtree",
-        "cây phân đoạn"
+        "cây phân đoạn",
+        "segtree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52553,8 +51488,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "cartesian tree",
-        "treap"
+        "treap",
+        "cartesian tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52619,8 +51554,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "interactive",
-        "tương tác"
+        "tương tác",
+        "interactive"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52633,40 +51568,10 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "constructive",
-        "xây dựng"
+        "xây dựng",
+        "constructive"
       ],
       "problems": [
-        {
-          "id": "CF-482B",
-          "title": "Codeforces 482B - Interesting Array",
-          "url": "https://codeforces.com/contest/482/problem/B",
-          "platform": "Codeforces",
-          "rating": 1800,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "constructive algorithms",
-            "data structures",
-            "trees"
-          ]
-        },
-        {
-          "id": "CF-2260D",
-          "title": "Codeforces 2260D - Signs of Prefix Sums",
-          "url": "https://codeforces.com/contest/2260/problem/D",
-          "platform": "Codeforces",
-          "rating": 1700,
-          "difficulty": "Medium",
-          "solved": true,
-          "tags": [
-            "brute force",
-            "constructive algorithms",
-            "dfs and similar",
-            "dp",
-            "implementation"
-          ]
-        },
         {
           "id": "CF-283A",
           "title": "Codeforces 283A - Cows and Sequence",
@@ -53196,8 +52101,8 @@
           ]
         }
       ],
-      "total_problems": 41,
-      "solved_problems": 41,
+      "total_problems": 39,
+      "solved_problems": 39,
       "completion_pct": 100.0
     }
   ],
@@ -53206,7 +52111,7 @@
       "id": "proj-goal-voi",
       "title": "Goal: >2000 Problems before VOI",
       "category": "Target Milestone",
-      "description": "Verified solved: 631 problems across Codeforces, VNOJ, CSES, LQDOJ. Target: Candidate Master & Nhì Quốc Gia.",
+      "description": "Verified solved: 596 problems across Codeforces, VNOJ, CSES, LQDOJ. Target: Candidate Master & Nhì Quốc Gia.",
       "status": "In Progress",
       "tags": [
         "VOI",

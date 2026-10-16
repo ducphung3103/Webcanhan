@@ -145,16 +145,48 @@ function updateHeroStats() {
   const stats = state.data.stats || {};
   if (el.statSolvedCf) el.statSolvedCf.textContent = stats.total_cf_solved || 614;
   if (el.statLadderProgress) {
-    el.statLadderProgress.textContent = `${stats.ladder16_solved || 69} / ${stats.ladder16_total || 100}`;
+    el.statLadderProgress.textContent = `${stats.ladder16_solved || 70} / ${stats.ladder16_total || 100}`;
   }
   if (el.statHardReview) el.statHardReview.textContent = stats.hard_review_count || 137;
   
   // Schedule completion
-  const totalSchedule = state.data.schedule.length || 49;
+  const totalSchedule = state.data.schedule.length || 56;
   const completedCount = state.completedSchedule.size;
   const pct = Math.round((completedCount / totalSchedule) * 100);
   if (el.statScheduleProgress) el.statScheduleProgress.textContent = `${completedCount} / ${totalSchedule}`;
   if (el.statSchedulePct) el.statSchedulePct.textContent = `${pct}% hoàn thành`;
+
+  // Dynamic countdowns based on today (2026-10-16)
+  const today = new Date("2026-10-16T00:00:00");
+  const diffDays = (targetStr) => {
+    const target = new Date(targetStr);
+    const diffTime = target - today;
+    return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  };
+
+  const elSouth = document.getElementById("countdown-south");
+  if (elSouth) {
+    const d = diffDays("2026-10-17T00:00:00");
+    elSouth.textContent = d <= 0 ? "Hôm nay!" : (d === 1 ? "Ngày mai!" : `${d} Ngày`);
+  }
+
+  const elNat = document.getElementById("countdown-national");
+  if (elNat) {
+    const d = diffDays("2026-11-08T00:00:00");
+    elNat.textContent = `${d} Ngày`;
+  }
+
+  const elOlp = document.getElementById("countdown-olp");
+  if (elOlp) {
+    const d = diffDays("2026-12-09T00:00:00");
+    elOlp.textContent = `${d} Ngày`;
+  }
+
+  const elIcpc = document.getElementById("countdown-icpc");
+  if (elIcpc) {
+    const d = diffDays("2026-12-11T00:00:00");
+    elIcpc.textContent = `${d} Ngày`;
+  }
 }
 
 function showSyncStatus(type, label) {
@@ -305,11 +337,11 @@ function renderSchedule() {
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 class="text-lg font-bold text-white flex items-center gap-2">
-            📅 Kế Hoạch 7 Tuần Huấn Luyện & Đấu Tập
-            <span class="text-xs px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 font-mono">19/10 - 06/12/2026</span>
+            📅 Kế Hoạch 8 Tuần Huấn Luyện & Đấu Tập
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 font-mono">17/10 - 11/12/2026 (Chung kết OLP & ICPC)</span>
           </h2>
           <p class="text-xs text-slate-400 mt-1">
-            Bấm vào ô vuông để đánh dấu ngày/bài tập đã hoàn thành. Dữ liệu được tự động lưu trên trình duyệt của bạn.
+            Bấm vào ô vuông để đánh dấu ngày/bài tập đã hoàn thành. Lịch thi được căn chỉnh chính xác theo lịch thi ICPC & Olympic Tin học SV 2026.
           </p>
         </div>
         <div class="flex items-center gap-2">
@@ -326,7 +358,7 @@ function renderSchedule() {
       <div class="flex items-center gap-2 mt-4 overflow-x-auto pb-1 scrollbar-none flex-wrap">
         <span class="text-xs text-slate-500 font-mono mr-1">Lọc Tuần:</span>
         <button onclick="setScheduleWeek('ALL')" class="px-3 py-1 rounded-lg text-xs font-medium transition-colors ${state.scheduleFilters.week === 'ALL' ? 'bg-indigo-600 text-white font-semibold' : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'}">Tất cả</button>
-        ${[1,2,3,4,5,6,7].map(w => `
+        ${[1,2,3,4,5,6,7,8].map(w => `
           <button onclick="setScheduleWeek('${w}')" class="px-3 py-1 rounded-lg text-xs font-medium transition-colors ${state.scheduleFilters.week === String(w) ? 'bg-indigo-600 text-white font-semibold' : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'}">Tuần ${w}</button>
         `).join('')}
 
