@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T05:57:27.284241",
+  "updated_at": "2026-11-16T06:06:31.773670",
   "user_handle": "DeruckLoveNewTechnology",
   "stats": {
     "total_cf_submissions": 683,
@@ -35195,11 +35195,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
+        "prefix sum",
         "prefixsum",
         "2d sum",
         "mảng cộng dồn",
-        "diff array",
-        "prefix sum"
+        "diff array"
       ],
       "problems": [
         {
@@ -35274,8 +35274,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "diff array",
         "difference array",
+        "diff array",
         "mảng hiệu"
       ],
       "problems": [],
@@ -35289,14 +35289,14 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "số học",
-        "prime",
-        "sàng",
         "number theory",
-        "sieve",
-        "gcd",
         "lcm",
-        "arithmetic"
+        "số học",
+        "arithmetic",
+        "gcd",
+        "sieve",
+        "prime",
+        "sàng"
       ],
       "problems": [
         {
@@ -35953,11 +35953,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "prime",
         "nguyên tố",
         "sàng nguyên tố",
+        "prime -> prime sieve",
         "sieve",
-        "prime -> prime sieve"
+        "prime"
       ],
       "problems": [],
       "total_problems": 0,
@@ -35970,11 +35970,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
+        "recursion",
+        "đệ quy",
         "backtrack",
         "branch and bound",
-        "quay lui",
-        "đệ quy",
-        "recursion"
+        "quay lui"
       ],
       "problems": [
         {
@@ -36053,11 +36053,11 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
+        "sort",
         "merge sort",
-        "bubble sort",
         "sắp xếp",
         "sorting",
-        "sort"
+        "bubble sort"
       ],
       "problems": [
         {
@@ -39524,10 +39524,10 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "chặt nhị phân",
         "tìm kiếm nhị phân",
-        "binary search",
-        "bs"
+        "chặt nhị phân",
+        "bs",
+        "binary search"
       ],
       "problems": [
         {
@@ -40121,9 +40121,9 @@
       "tier": "BASIC",
       "category": "Basic Algorithm",
       "keywords": [
-        "two pointers",
+        "two pointer",
         "hai con trỏ",
-        "two pointer"
+        "two pointers"
       ],
       "problems": [
         {
@@ -42527,16 +42527,16 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
-        "monotonic",
-        "stack / queue / deque -> monotonic stack / deque",
-        "hàng đợi",
         "monotonic stack",
-        "deque",
-        "queue",
-        "deque dp",
-        "ngăn xếp",
+        "stack",
         "monotonic deque",
-        "stack"
+        "ngăn xếp",
+        "hàng đợi",
+        "deque",
+        "monotonic",
+        "deque dp",
+        "stack / queue / deque -> monotonic stack / deque",
+        "queue"
       ],
       "problems": [
         {
@@ -42612,11 +42612,11 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
+        "hash",
         "hash table -> unordered_set / map",
-        "băm",
-        "hashing",
         "hash 2d",
-        "hash"
+        "hashing",
+        "băm"
       ],
       "problems": [],
       "total_problems": 0,
@@ -42629,11 +42629,11 @@
       "tier": "BASIC",
       "category": "Basic Data Structure",
       "keywords": [
-        "priority_queue / heap",
-        "pq",
         "heap",
+        "priority queue",
+        "pq",
         "priority_queue",
-        "priority queue"
+        "priority_queue / heap"
       ],
       "problems": [
         {
@@ -42671,8 +42671,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "mitm",
-        "meet in the middle"
+        "meet in the middle",
+        "mitm"
       ],
       "problems": [],
       "total_problems": 0,
@@ -42685,10 +42685,10 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "bitwise",
-        "or",
         "bitmask",
+        "bitwise",
         "xor",
+        "or",
         "and"
       ],
       "problems": [
@@ -46774,10 +46774,10 @@
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
         "bitmask",
-        "mask",
-        "mặt nạ bit",
+        "sos dp",
         "dp bitmask",
-        "sos dp"
+        "mặt nạ bit",
+        "mask"
       ],
       "problems": [
         {
@@ -47385,9 +47385,9 @@
       "keywords": [
         "small to large",
         "disjoint set",
-        "disjoint set union",
         "set merging",
         "union find",
+        "disjoint set union",
         "dsu"
       ],
       "problems": [],
@@ -47401,8 +47401,8 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "disjoint set",
         "dsu on array",
+        "disjoint set",
         "dsu"
       ],
       "problems": [],
@@ -47416,10 +47416,10 @@
       "tier": "BASIC",
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
-        "small to large",
-        "gộp tập",
         "sack",
-        "set merging - small to large"
+        "small to large",
+        "set merging - small to large",
+        "gộp tập"
       ],
       "problems": [
         {
@@ -47462,8 +47462,8 @@
       "category": "Basic Algorithm & Data Structure 2",
       "keywords": [
         "sparse table",
-        "rmq",
-        "range minimum query"
+        "range minimum query",
+        "rmq"
       ],
       "problems": [],
       "total_problems": 0,
@@ -47615,9 +47615,9 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "balo",
         "dp knapsack",
-        "knapsack"
+        "knapsack",
+        "balo"
       ],
       "problems": [
         {
@@ -47744,10 +47744,10 @@
       "tier": "BASIC",
       "category": "Basic Dynamic Programming",
       "keywords": [
-        "dãy con tăng",
-        "dp lis",
         "longest increasing subsequence",
-        "lis"
+        "lis",
+        "dãy con tăng",
+        "dp lis"
       ],
       "problems": [
         {
@@ -48041,11 +48041,11 @@
       "category": "Basic Dynamic Programming",
       "keywords": [
         "bitmask",
-        "mask",
-        "mặt nạ bit",
+        "sos dp",
         "dp bitmask",
         "bitmask dp",
-        "sos dp"
+        "mặt nạ bit",
+        "mask"
       ],
       "problems": [
         {
@@ -48192,9 +48192,9 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "duyệt theo chiều sâu",
         "dfs",
-        "depth first search"
+        "depth first search",
+        "duyệt theo chiều sâu"
       ],
       "problems": [
         {
@@ -48266,10 +48266,10 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "duyệt theo chiều sâu",
+        "depth first search",
         "dfs",
         "normal dfs",
-        "depth first search"
+        "duyệt theo chiều sâu"
       ],
       "problems": [
         {
@@ -48295,12 +48295,12 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "khớp",
-        "tarjan",
-        "cầu",
-        "bridge & articulation point",
         "articulation",
-        "bridge"
+        "cầu",
+        "tarjan",
+        "bridge",
+        "bridge & articulation point",
+        "khớp"
       ],
       "problems": [
         {
@@ -48334,10 +48334,10 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "bfs 0-1",
         "dial",
-        "bfs",
-        "breadth first search"
+        "breadth first search",
+        "bfs 0-1",
+        "bfs"
       ],
       "problems": [
         {
@@ -48365,11 +48365,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "bfs 0-1",
         "normal bfs",
+        "breadth first search",
         "bfs",
         "dial",
-        "breadth first search"
+        "bfs 0-1"
       ],
       "problems": [],
       "total_problems": 0,
@@ -48382,11 +48382,11 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "bfs 0-1",
-        "bfs 0-1 / dial",
+        "breadth first search",
         "bfs",
         "dial",
-        "breadth first search"
+        "bfs 0-1 / dial",
+        "bfs 0-1"
       ],
       "problems": [],
       "total_problems": 0,
@@ -48399,12 +48399,12 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "scc",
         "kosaraju",
+        "scc",
+        "liên thông mạnh",
         "strongly connected component (scc)",
         "tarjan",
-        "strongly connected",
-        "liên thông mạnh"
+        "strongly connected"
       ],
       "problems": [],
       "total_problems": 0,
@@ -48504,9 +48504,9 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "sắp xếp topo",
-        "topological sort",
         "topo",
+        "topological sort",
+        "sắp xếp topo",
         "topological"
       ],
       "problems": [],
@@ -48586,10 +48586,10 @@
       "tier": "BASIC",
       "category": "Basic Graph",
       "keywords": [
-        "euler",
-        "eulerian",
         "chu trình euler",
-        "euler circuit"
+        "euler",
+        "euler circuit",
+        "eulerian"
       ],
       "problems": [
         {
@@ -48646,9 +48646,9 @@
       "category": "Basic String",
       "keywords": [
         "băm",
-        "hashing",
         "hash 2d",
-        "hash"
+        "hash",
+        "hashing"
       ],
       "problems": [
         {
@@ -48845,9 +48845,9 @@
       "tier": "BASIC",
       "category": "Basic String",
       "keywords": [
-        "tiền tố",
+        "kmp",
         "knuth morris pratt",
-        "kmp"
+        "tiền tố"
       ],
       "problems": [],
       "total_problems": 0,
@@ -48900,10 +48900,10 @@
       "tier": "BASIC",
       "category": "Basic Tree",
       "keywords": [
+        "lca",
         "binary lifting & lowest common ancestor",
-        "tổ tiên chung",
         "binary lifting",
-        "lca"
+        "tổ tiên chung"
       ],
       "problems": [
         {
@@ -48980,9 +48980,9 @@
       "tier": "BASIC",
       "category": "Basic Tree",
       "keywords": [
-        "lca o(log2(n))",
+        "lca",
         "binary lifting",
-        "lca"
+        "lca o(log2(n))"
       ],
       "problems": [],
       "total_problems": 0,
@@ -49228,8 +49228,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Graph",
       "keywords": [
-        "floyd",
-        "floyd warshall"
+        "floyd warshall",
+        "floyd"
       ],
       "problems": [
         {
@@ -49255,9 +49255,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Graph",
       "keywords": [
+        "shortest path",
         "đường đi ngắn nhất",
-        "dijkstra",
-        "shortest path"
+        "dijkstra"
       ],
       "problems": [
         {
@@ -49337,9 +49337,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Graph",
       "keywords": [
-        "cây khung",
         "prim",
         "kruskal",
+        "cây khung",
         "mst"
       ],
       "problems": [
@@ -49418,8 +49418,8 @@
       "category": "Intermediate Data Structure",
       "keywords": [
         "segtree",
-        "it",
         "segment tree",
+        "it",
         "cây phân đoạn"
       ],
       "problems": [
@@ -49557,10 +49557,10 @@
       "category": "Intermediate Data Structure",
       "keywords": [
         "cây phân đoạn",
-        "segment tree",
+        "segtree",
         "normal segment tree",
         "it",
-        "segtree"
+        "segment tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -49573,9 +49573,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
-        "lazy propagation",
+        "lười",
         "lazy",
-        "lười"
+        "lazy propagation"
       ],
       "problems": [],
       "total_problems": 0,
@@ -49601,8 +49601,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
-        "gộp segtree",
-        "segtree merge"
+        "segtree merge",
+        "gộp segtree"
       ],
       "problems": [
         {
@@ -49642,9 +49642,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Data Structure",
       "keywords": [
+        "fenwick",
         "bit",
-        "binary index tree",
-        "fenwick"
+        "binary index tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50232,8 +50232,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "euler tour tree",
         "euler tour",
+        "euler tour tree",
         "euler tour magic -> lca o(1)"
       ],
       "problems": [],
@@ -50328,9 +50328,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
+        "quy hoạch động trên cây",
         "dp tree",
-        "dp on tree",
-        "quy hoạch động trên cây"
+        "dp on tree"
       ],
       "problems": [
         {
@@ -50473,9 +50473,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
+        "quy hoạch động trên cây",
         "dp tree",
-        "dp on tree",
-        "quy hoạch động trên cây"
+        "dp on tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50501,10 +50501,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "reroot",
-        "dp rerooting",
         "rerooting",
-        "đổi gốc"
+        "reroot",
+        "đổi gốc",
+        "dp rerooting"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50517,10 +50517,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Tree",
       "keywords": [
-        "dsu on tree",
-        "sack (dsu on tree)",
         "small to large on tree",
-        "sack"
+        "dsu on tree",
+        "sack",
+        "sack (dsu on tree)"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50624,11 +50624,11 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Math",
       "keywords": [
-        "exclusion",
         "inclusion & exclusion",
         "inclusion",
-        "bao hàm loại trừ",
-        "bao hàm"
+        "bao hàm",
+        "exclusion",
+        "bao hàm loại trừ"
       ],
       "problems": [
         {
@@ -50717,10 +50717,10 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate DP",
       "keywords": [
-        "lexicographical",
         "dp digit / lexicographical order",
-        "dp chữ số",
-        "digit dp"
+        "lexicographical",
+        "digit dp",
+        "dp chữ số"
       ],
       "problems": [],
       "total_problems": 0,
@@ -50746,8 +50746,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate DP",
       "keywords": [
-        "dp range",
-        "quy hoạch động đoạn"
+        "quy hoạch động đoạn",
+        "dp range"
       ],
       "problems": [
         {
@@ -50789,9 +50789,9 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate DP",
       "keywords": [
+        "dp sos",
         "sos dp",
-        "sum over subsets",
-        "dp sos"
+        "sum over subsets"
       ],
       "problems": [
         {
@@ -50932,8 +50932,8 @@
       "tier": "INTERMEDIATE",
       "category": "Intermediate Geometry",
       "keywords": [
-        "quét",
         "sweepline",
+        "quét",
         "sweep line"
       ],
       "problems": [
@@ -51800,8 +51800,8 @@
       "keywords": [
         "chia căn",
         "mo on tree",
-        "mo algorithm",
-        "mo"
+        "mo",
+        "mo algorithm"
       ],
       "problems": [
         {
@@ -51983,10 +51983,10 @@
       "tier": "HARD",
       "category": "Hard Data Structure",
       "keywords": [
-        "chia căn",
-        "mo on tree",
-        "mo",
         "online update mo algorithm",
+        "chia căn",
+        "mo",
+        "mo on tree",
         "mo algorithm"
       ],
       "problems": [],
@@ -52733,15 +52733,15 @@
       "tier": "HARD",
       "category": "Hard Math",
       "keywords": [
+        "number theory",
+        "lcm",
         "advanced number theory",
         "số học",
-        "prime",
-        "sàng",
-        "number theory",
-        "sieve",
+        "arithmetic",
         "gcd",
-        "lcm",
-        "arithmetic"
+        "sieve",
+        "prime",
+        "sàng"
       ],
       "problems": [],
       "total_problems": 0,
@@ -52754,9 +52754,9 @@
       "tier": "HARD",
       "category": "Hard Math",
       "keywords": [
+        "matrix exponentiation",
         "nhân ma trận",
         "matrix",
-        "matrix exponentiation",
         "matrix multiplication"
       ],
       "problems": [
@@ -53040,12 +53040,12 @@
       "tier": "HARD",
       "category": "Hard Graph",
       "keywords": [
-        "hungarian",
         "bipartite matching",
-        "cặp ghép",
+        "maximum matching",
         "hopcroft",
         "matching",
-        "maximum matching"
+        "hungarian",
+        "cặp ghép"
       ],
       "problems": [
         {
@@ -53126,12 +53126,12 @@
       "tier": "HARD",
       "category": "Hard Graph",
       "keywords": [
-        "hungarian",
         "bipartite matching",
-        "cặp ghép",
         "maximum matching - min cost",
         "hopcroft",
-        "matching"
+        "matching",
+        "hungarian",
+        "cặp ghép"
       ],
       "problems": [],
       "total_problems": 0,
@@ -53157,10 +53157,10 @@
       "tier": "HARD",
       "category": "Hard Graph",
       "keywords": [
-        "cây khung",
         "prim",
-        "kruskal",
+        "cây khung",
         "mst",
+        "kruskal",
         "boruvka mst"
       ],
       "problems": [
@@ -53220,8 +53220,8 @@
       "tier": "HARD",
       "category": "Hard Geometry",
       "keywords": [
-        "bao lồi",
-        "convex hull"
+        "convex hull",
+        "bao lồi"
       ],
       "problems": [
         {
@@ -53269,11 +53269,11 @@
       "tier": "HARD",
       "category": "Other Hard",
       "keywords": [
-        "game theory",
-        "nim",
         "game",
+        "grundy",
         "trò chơi",
-        "grundy"
+        "nim",
+        "game theory"
       ],
       "problems": [
         {
@@ -54859,11 +54859,11 @@
       "tier": "HARD",
       "category": "Other Hard",
       "keywords": [
-        "parallel binary search",
-        "bs",
         "tìm kiếm nhị phân",
+        "bs",
         "binary search",
-        "chặt nhị phân"
+        "chặt nhị phân",
+        "parallel binary search"
       ],
       "problems": [],
       "total_problems": 0,
@@ -54889,9 +54889,9 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "convex hull trick",
-        "bao lồi dp",
         "dp cht",
+        "bao lồi dp",
+        "convex hull trick",
         "cht"
       ],
       "problems": [
@@ -54939,9 +54939,9 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "dp alien trick",
+        "alien trick",
         "wqs binary search",
-        "alien trick"
+        "dp alien trick"
       ],
       "problems": [],
       "total_problems": 0,
@@ -54954,8 +54954,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "2-sat",
-        "2sat"
+        "2sat",
+        "2-sat"
       ],
       "problems": [],
       "total_problems": 0,
@@ -54969,10 +54969,10 @@
       "category": "Advanced Insane Topics",
       "keywords": [
         "luồng",
-        "dinic",
         "edmonds karp",
-        "flow",
+        "dinic",
         "max flow",
+        "flow",
         "min cut"
       ],
       "problems": [
@@ -55034,12 +55034,12 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "maximum flow",
         "luồng",
         "dinic",
         "edmonds karp",
-        "flow",
         "max flow",
+        "maximum flow",
+        "flow",
         "min cut"
       ],
       "problems": [],
@@ -55056,9 +55056,9 @@
         "luồng",
         "dinic",
         "edmonds karp",
-        "flow",
-        "mincost maxflow",
         "max flow",
+        "mincost maxflow",
+        "flow",
         "min cut"
       ],
       "problems": [],
@@ -55075,10 +55075,10 @@
         "luồng",
         "dinic",
         "edmonds karp",
-        "flow with demand",
-        "flow",
+        "min cut",
         "max flow",
-        "min cut"
+        "flow",
+        "flow with demand"
       ],
       "problems": [],
       "total_problems": 0,
@@ -55170,8 +55170,8 @@
       "category": "Advanced Insane Topics",
       "keywords": [
         "segtree",
-        "it",
         "segment tree",
+        "it",
         "cây phân đoạn"
       ],
       "problems": [],
@@ -55225,13 +55225,13 @@
       "category": "Advanced Insane Topics",
       "keywords": [
         "cây phân đoạn",
-        "segment tree",
-        "persistent segment tree",
-        "persistent segtree",
-        "it",
         "segtree",
         "persistent",
-        "persistent tree"
+        "persistent segment tree",
+        "it",
+        "persistent segtree",
+        "persistent tree",
+        "segment tree"
       ],
       "problems": [
         {
@@ -55292,11 +55292,11 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "cây phân đoạn",
-        "segment tree",
         "lichao segment tree",
+        "cây phân đoạn",
+        "segtree",
         "it",
-        "segtree"
+        "segment tree"
       ],
       "problems": [],
       "total_problems": 0,
@@ -55454,8 +55454,8 @@
       "tier": "INSANE",
       "category": "Advanced Insane Topics",
       "keywords": [
-        "constructive",
-        "xây dựng"
+        "xây dựng",
+        "constructive"
       ],
       "problems": [
         {
